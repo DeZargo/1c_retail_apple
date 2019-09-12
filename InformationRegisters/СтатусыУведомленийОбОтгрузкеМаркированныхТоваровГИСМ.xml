@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="83d3ced0-7298-445e-aac4-9536890f759b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ" category="Record">
+				<xr:TypeId>1df5fe25-bee0-4881-ba2f-b9a16e9ac8b5</xr:TypeId>
+				<xr:ValueId>0e3f1f23-d5f6-4377-87ef-aa5d7cc2aae8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ" category="Manager">
+				<xr:TypeId>a303de9b-3b09-48d9-8a44-7ce7101fefd9</xr:TypeId>
+				<xr:ValueId>1c47e0fb-bcdc-47b7-8d42-9447f983404d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ" category="Selection">
+				<xr:TypeId>55ca96fb-ce3a-4ee9-8ea0-b16a7d6bc1c3</xr:TypeId>
+				<xr:ValueId>19b6ecb0-9ab0-467d-b074-669d033c0d60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ" category="List">
+				<xr:TypeId>cb766295-a3c2-4e65-a19b-7e8cd78b8a2e</xr:TypeId>
+				<xr:ValueId>ec0aaf2e-1a1c-4486-bfe2-481b3b0ace4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ" category="RecordSet">
+				<xr:TypeId>d88060b1-27b5-4238-bd31-2b7e8889e725</xr:TypeId>
+				<xr:ValueId>f01b1739-8c24-403c-bb6c-07853730836d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ" category="RecordKey">
+				<xr:TypeId>81fb5791-5e58-4de1-b128-852faa9aa503</xr:TypeId>
+				<xr:ValueId>533f620d-1a57-4b27-a980-03978ad59987</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ" category="RecordManager">
+				<xr:TypeId>df229312-a027-4f2c-863b-ccd3c480b55e</xr:TypeId>
+				<xr:ValueId>c79e97e6-391a-4b5c-ae53-31df22c26579</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="f0452e6b-a7c9-41ff-b8de-f2e8a2a97dfd">
+				<Properties>
+					<Name>ДальнейшееДействие</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДальнейшиеДействияПоВзаимодействиюГИСМ</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5ca1dac7-9eb5-4961-b87e-38d565209d99">
+				<Properties>
+					<Name>ТекущееУведомлениеОбОтгрузке</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="938f8f05-e1aa-4207-8c91-157be649ea98">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="2af7be91-3252-4712-976a-b16b772eeb46">
+				<Properties>
+					<Name>Документ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеУведомленияОбОтгрузкеГИСМ</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="9ce09ffa-1da7-4cf6-9dc1-d4930134a7c8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Справки1ЕГАИС" category="Object">
+				<xr:TypeId>ca489bfa-8986-46aa-9296-0bb42d54af36</xr:TypeId>
+				<xr:ValueId>1396c993-d7d6-4887-abf0-65db54790f99</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Справки1ЕГАИС" category="Ref">
+				<xr:TypeId>5921d930-a455-4489-ab87-60ed551a7316</xr:TypeId>
+				<xr:ValueId>55eac3fa-311f-49eb-a085-3985c6db431e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Справки1ЕГАИС" category="Selection">
+				<xr:TypeId>fe91d88b-2fc1-47b5-9fbe-f6894f11d0b3</xr:TypeId>
+				<xr:ValueId>2b239a73-ce9b-44e4-9d53-4545e159f33d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Справки1ЕГАИС" category="List">
+				<xr:TypeId>dde312bd-aab8-4596-949b-e4034338d6e0</xr:TypeId>
+				<xr:ValueId>516da0f9-f23c-4b07-9828-e9022e4ac436</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Справки1ЕГАИС" category="Manager">
+				<xr:TypeId>e033c303-396f-49e6-b95a-5c90dd27b97f</xr:TypeId>
+				<xr:ValueId>8c3cf767-a3c6-4370-b8ed-524c115a6ce9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Справки1ЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="e3243522-2e92-4668-a593-797ae5cedc23">
+				<Properties>
+					<Name>НомерТТН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="867aad6f-ee8d-4417-8b1f-b8c0469442bc">
+				<Properties>
+					<Name>ДатаТТН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6384aa27-53ff-4b03-9267-80dd8fba4d1d">
+				<Properties>
+					<Name>ДатаРозлива</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7946cc75-d997-4754-bfdd-829f552fa483">
+				<Properties>
+					<Name>РегистрационныйНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f8156fb4-db47-4e87-814b-05a00e94240e">
+				<Properties>
+					<Name>АлкогольнаяПродукция</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

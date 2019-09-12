@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="7cb4455e-e407-428f-b709-5b96b6c75d11">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СрокДействияПодарочныхСертификатов" category="Ref">
+				<xr:TypeId>7a6a974a-334c-4f9c-85d4-58caf07c870f</xr:TypeId>
+				<xr:ValueId>8f57403d-2462-4bf4-8231-78e37ddaddab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СрокДействияПодарочныхСертификатов" category="Manager">
+				<xr:TypeId>35d2ced9-bc2f-4a9d-b43a-441da15a889d</xr:TypeId>
+				<xr:ValueId>ec0d4ea6-e9a0-43ad-a1ee-8a4dcdac08fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СрокДействияПодарочныхСертификатов" category="List">
+				<xr:TypeId>d707486d-c0ac-49c3-b59b-49da7b3fef06</xr:TypeId>
+				<xr:ValueId>fb1da87d-660d-4d5d-a46f-d423922de16b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СрокДействияПодарочныхСертификатов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

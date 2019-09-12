@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="81d8dd6c-203f-4858-b87b-c9ceb311d1bf">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВетеринарноСопроводительныйДокументВЕТИС" category="Object">
+				<xr:TypeId>2f4dc8e3-f4e9-47af-9547-f5169256dda3</xr:TypeId>
+				<xr:ValueId>b41a808b-0f09-44f7-b114-73ab37bd25d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВетеринарноСопроводительныйДокументВЕТИС" category="Ref">
+				<xr:TypeId>2c7f0cfa-cd01-4f41-b737-9434c3b44c7e</xr:TypeId>
+				<xr:ValueId>7c93ec9b-5dec-455e-98b8-d172c5174b35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВетеринарноСопроводительныйДокументВЕТИС" category="Selection">
+				<xr:TypeId>7664e8b1-5a22-427c-b888-2dcaebc03657</xr:TypeId>
+				<xr:ValueId>db7202c9-b984-4b2a-a66a-5097c97c8464</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВетеринарноСопроводительныйДокументВЕТИС" category="List">
+				<xr:TypeId>467b561f-9f9d-4088-a3b5-e781300daceb</xr:TypeId>
+				<xr:ValueId>10916acd-fdfb-440d-aee3-36972048f412</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВетеринарноСопроводительныйДокументВЕТИС" category="Manager">
+				<xr:TypeId>2d31f56a-ecfa-4b56-91ac-35af50a89480</xr:TypeId>
+				<xr:ValueId>fcb3b751-df4f-449e-bb51-88bcdd1469d7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВетеринарноСопроводительныйДокументВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

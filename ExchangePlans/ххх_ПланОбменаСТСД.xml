@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<ExchangePlan uuid="47527107-1938-4c2e-876f-eacb2bb428ae">
+		<InternalInfo>
+			<xr:ThisNode>31f75ec2-f8f6-434d-b573-6d1c070746dd</xr:ThisNode>
+			<xr:GeneratedType name="ExchangePlanObject.ххх_ПланОбменаСТСД" category="Object">
+				<xr:TypeId>5b117541-f31d-4cc7-9fc3-34910d9feccc</xr:TypeId>
+				<xr:ValueId>070d706c-e0d0-44d3-807d-12b3ea8b0234</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanRef.ххх_ПланОбменаСТСД" category="Ref">
+				<xr:TypeId>a084e3ba-e6d0-439b-9e73-a08bae593500</xr:TypeId>
+				<xr:ValueId>4cc7df72-89f5-4dcb-bb43-8a70865ed69c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanSelection.ххх_ПланОбменаСТСД" category="Selection">
+				<xr:TypeId>b8a0b925-1b3e-4005-bec4-5d953b10c127</xr:TypeId>
+				<xr:ValueId>9bc91d5e-2549-4937-8289-b88faa637e64</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanList.ххх_ПланОбменаСТСД" category="List">
+				<xr:TypeId>c13dbaf0-2b6f-4d8b-aac7-32406cee1152</xr:TypeId>
+				<xr:ValueId>be1aa927-5186-4e9d-9669-bf16ec30e21d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExchangePlanManager.ххх_ПланОбменаСТСД" category="Manager">
+				<xr:TypeId>211e011f-6457-48bf-a71a-eee7058b7ddd</xr:TypeId>
+				<xr:ValueId>4542d95c-7aee-4ee9-9be3-73d1f6bdbcc8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ххх_ПланОбменаСТСД</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</ExchangePlan>
+</MetaDataObject>

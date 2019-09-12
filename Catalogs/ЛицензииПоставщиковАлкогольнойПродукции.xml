@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="fb34252f-e62f-4581-9255-7d439da8f2d3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЛицензииПоставщиковАлкогольнойПродукции" category="Object">
+				<xr:TypeId>327b0cc4-72a6-4767-babe-44dac2d81587</xr:TypeId>
+				<xr:ValueId>13a77085-a988-413c-a465-5567644e4e02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЛицензииПоставщиковАлкогольнойПродукции" category="Ref">
+				<xr:TypeId>c34b6e25-7dd0-4fa1-942d-ea6913a66556</xr:TypeId>
+				<xr:ValueId>9ed3fa4f-4401-4417-8a68-7260cc8a3adc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЛицензииПоставщиковАлкогольнойПродукции" category="Selection">
+				<xr:TypeId>883c4764-530e-4530-8441-79977477ee3c</xr:TypeId>
+				<xr:ValueId>59395331-fdd3-481f-a32b-3ddb73adfda8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЛицензииПоставщиковАлкогольнойПродукции" category="List">
+				<xr:TypeId>70db629e-8e56-40b6-bdbf-93f23a10c91c</xr:TypeId>
+				<xr:ValueId>af65b433-38d6-413a-8a92-a86dbc249712</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЛицензииПоставщиковАлкогольнойПродукции" category="Manager">
+				<xr:TypeId>4d716377-7f43-4fc9-8d95-91c02036c397</xr:TypeId>
+				<xr:ValueId>36dcf8c9-53f5-4477-816c-f2c053647313</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЛицензииПоставщиковАлкогольнойПродукции</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

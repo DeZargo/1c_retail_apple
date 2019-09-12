@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="c4d44674-a1e2-47c6-b7b3-87a2ab4fafda">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыПредприятийВЕТИС" category="Ref">
+				<xr:TypeId>0a5226ad-5602-42da-9278-501109f90509</xr:TypeId>
+				<xr:ValueId>788ee745-3e68-4910-be6f-7638a64724fe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыПредприятийВЕТИС" category="Manager">
+				<xr:TypeId>a8de0466-6e95-47c2-ae52-f8119283fc07</xr:TypeId>
+				<xr:ValueId>ccec0700-d9a1-44c1-bc0a-69ba1f548ce8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыПредприятийВЕТИС" category="List">
+				<xr:TypeId>b078615d-be82-45a0-9304-cecea0c861d8</xr:TypeId>
+				<xr:ValueId>bc14cffe-9a31-4b1c-8f49-fa026fdfd48f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыПредприятийВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

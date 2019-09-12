@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="c0612e09-ef4a-4e29-bebf-593638bebd9a">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыЦен" category="Object">
+				<xr:TypeId>8f4f1889-923e-410e-aeae-df62c65fcce8</xr:TypeId>
+				<xr:ValueId>02390bd7-330c-42b6-b1b2-73b2194727b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыЦен" category="Ref">
+				<xr:TypeId>c34e930f-959c-40e1-83ea-79aa2dd40ed2</xr:TypeId>
+				<xr:ValueId>3ca00d44-d6f4-41f2-953b-c41408081b06</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыЦен" category="Selection">
+				<xr:TypeId>c5efb895-3c81-4a02-ac14-cef91da21076</xr:TypeId>
+				<xr:ValueId>06302ab3-d2f5-4ba8-99df-576dbb188502</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыЦен" category="List">
+				<xr:TypeId>963c72a1-bf0b-4af0-b65d-c3c28080afc8</xr:TypeId>
+				<xr:ValueId>d7c8781d-cc48-40e0-8429-b6847f521efd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыЦен" category="Manager">
+				<xr:TypeId>4fbb48cc-8de3-4be7-86ed-c082d1396707</xr:TypeId>
+				<xr:ValueId>dd29cfc6-0efd-4c43-a899-cdda034b3e58</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыЦен</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>50</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0ffae33f-3d1e-4f41-87f1-16eb4ecf04ee">
+				<Properties>
+					<Name>ИспользоватьПриПродаже</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a98f5e70-62c0-4af5-ad65-8da8de640c88">
+				<Properties>
+					<Name>ВалютаЦены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cc8f43d8-aeaa-4b83-bb35-252633690325">
+				<Properties>
+					<Name>ПорогСрабатывания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d4fd585a-9375-4a5a-bc38-099d05646d55">
+				<Properties>
+					<Name>АлгоритмРасчетаЦены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a72ab326-5979-47e7-bfc3-afd258602e1e">
+				<Properties>
+					<Name>ИспользоватьПриПередачеМеждуОрганизациями</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5738f685-19c1-4e8d-aa54-8f5184d5d30b">
+				<Properties>
+					<Name>СхемаКомпоновкиДанных</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ce919a75-fa3f-4d5f-ab83-a6b330612370">
+				<Properties>
+					<Name>Идентификатор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a68cfc7-2381-4c9a-b2bb-322bf7b0f888">
+				<Properties>
+					<Name>ЦенаВключаетНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="22a045c6-8730-4d15-9e8c-b48760a8a4a8">
+				<Properties>
+					<Name>СпособЗаданияЦены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыЗаданияЦен</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="30395bfa-eae4-4f98-aae6-d7abbcfd0e73">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВидыЦен.ПорогиСрабатывания" category="TabularSection">
+						<xr:TypeId>dab3b404-7bc3-46ab-8610-7619c7ed2fa3</xr:TypeId>
+						<xr:ValueId>7546259e-c88c-4d47-bddd-db3857896324</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыЦен.ПорогиСрабатывания" category="TabularSectionRow">
+						<xr:TypeId>0b396f11-2c6f-4505-9f10-c85b3de9ca35</xr:TypeId>
+						<xr:ValueId>592e194a-72de-498e-9c2a-d48d8c723a11</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПорогиСрабатывания</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d5bf20d7-210d-4f56-87ab-4f2908c4d3ba">
+						<Properties>
+							<Name>ПорогСрабатывания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d75299e3-030c-416b-831a-ba9565db3699">
+						<Properties>
+							<Name>ЦеноваяГруппа</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЦеновыеГруппы</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="17d165f8-6a8a-4dc9-b95b-88cac1feff55">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ВидыЦен.ПравилаОкругленияЦены" category="TabularSection">
+						<xr:TypeId>d0067782-6a45-4bb5-8615-9be4b44af698</xr:TypeId>
+						<xr:ValueId>e1a1a6ca-5abc-46a9-90db-cd7a8c57e026</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ВидыЦен.ПравилаОкругленияЦены" category="TabularSectionRow">
+						<xr:TypeId>752822dd-d88f-4987-8a9d-654c9b1ba8c8</xr:TypeId>
+						<xr:ValueId>4acff013-0e16-4038-9f39-e0dfd8aa3067</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПравилаОкругленияЦены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="8deb3937-d2ac-47fe-828c-5f3f4049fde7">
+						<Properties>
+							<Name>ТочностьОкругления</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8389107e-4911-4d2a-98e2-79fada2adab8">
+						<Properties>
+							<Name>ПсихологическоеОкругление</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2db1f17e-c4f7-4799-94b8-9d271d6b55d6">
+						<Properties>
+							<Name>НижняяГраницаДиапазонаЦен</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

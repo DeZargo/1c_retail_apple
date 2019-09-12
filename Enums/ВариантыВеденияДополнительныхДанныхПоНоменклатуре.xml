@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="c6972fd3-5512-48eb-9951-5696adb8a630">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыВеденияДополнительныхДанныхПоНоменклатуре" category="Ref">
+				<xr:TypeId>65aef721-f766-434b-890d-e120bd5fb534</xr:TypeId>
+				<xr:ValueId>c63b3d80-07ec-4e85-8d51-cf9c338e9c05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыВеденияДополнительныхДанныхПоНоменклатуре" category="Manager">
+				<xr:TypeId>237236b1-e4e6-49fc-937b-b3e72a4bc836</xr:TypeId>
+				<xr:ValueId>71f5262a-4a79-4dab-b0dd-cc8307e5002d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыВеденияДополнительныхДанныхПоНоменклатуре" category="List">
+				<xr:TypeId>ef64bf58-3ba7-4b74-b75b-cdbf0e583357</xr:TypeId>
+				<xr:ValueId>58727eda-4ddc-4020-bf31-fc1c2bf03f87</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыВеденияДополнительныхДанныхПоНоменклатуре</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bd1da5db-7b02-4650-80e9-e3653a1dfe88">
+				<Properties>
+					<Name>НеИспользовать</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

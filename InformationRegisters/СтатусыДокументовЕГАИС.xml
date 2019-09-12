@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="e9b42ddb-46a0-4806-8b07-fc554c91cf16">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтатусыДокументовЕГАИС" category="Record">
+				<xr:TypeId>b3490699-a6ce-4b6a-b42b-a1c5a588ae5c</xr:TypeId>
+				<xr:ValueId>22b36de7-b74e-47b5-9794-b0211c641f35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтатусыДокументовЕГАИС" category="Manager">
+				<xr:TypeId>cf5bc27b-74ec-4a4d-ac15-79c4b98d1f42</xr:TypeId>
+				<xr:ValueId>1387ceba-4a5f-4f85-86c8-2ca5f6d4f8c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтатусыДокументовЕГАИС" category="Selection">
+				<xr:TypeId>4beb16a5-2f60-4fd4-b589-3ffb666799ed</xr:TypeId>
+				<xr:ValueId>6ddd5835-3e65-469e-b21d-d44fa0f41e96</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтатусыДокументовЕГАИС" category="List">
+				<xr:TypeId>352a50af-4ab0-44d5-a938-1ca704abcf51</xr:TypeId>
+				<xr:ValueId>62257c90-8805-473f-a446-bead91935434</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусыДокументовЕГАИС" category="RecordSet">
+				<xr:TypeId>309f9094-4968-4a03-a684-755f622a77c8</xr:TypeId>
+				<xr:ValueId>66def89a-8c10-4c5d-a72a-d109187a10fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусыДокументовЕГАИС" category="RecordKey">
+				<xr:TypeId>ec033c2d-25bf-48fa-b562-632cb576b47b</xr:TypeId>
+				<xr:ValueId>9b3e94c1-d2de-4719-a3df-3eb5811000be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусыДокументовЕГАИС" category="RecordManager">
+				<xr:TypeId>b448d8bd-6852-42cb-8d94-3faa12157be6</xr:TypeId>
+				<xr:ValueId>6d2b0977-2cf4-4fb4-9609-3b42873468dc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыДокументовЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8396ed80-203d-455c-8a9a-4e84244c3ec5">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="1a3f6aeb-2ca3-42a9-b5b8-bf3c7be47587">
+				<Properties>
+					<Name>ДальнейшееДействие1</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДальнейшиеДействияПоВзаимодействиюЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="495f8eb3-d394-4242-bf5d-bffeb2f830c6">
+				<Properties>
+					<Name>ДальнейшееДействие3</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДальнейшиеДействияПоВзаимодействиюЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="107aa33e-516a-4282-914e-fa5650725f26">
+				<Properties>
+					<Name>ДальнейшееДействие2</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДальнейшиеДействияПоВзаимодействиюЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ec31cb00-f995-4391-9d73-68ecfef8749d">
+				<Properties>
+					<Name>Документ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДокументыЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="b8f83aec-09d0-4003-b2b2-2ab995dca47c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УдалитьВидыАлкогольнойПродукции" category="Object">
+				<xr:TypeId>4c7f1a42-95ad-42a0-b0ea-31dacb97a872</xr:TypeId>
+				<xr:ValueId>a92e622b-b08e-455d-92c4-c529c64f1674</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УдалитьВидыАлкогольнойПродукции" category="Ref">
+				<xr:TypeId>19fe0362-775b-4602-ab18-369ed166c551</xr:TypeId>
+				<xr:ValueId>9511951e-39d9-47dc-b927-c5e790ffdb2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УдалитьВидыАлкогольнойПродукции" category="Selection">
+				<xr:TypeId>0c40fd49-204a-4f18-88b9-88b892603b34</xr:TypeId>
+				<xr:ValueId>af308783-76b0-4eea-b6e4-8a3b4f27d631</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УдалитьВидыАлкогольнойПродукции" category="List">
+				<xr:TypeId>003bd2b5-fa91-450a-968d-5b5f33b8c43c</xr:TypeId>
+				<xr:ValueId>ae8b7c57-027c-473a-b946-ebf616c7e1af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УдалитьВидыАлкогольнойПродукции" category="Manager">
+				<xr:TypeId>911309dd-e4f1-4439-85cc-afa0f3b9e3be</xr:TypeId>
+				<xr:ValueId>4b123690-27c1-4c5c-ae91-036f8e06bc7b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдалитьВидыАлкогольнойПродукции</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

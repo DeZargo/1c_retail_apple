@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="b7b46372-ac1f-4efa-a49d-3bbc6ca7a9aa">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ххх_Справочник" category="Object">
+				<xr:TypeId>abcc33bb-c368-4659-bd01-e2b9b06bfa0e</xr:TypeId>
+				<xr:ValueId>003d1abc-27d0-457c-8991-812246b07b86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ххх_Справочник" category="Ref">
+				<xr:TypeId>c2844354-9cdd-4610-825f-1998b6db9ed1</xr:TypeId>
+				<xr:ValueId>25bb1797-b7f4-4e0a-9ff1-4bb21f2d6114</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ххх_Справочник" category="Selection">
+				<xr:TypeId>dd802819-480f-468a-8add-b5745d1c0923</xr:TypeId>
+				<xr:ValueId>d93be738-e2d9-4df7-a159-eee907d73213</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ххх_Справочник" category="List">
+				<xr:TypeId>ae22da1b-5b9c-4a8e-a223-2a4b32125d8e</xr:TypeId>
+				<xr:ValueId>f3ed6ad4-0394-48b6-b239-c3ea367a247f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ххх_Справочник" category="Manager">
+				<xr:TypeId>72d1df9e-3e65-4821-8435-3321984e17b7</xr:TypeId>
+				<xr:ValueId>ef324d74-bf47-41b8-85bb-5ae5c2c15483</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ххх_Справочник</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

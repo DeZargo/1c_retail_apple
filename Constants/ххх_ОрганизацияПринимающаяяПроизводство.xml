@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Constant uuid="fde09350-8b7d-4250-ac8c-4a014656672b">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ххх_ОрганизацияПринимающаяяПроизводство" category="Manager">
+				<xr:TypeId>b4bd143d-5145-4fb8-9952-67760518cdbc</xr:TypeId>
+				<xr:ValueId>fb604b21-933a-4419-a677-12f69d39ead9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ххх_ОрганизацияПринимающаяяПроизводство" category="ValueManager">
+				<xr:TypeId>68fc0d74-0b8e-4328-9c9b-7dc31ed2356f</xr:TypeId>
+				<xr:ValueId>a2eab9c2-ba70-4649-afd4-167398c7cedf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ххх_ОрганизацияПринимающаяяПроизводство" category="ValueKey">
+				<xr:TypeId>ebc17fbd-d1fe-508d-962f-b21a757d651e</xr:TypeId>
+				<xr:ValueId>ce14f55e-4fa0-5609-823a-b66930d31d30</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ххх_ОрганизацияПринимающаяяПроизводство</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

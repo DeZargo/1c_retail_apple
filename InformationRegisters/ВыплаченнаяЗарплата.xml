@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="47e62c78-cd6e-46b0-971e-bf4dbb329c6f">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ВыплаченнаяЗарплата" category="Record">
+				<xr:TypeId>e92ec480-ecd6-4306-b419-c4cd31cf7aa6</xr:TypeId>
+				<xr:ValueId>a36b2b13-3e4b-4015-bf9a-af84c264bade</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ВыплаченнаяЗарплата" category="Manager">
+				<xr:TypeId>ed865177-d291-403a-99b4-6dba148daddc</xr:TypeId>
+				<xr:ValueId>2d9d1f84-fede-41ff-a73f-4c9d2608c4d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ВыплаченнаяЗарплата" category="Selection">
+				<xr:TypeId>87fb73e3-da0b-47aa-b7a1-80dcaea4c29b</xr:TypeId>
+				<xr:ValueId>606d2472-08c7-480c-b88a-b06e2f71ec3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ВыплаченнаяЗарплата" category="List">
+				<xr:TypeId>f647d6f1-7e09-4575-8ace-19e0e96c8ebd</xr:TypeId>
+				<xr:ValueId>30353aed-de5f-4b43-b44f-7c740c5f8148</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ВыплаченнаяЗарплата" category="RecordSet">
+				<xr:TypeId>f041c8bb-43f2-4e93-a7e8-cd86d371099c</xr:TypeId>
+				<xr:ValueId>983c5053-ea39-41d5-a28d-03b290c6593a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ВыплаченнаяЗарплата" category="RecordKey">
+				<xr:TypeId>09ddc272-2004-4182-98ab-43ba0109d249</xr:TypeId>
+				<xr:ValueId>aba58810-ae1b-4ec6-b845-1645de01ccd4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ВыплаченнаяЗарплата" category="RecordManager">
+				<xr:TypeId>728c6453-4be0-453a-9cfb-b794fa803b65</xr:TypeId>
+				<xr:ValueId>ebbfb449-e64a-4b10-afba-589ec638b783</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВыплаченнаяЗарплата</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

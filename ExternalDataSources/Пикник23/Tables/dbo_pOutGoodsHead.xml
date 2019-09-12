@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Table uuid="2128eb3a-db7c-402e-a5dc-6c83bf4f0ab4">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceTableManager.Пикник23.dbo_pOutGoodsHead" category="Manager">
+				<xr:TypeId>9248488b-9550-4c3f-9529-a4ab38ed04b3</xr:TypeId>
+				<xr:ValueId>d9ef845c-2e93-4721-b9c1-b3cbe5ad63b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableObject.Пикник23.dbo_pOutGoodsHead" category="Object">
+				<xr:TypeId>835832fa-30b8-45d4-9b8f-fba5c200293a</xr:TypeId>
+				<xr:ValueId>c1ecd7a2-3fc3-43e0-94ed-fdff9abf1bc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRef.Пикник23.dbo_pOutGoodsHead" category="Ref">
+				<xr:TypeId>154936f6-152d-44ce-a726-8fd5f30b8577</xr:TypeId>
+				<xr:ValueId>eec42b3b-a84e-4fe9-98a6-a5e7ed4b29af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableList.Пикник23.dbo_pOutGoodsHead" category="List">
+				<xr:TypeId>2150d1e8-bf8c-4c40-a961-bdf355f7de2b</xr:TypeId>
+				<xr:ValueId>4d0ae607-f18d-4a68-90b5-1d3be175ff02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.Пикник23.dbo_pOutGoodsHead" category="RecordSet">
+				<xr:TypeId>867e07df-c582-4cba-acb7-eb452a0e91db</xr:TypeId>
+				<xr:ValueId>5e9007a0-5069-41fd-a233-563effc2754d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.Пикник23.dbo_pOutGoodsHead" category="RecordKey">
+				<xr:TypeId>38a97433-fd9c-4863-a2ae-712841f142bd</xr:TypeId>
+				<xr:ValueId>e7fb61e5-4473-4f9a-8a6b-56a6cf44d936</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.Пикник23.dbo_pOutGoodsHead" category="RecordManager">
+				<xr:TypeId>8b59c76e-e9ea-4d3e-8ac2-331045fda136</xr:TypeId>
+				<xr:ValueId>accc6290-5a47-4196-87fd-c723740df41f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>dbo_pOutGoodsHead</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultObjectForm/>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+		</Properties>
+		<ChildObjects>
+			<Field uuid="fc58fd9f-60d2-4b48-b8d2-0b3610d7f40d">
+				<Properties>
+					<Name>State</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="11b839ee-ecef-45e4-b9b1-b8d8b09dc15b">
+				<Properties>
+					<Name>Number</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>16</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="5b05fd93-a762-443a-a4fc-10f271e648fc">
+				<Properties>
+					<Name>DateDoc</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="2dc71562-dc30-43de-b58c-8551a0cf0b27">
+				<Properties>
+					<Name>CustomerCode</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="9df26e6c-22f7-4254-a5e1-4d649b7f1c7e">
+				<Properties>
+					<Name>Summa</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>38</v8:Digits>
+							<v8:FractionDigits>8</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="c9f5d204-6ade-4ad4-bf39-bca0f670038a">
+				<Properties>
+					<Name>ID</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="56eb8800-f273-43e4-a0da-5234377059f6">
+				<Properties>
+					<Name>CustomerName</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>64</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+		</ChildObjects>
+	</Table>
+</MetaDataObject>

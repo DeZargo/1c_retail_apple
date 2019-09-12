@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="d435aec3-fda7-46e3-bb20-f6d7cbb2e71f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияЗаказовПокупателей" category="Ref">
+				<xr:TypeId>3de4cb81-8541-4f9b-88b6-6472394512ba</xr:TypeId>
+				<xr:ValueId>fc51bc75-f031-49ef-a58e-ae1fe996513a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияЗаказовПокупателей" category="Manager">
+				<xr:TypeId>7f0b4356-c255-482f-b3fe-dd162c85a67e</xr:TypeId>
+				<xr:ValueId>ea29d00c-df24-451b-9174-894de5ea452d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияЗаказовПокупателей" category="List">
+				<xr:TypeId>834339b8-accc-4f98-acca-f1409971ceab</xr:TypeId>
+				<xr:ValueId>409c162a-8800-4aa6-984e-8f55e6a5997a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияЗаказовПокупателей</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5c858669-3d3f-4bfa-80ea-c064437562d8">
+				<Properties>
+					<Name>ГотовКЗакрытию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="45bf9f3c-08eb-45a4-b8b0-2eed0d0fa9a2">
+				<Properties>
+					<Name>ОжидаетсяСогласование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9ff2aa87-16f9-4ee2-a36f-c2b73346fe9a">
+				<Properties>
+					<Name>ОжидаетсяРезервирование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="be2a0182-b3ba-4203-8726-1ec8d780baea">
+				<Properties>
+					<Name>ОжидаетсяПродажа</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a42b1f65-172c-4a55-a59c-60b1914a2ad6">
+				<Properties>
+					<Name>Закрыт</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

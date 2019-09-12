@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AccumulationRegister uuid="1da4c161-79d3-49d7-9393-260aa04824f7">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ххх_ПартииТоваровПоступВозврат" category="Record">
+				<xr:TypeId>dcaf6110-3b4c-4f10-ae1c-60611d1cc954</xr:TypeId>
+				<xr:ValueId>119c16f7-81b2-4d68-bbcb-724a4c624647</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ххх_ПартииТоваровПоступВозврат" category="Manager">
+				<xr:TypeId>6aef7b4d-578d-4e3d-bcba-876358cb08ac</xr:TypeId>
+				<xr:ValueId>e736e882-9b90-4c9c-ab78-c8c41994821b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ххх_ПартииТоваровПоступВозврат" category="Selection">
+				<xr:TypeId>8146f4d5-daae-44f3-8277-6deae7b52e8c</xr:TypeId>
+				<xr:ValueId>f5cdec30-114f-4898-b16b-d50a76d14a01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ххх_ПартииТоваровПоступВозврат" category="List">
+				<xr:TypeId>61760878-ff26-4a1f-8bd1-249bede54590</xr:TypeId>
+				<xr:ValueId>75d4d1b9-2d98-4a76-816a-cf6046381183</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ххх_ПартииТоваровПоступВозврат" category="RecordSet">
+				<xr:TypeId>3edccc21-00c0-4622-bbdf-45bea026a265</xr:TypeId>
+				<xr:ValueId>71d7e4f5-4bd3-47ab-b8a5-337cd091f52f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ххх_ПартииТоваровПоступВозврат" category="RecordKey">
+				<xr:TypeId>7284d1d9-0c0d-49c6-bea4-a19715e16a02</xr:TypeId>
+				<xr:ValueId>782ec639-93ff-485d-ba04-06668bdd885d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ххх_ПартииТоваровПоступВозврат</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8397a1a3-fbfe-4037-9c0d-5063bbb3c45b">
+				<Properties>
+					<Name>Количество</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="cdc9d3a3-d22a-4888-864a-75973c631513">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="047e3128-0181-499d-b81a-bc9ed6c60d78">
+				<Properties>
+					<Name>Магазин</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Магазины</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="10c4fd5b-2e38-4c46-b729-d37a2ae4f0d5">
+				<Properties>
+					<Name>Склад</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="875a3e6f-6f00-4a21-9f2c-3dd745bb2ba4">
+				<Properties>
+					<Name>ПартияТоваров</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ххх_Партия</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="246d0625-af41-4d32-ba26-076c72f581b4">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.Номенклатура</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="470dc4b4-61c2-4552-96ec-55db8f72537b">
+				<Properties>
+					<Name>Цена</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>4</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="0b868ebc-473a-42d6-8c7e-f81046bb6db5">
+				<Properties>
+					<Name>СправкаБ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Справки2ЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -1,0 +1,37 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.Office.apple">
+	<objectType name="Header">
+		<property name="DocId" type="xs:int"/>
+		<property name="Comment" type="xs:string"/>
+		<property xmlns:d3p1="http://www.Office.apple" name="Body" type="d3p1:Body"/>
+		<property name="OfferType"/>
+	</objectType>
+	<objectType name="Row" sequenced="true">
+		<property name="ProductId" type="xs:int"/>
+		<property name="ShopId" type="xs:int"/>
+		<property name="RetailPrice" type="xs:decimal"/>
+		<property name="PurchasePrice" type="xs:decimal"/>
+		<property name="PriceBeforeOffer" lowerBound="0" upperBound="1"/>
+		<property name="ShipperId" type="xs:int"/>
+		<property name="OfferType" type="xs:int"/>
+		<property name="LabelType" type="xs:int"/>
+		<property name="LabelSort" type="xs:int"/>
+		<property name="StartDate" type="xs:date"/>
+		<property name="EndDate" type="xs:date"/>
+	</objectType>
+	<objectType name="Body" open="true">
+		<property xmlns:d3p1="http://www.Office.apple" name="Row" type="d3p1:Row" upperBound="-1"/>
+	</objectType>
+	<objectType name="Offers">
+		<property xmlns:d3p1="http://www.Office.apple" name="Offer" type="d3p1:Offer"/>
+	</objectType>
+	<objectType name="Offer" sequenced="true">
+		<property xmlns:d3p1="http://www.Office.apple" name="Header" type="d3p1:Header"/>
+		<property xmlns:d3p1="http://www.Office.apple" name="Body" type="d3p1:Body"/>
+	</objectType>
+	<objectType name="Documents">
+		<property xmlns:d3p1="http://www.Office.apple" name="Offers" type="d3p1:Offers"/>
+	</objectType>
+	<objectType name="Root">
+		<property xmlns:d3p1="http://www.Office.apple" name="Documents" type="d3p1:Documents"/>
+	</objectType>
+</package>

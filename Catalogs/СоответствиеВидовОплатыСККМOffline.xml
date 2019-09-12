@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="1bcd966d-42df-443b-8027-6ba39d7498a8">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СоответствиеВидовОплатыСККМOffline" category="Object">
+				<xr:TypeId>2833c854-b5c9-4e8e-85e4-6e1cc2f28e05</xr:TypeId>
+				<xr:ValueId>5faa82fe-662a-4104-8757-2429e6478113</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СоответствиеВидовОплатыСККМOffline" category="Ref">
+				<xr:TypeId>ef476ba0-7bfc-43e2-80f9-7b718db70fde</xr:TypeId>
+				<xr:ValueId>41e42ae8-94a7-46fa-ae77-7b63b99d9415</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СоответствиеВидовОплатыСККМOffline" category="Selection">
+				<xr:TypeId>057b23aa-7090-486b-a2b8-5fe6fd16d334</xr:TypeId>
+				<xr:ValueId>fcc7aee4-d270-4d30-aded-d1b6917138aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СоответствиеВидовОплатыСККМOffline" category="List">
+				<xr:TypeId>29a64591-f5b7-403f-82ec-57d2f14035f5</xr:TypeId>
+				<xr:ValueId>9c391673-9eed-440f-8684-3fd5324c1fb7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СоответствиеВидовОплатыСККМOffline" category="Manager">
+				<xr:TypeId>b038c499-2d6c-42db-a75f-b8f00eba2f75</xr:TypeId>
+				<xr:ValueId>e394bee6-7442-4aad-9add-80fa75066e09</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СоответствиеВидовОплатыСККМOffline</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

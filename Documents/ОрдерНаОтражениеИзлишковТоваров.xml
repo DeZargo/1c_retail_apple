@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="1de6b2ed-abe6-45eb-ba81-a98e2fe8b852">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОрдерНаОтражениеИзлишковТоваров" category="Object">
+				<xr:TypeId>5f3965d7-b3ac-4937-bd0a-3baff5197bec</xr:TypeId>
+				<xr:ValueId>a290bb31-4f0c-4132-8dfb-95e257679f80</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОрдерНаОтражениеИзлишковТоваров" category="Ref">
+				<xr:TypeId>c764fbdd-b1ae-4b28-be98-61b36672efb1</xr:TypeId>
+				<xr:ValueId>77c7494e-6907-45ba-924f-1532ba5b74be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОрдерНаОтражениеИзлишковТоваров" category="Selection">
+				<xr:TypeId>eafb807d-9214-4600-abb7-d71e82ae33c4</xr:TypeId>
+				<xr:ValueId>93592a75-c20e-43cd-8e7a-f6d95ee3acad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОрдерНаОтражениеИзлишковТоваров" category="List">
+				<xr:TypeId>6e79c063-2d1b-4bec-a78f-cd2dc2a0bf68</xr:TypeId>
+				<xr:ValueId>5e0562f4-3c0e-46a2-9a96-71cadb78928c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОрдерНаОтражениеИзлишковТоваров" category="Manager">
+				<xr:TypeId>956f92ed-20ea-447b-a5b1-990f893e8130</xr:TypeId>
+				<xr:ValueId>8b874277-52bd-492f-b8fe-330374892816</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОрдерНаОтражениеИзлишковТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

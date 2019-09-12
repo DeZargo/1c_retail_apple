@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="c3b57f43-e818-4db2-8222-cc8f446ea422">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ОстаткиПродукцииВЕТИС" category="Record">
+				<xr:TypeId>1d82203c-0dcc-4860-a316-e001a940f1de</xr:TypeId>
+				<xr:ValueId>96c121c5-5dd5-4fdf-927b-8781fb397954</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ОстаткиПродукцииВЕТИС" category="Manager">
+				<xr:TypeId>4e775ad3-a7a9-43e6-9a11-524672d51460</xr:TypeId>
+				<xr:ValueId>49be8bfa-40e7-47be-8747-fd520d196e08</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ОстаткиПродукцииВЕТИС" category="Selection">
+				<xr:TypeId>99432b19-8442-4dea-98fc-a7291ec25b7e</xr:TypeId>
+				<xr:ValueId>fa553361-1c1a-437f-8902-17b6f09aaef5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ОстаткиПродукцииВЕТИС" category="List">
+				<xr:TypeId>31f96870-0b55-46fd-9ad6-52c5e99dac45</xr:TypeId>
+				<xr:ValueId>d6b2eb23-ad6f-4f16-9342-42d3c99ae37d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ОстаткиПродукцииВЕТИС" category="RecordSet">
+				<xr:TypeId>c44cb089-ac5b-409e-bf1c-04adef53a2c3</xr:TypeId>
+				<xr:ValueId>31c47d2c-2770-4024-9fef-629d135cf403</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ОстаткиПродукцииВЕТИС" category="RecordKey">
+				<xr:TypeId>a9d03477-8d88-41fd-89c4-b610e94b3d3c</xr:TypeId>
+				<xr:ValueId>725ce5bd-3e21-437d-b401-ae118c96de9a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ОстаткиПродукцииВЕТИС" category="RecordManager">
+				<xr:TypeId>a4a0ee21-158f-43b5-a9ae-b6657d8950d6</xr:TypeId>
+				<xr:ValueId>f2f7f226-5e07-4a47-bfeb-d25de4cd3056</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОстаткиПродукцииВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="64257d2d-57c5-42e0-b26b-3671946bfeb4">
+				<Properties>
+					<Name>ЕдиницаИзмеренияВЕТИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЕдиницыИзмеренияВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9c01d21b-fd71-4173-a944-8c5da5a21014">
+				<Properties>
+					<Name>КоличествоВЕТИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="9e1886b7-858d-408c-b9ff-9c69190236bf">
+				<Properties>
+					<Name>Продукция</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПродукцияВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4f795ba0-5950-4f77-a799-69350f360fcd">
+				<Properties>
+					<Name>ЗаписьСкладскогоЖурнала</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЗаписиСкладскогоЖурналаВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d37734f7-fcfd-432c-89c2-b7fdfee775ed">
+				<Properties>
+					<Name>ХозяйствующийСубъект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХозяйствующиеСубъектыВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="529b0dc2-9261-40fd-8e54-cb7b732586a4">
+				<Properties>
+					<Name>Предприятие</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПредприятияВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

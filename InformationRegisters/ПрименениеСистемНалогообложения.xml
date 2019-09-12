@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="0c3df273-2619-4571-afa8-c9ab94eb43bb">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПрименениеСистемНалогообложения" category="Record">
+				<xr:TypeId>cd5bce0b-7e55-475f-9789-f3942959fbd9</xr:TypeId>
+				<xr:ValueId>0f3dc256-a251-4f1c-94c1-b92d3078e548</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПрименениеСистемНалогообложения" category="Manager">
+				<xr:TypeId>05838a87-d6e9-46e8-a267-36baaad54c02</xr:TypeId>
+				<xr:ValueId>1c54e70d-0f08-4948-a2b5-0bbe85c19d20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПрименениеСистемНалогообложения" category="Selection">
+				<xr:TypeId>f9df1255-5785-4dd5-bca6-8e02d2ee30ed</xr:TypeId>
+				<xr:ValueId>50386088-5376-4926-a9f4-0b43c1d1c06f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПрименениеСистемНалогообложения" category="List">
+				<xr:TypeId>76e57352-3e76-4572-897a-45cad9df189e</xr:TypeId>
+				<xr:ValueId>5bf9d6fd-9e7d-4961-9477-d622380dedd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПрименениеСистемНалогообложения" category="RecordSet">
+				<xr:TypeId>bf7e5aba-e5a7-4981-88f4-747873e2451e</xr:TypeId>
+				<xr:ValueId>a61cf90e-eb25-469a-a925-7211f5009d10</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПрименениеСистемНалогообложения" category="RecordKey">
+				<xr:TypeId>0e5a9a53-d672-43ef-979f-d7565186efdc</xr:TypeId>
+				<xr:ValueId>347513e5-40b6-4eb6-b1c9-d673868c9e66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПрименениеСистемНалогообложения" category="RecordManager">
+				<xr:TypeId>d4cc3aa0-0431-4e40-8b28-21e42966dae5</xr:TypeId>
+				<xr:ValueId>aa4ef641-caa2-439f-81e8-c9fec576550a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПрименениеСистемНалогообложения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

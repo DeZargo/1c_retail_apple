@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Table uuid="fea0a5de-5778-420d-961e-84e97823d2ff">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceTableManager.Пикник23.dbo_pOutGoodsTable" category="Manager">
+				<xr:TypeId>d716feb1-50cb-4580-b485-e3e96c878a05</xr:TypeId>
+				<xr:ValueId>9b85874c-2b24-4a54-9014-dddfea79f3bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableObject.Пикник23.dbo_pOutGoodsTable" category="Object">
+				<xr:TypeId>0ef02ee3-5a67-4f9c-abd2-50d9656dcddd</xr:TypeId>
+				<xr:ValueId>93b833cb-934d-4370-895e-d511280e2177</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRef.Пикник23.dbo_pOutGoodsTable" category="Ref">
+				<xr:TypeId>12f3798a-3aac-4865-a8dc-c1bbc9540e40</xr:TypeId>
+				<xr:ValueId>b075cbb4-ce68-461f-b5c3-bf0828436a47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableList.Пикник23.dbo_pOutGoodsTable" category="List">
+				<xr:TypeId>13877bae-5278-41aa-b033-3b564b7f1e0b</xr:TypeId>
+				<xr:ValueId>a33e6a09-d33a-4137-a499-0bb17cbdff21</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.Пикник23.dbo_pOutGoodsTable" category="RecordSet">
+				<xr:TypeId>e0514fb2-f441-44da-9faf-d8f87d872a10</xr:TypeId>
+				<xr:ValueId>cf80b395-fef3-4f99-b2a6-f3a46b549d54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.Пикник23.dbo_pOutGoodsTable" category="RecordKey">
+				<xr:TypeId>0c90bd00-09f2-4741-b399-2bcad1960cdd</xr:TypeId>
+				<xr:ValueId>402301ca-4fce-43ad-8a70-9d9847c53734</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.Пикник23.dbo_pOutGoodsTable" category="RecordManager">
+				<xr:TypeId>91e5a631-3b85-4237-aa71-bd902fa56c21</xr:TypeId>
+				<xr:ValueId>2b0a0df4-9e8b-40bc-aaf4-bb46deea70ee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>dbo_pOutGoodsTable</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultObjectForm/>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+		</Properties>
+		<ChildObjects>
+			<Field uuid="a677104b-5844-4cbe-821f-7229428d9c5c">
+				<Properties>
+					<Name>Number</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="bd13c7b8-8c90-4c34-ac6e-286c4a32df4e">
+				<Properties>
+					<Name>GoodCode</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="9633d7ec-6f27-4369-884c-49ef3384bd02">
+				<Properties>
+					<Name>GoodCount</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>38</v8:Digits>
+							<v8:FractionDigits>8</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="6d6b4817-b8d0-4a85-9836-e9edc4cc16c8">
+				<Properties>
+					<Name>OutPrice</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>38</v8:Digits>
+							<v8:FractionDigits>8</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="674693cc-c3a6-4fec-b38b-1eecee2f5e97">
+				<Properties>
+					<Name>Summa</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>38</v8:Digits>
+							<v8:FractionDigits>8</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="7f7b8f15-7071-45a9-b259-1346c54fe876">
+				<Properties>
+					<Name>ID</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="731db8f1-0670-41d7-a194-4583d3f90cee">
+				<Properties>
+					<Name>GoodName</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>80</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+		</ChildObjects>
+	</Table>
+</MetaDataObject>

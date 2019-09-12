@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="7fbc780d-1b1b-46ab-bae8-54171633cc65">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияБезналичнойОплаты" category="Object">
+				<xr:TypeId>9ca84f86-6089-4372-bb4c-8573590ce10d</xr:TypeId>
+				<xr:ValueId>0325f1f1-8453-47d2-9e44-3c7499619ca0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияБезналичнойОплаты" category="Ref">
+				<xr:TypeId>77fa8b5d-6143-4313-bdff-4bb4be25aa2f</xr:TypeId>
+				<xr:ValueId>0fe71a3a-3c0e-4aa0-98b7-6986566b2138</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияБезналичнойОплаты" category="Selection">
+				<xr:TypeId>abee1c32-96af-4b07-a4c9-911a2fec3eb0</xr:TypeId>
+				<xr:ValueId>954e486a-37b8-4edb-9151-4df8182890c5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияБезналичнойОплаты" category="List">
+				<xr:TypeId>eb40a7f1-7a6f-4f5c-8ba7-9d1b12da6993</xr:TypeId>
+				<xr:ValueId>45a83bac-8d63-45ec-82c9-f8f3b08e1d55</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияБезналичнойОплаты" category="Manager">
+				<xr:TypeId>79bff9a5-a5ed-462b-848b-82f3adcaae0b</xr:TypeId>
+				<xr:ValueId>4e722177-5c23-466e-8821-39ce7492d7ce</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РегистрацияБезналичнойОплаты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="d1354a1b-464d-4a67-8fa7-9a9adde35d34">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.Я_ПересортицаТоваров" category="Object">
+				<xr:TypeId>f0255dd2-2c76-4d3e-85b2-235405258f8a</xr:TypeId>
+				<xr:ValueId>66461b2d-5c6a-4d4f-bad3-ff1e4dba2ed5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.Я_ПересортицаТоваров" category="Ref">
+				<xr:TypeId>dd48a228-0ce2-4002-8e13-94fcd55ddb45</xr:TypeId>
+				<xr:ValueId>46f889ce-d0ce-4425-8ff9-07a662819563</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.Я_ПересортицаТоваров" category="Selection">
+				<xr:TypeId>4bbaaa09-575b-4780-85d1-5d114c578090</xr:TypeId>
+				<xr:ValueId>76580ff6-5b70-4769-b6c7-764a10d7c74b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.Я_ПересортицаТоваров" category="List">
+				<xr:TypeId>2f12d4fd-1a89-4c29-a1d6-884975438372</xr:TypeId>
+				<xr:ValueId>c2882e25-d17a-45b7-8409-128fa0fc266a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.Я_ПересортицаТоваров" category="Manager">
+				<xr:TypeId>22f294bc-bd28-46ae-af68-abaec40482f7</xr:TypeId>
+				<xr:ValueId>2a96a3fe-1895-4738-89c8-f6fef7a7e1d9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Я_ПересортицаТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

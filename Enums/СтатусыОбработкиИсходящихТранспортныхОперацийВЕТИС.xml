@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="c3c0aa2b-cf8d-45a0-a9cd-c3802f6955ef">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыОбработкиИсходящихТранспортныхОперацийВЕТИС" category="Ref">
+				<xr:TypeId>4e5fe37c-7672-40d4-a0dc-3e90f61d8fbd</xr:TypeId>
+				<xr:ValueId>f2f8ca38-819e-4e2b-a592-bef3797d483a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыОбработкиИсходящихТранспортныхОперацийВЕТИС" category="Manager">
+				<xr:TypeId>094da89f-59bb-4ec1-8025-95f1ca9a2ed9</xr:TypeId>
+				<xr:ValueId>57cd631e-dd67-458d-a2fb-93d66df922d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыОбработкиИсходящихТранспортныхОперацийВЕТИС" category="List">
+				<xr:TypeId>91fa13f7-319d-4c12-8732-ac1d60d4bf61</xr:TypeId>
+				<xr:ValueId>cbd49c42-71e5-40c6-bfc2-525c3d6282dd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыОбработкиИсходящихТранспортныхОперацийВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

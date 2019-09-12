@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="9a00376a-922d-4392-abf1-48318c2cc5ac">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ЛогДействийКассираВРМК" category="Record">
+				<xr:TypeId>5ecec608-64fb-4715-8356-bfa74cfb831a</xr:TypeId>
+				<xr:ValueId>9a88fac2-772f-44dc-add1-5d3a009daf98</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ЛогДействийКассираВРМК" category="Manager">
+				<xr:TypeId>45f9effc-cc9f-4d90-bdca-8a55809ebc5b</xr:TypeId>
+				<xr:ValueId>a5fbc19f-2d38-4b41-8b45-96893b4abe54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ЛогДействийКассираВРМК" category="Selection">
+				<xr:TypeId>268ce83f-a111-40fa-aa49-4a00160992d5</xr:TypeId>
+				<xr:ValueId>82d072d1-20be-4f58-9910-ee1fb048ebcd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ЛогДействийКассираВРМК" category="List">
+				<xr:TypeId>9acc44f0-d671-424d-976d-4827187162cf</xr:TypeId>
+				<xr:ValueId>6f194f2a-c83d-4b96-9a02-88315190d393</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ЛогДействийКассираВРМК" category="RecordSet">
+				<xr:TypeId>e82bb64e-67a4-4c24-8241-31bd9a5568b5</xr:TypeId>
+				<xr:ValueId>f7e558d3-8448-42f3-a987-a76c98667c26</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ЛогДействийКассираВРМК" category="RecordKey">
+				<xr:TypeId>4bfa3219-1d2c-4548-ab0c-1187a59defec</xr:TypeId>
+				<xr:ValueId>f4cb94bf-92d7-4267-84f8-677244df19f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ЛогДействийКассираВРМК" category="RecordManager">
+				<xr:TypeId>44ca74f2-46ea-4fdb-9d5e-5c174458e4a3</xr:TypeId>
+				<xr:ValueId>0de7abef-1510-4401-9cb4-0623c582853e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЛогДействийКассираВРМК</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>
