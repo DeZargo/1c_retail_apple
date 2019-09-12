@@ -1,0 +1,9 @@
+[user]
+	name = DeZargo
+	email = sargaras@mail.ru
+[core]
+	quotepath = false
+	autocrlf = false
+	safecrlf = false
+[gui]
+	recentrepo = C:/git_rep
