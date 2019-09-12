@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="970410a6-20c2-48cb-8793-33b824a8bc6b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КомплектующиеНоменклатуры" category="Record">
+				<xr:TypeId>815c8ea4-cc43-44e1-adb9-8ee3ebba739a</xr:TypeId>
+				<xr:ValueId>fb736b63-8084-4c42-a9be-6346fd622144</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КомплектующиеНоменклатуры" category="Manager">
+				<xr:TypeId>c3d1f8ba-9891-4ebe-90ca-4bbe16e19fe4</xr:TypeId>
+				<xr:ValueId>b931a30b-0f05-4c99-960e-612242cc8930</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КомплектующиеНоменклатуры" category="Selection">
+				<xr:TypeId>1b9580b5-fe56-4e9d-9d22-829bda54cfd0</xr:TypeId>
+				<xr:ValueId>f00b25e6-ea41-4826-9c93-71238536cd77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КомплектующиеНоменклатуры" category="List">
+				<xr:TypeId>a83734f8-3089-4b34-83e3-9f29cfc60604</xr:TypeId>
+				<xr:ValueId>07a59c4f-f76b-4bd6-ab21-8df74af4b590</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КомплектующиеНоменклатуры" category="RecordSet">
+				<xr:TypeId>033bc4c5-9bc2-4fe6-bad4-ff9c5ac03ded</xr:TypeId>
+				<xr:ValueId>0fede240-e6d9-460a-95ff-8a8261b43100</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КомплектующиеНоменклатуры" category="RecordKey">
+				<xr:TypeId>fdd9aac2-51c0-4a04-8b21-0acc1dbc0660</xr:TypeId>
+				<xr:ValueId>9a977506-065e-4cc1-a3d4-81b528364426</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КомплектующиеНоменклатуры" category="RecordManager">
+				<xr:TypeId>c84e877a-2b77-41a2-bdac-3343c248962f</xr:TypeId>
+				<xr:ValueId>d6a8e6b3-b723-4760-b48f-5ea0e09fe916</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КомплектующиеНоменклатуры</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="a3291a0c-e5be-4a93-8b4a-3d27c484492e">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИнформационныеКарты" category="Object">
+				<xr:TypeId>3cbc48a4-bb8b-43f3-afd9-0a4275aa185b</xr:TypeId>
+				<xr:ValueId>07f9e9a0-03fa-4a88-b5b0-42461498f05b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИнформационныеКарты" category="Ref">
+				<xr:TypeId>b13f3dac-92b0-44ef-b852-1d3df30cd732</xr:TypeId>
+				<xr:ValueId>87aff1d6-9ce2-4629-8100-b64374d94206</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИнформационныеКарты" category="Selection">
+				<xr:TypeId>23feb9a3-6fff-4b1e-af1f-d702d642f3ac</xr:TypeId>
+				<xr:ValueId>b7437352-9658-4016-9acb-3c4dc498e9cd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИнформационныеКарты" category="List">
+				<xr:TypeId>466c7154-61a6-470c-8187-a407e4b15767</xr:TypeId>
+				<xr:ValueId>5c044cdf-a52f-4209-b66d-cf72ebaf0f61</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИнформационныеКарты" category="Manager">
+				<xr:TypeId>36ca2b5b-ca24-478d-856a-fb7b0982c611</xr:TypeId>
+				<xr:ValueId>e617fa99-97da-495a-bb49-45cf04ef7b77</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИнформационныеКарты</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="9b3d9a51-619f-4728-8866-47a71ba1b60b">
+				<Properties>
+					<Name>ДисконтныеКартыПоОбъекту</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+			<Command uuid="7388a54c-60af-4620-b34f-a97c89945c59">
+				<Properties>
+					<Name>РегистрационныеКартыПоОбъекту</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="c5b63d0d-1698-4732-a792-43869cef01ac">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Магазины" category="Object">
+				<xr:TypeId>194c8d0b-36b1-4a97-9cfd-6b3f4b6962c1</xr:TypeId>
+				<xr:ValueId>89a8691f-7188-4cf4-b45a-b0f0248aa96f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Магазины" category="Ref">
+				<xr:TypeId>358165f0-cd17-46dc-af34-f2bf4e180e4b</xr:TypeId>
+				<xr:ValueId>307b89ef-547f-4a01-9cf3-6b6e714562c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Магазины" category="Selection">
+				<xr:TypeId>e91d3ec3-86c6-4417-bd65-59fd0c283cf4</xr:TypeId>
+				<xr:ValueId>ec57a66d-8d0d-4933-a68a-d2cf7c99e3e8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Магазины" category="List">
+				<xr:TypeId>84b8975e-af37-4023-8246-1d49ea8dc9d8</xr:TypeId>
+				<xr:ValueId>413ac7b1-4dd0-48c9-abe4-8bbda798d0fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Магазины" category="Manager">
+				<xr:TypeId>45f977aa-ab75-4e8c-ae76-3e3def179a68</xr:TypeId>
+				<xr:ValueId>df6011f6-46f3-4756-8ca2-e48b69dfaa67</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Магазины</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="adc1c28e-b4d7-40bf-852c-bf8cc3ced3e4">
+				<Properties>
+					<Name>СегментИсключаемойНоменклатуры</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СегментыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bb5a49d4-3552-4a0a-9765-8cf96743ce31">
+				<Properties>
+					<Name>ПорядокОкругленияСуммыЧекаВПользуПокупателя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПорядкиОкругления</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c562f064-f99b-4d28-8f57-f4ca04d64605">
+				<Properties>
+					<Name>ИспользоватьПрямуюИнкассацию</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="36f61637-046c-482c-9d4e-9cf6292184bd">
+				<Properties>
+					<Name>ИспользоватьОрдернуюСхемуПриОтгрузке</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="65c4e0e6-b040-44c9-a4fb-2a6a60cd8b56">
+				<Properties>
+					<Name>ВидМинимальныхЦенПродажи</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="80a2462c-b799-4a3c-a6c2-a0800753ec59">
+				<Properties>
+					<Name>ИспользоватьОрдернуюСхемуПриПеремещении</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f24b5ee3-320e-489c-b859-2278486044de">
+				<Properties>
+					<Name>МетодРасчетаПотребности</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.МетодыРасчетаПотребности</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4dd52036-c49c-4cfd-963e-40605221d65d">
+				<Properties>
+					<Name>ИспользоватьОрдернуюСхемуПриПоступлении</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1674fd91-29f1-43e2-98cd-e8376e2aa7c0">
+				<Properties>
+					<Name>ИспользоватьПрименениеЦен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6c585436-3e7d-466d-8f2e-febff96afa11">
+				<Properties>
+					<Name>ТипОкругленияЧекаВПользуПокупателя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="231554a4-d6d5-4c43-8a32-24b438c91f89">
+				<Properties>
+					<Name>ПравилоЦенообразования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПравилаЦенообразования</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="025983f5-e250-4269-9dec-517fe6e1a961">
+				<Properties>
+					<Name>СкладПродажи</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4cbcb085-8535-4b90-9ab2-78189083234e">
+				<Properties>
+					<Name>КонтролироватьАссортимент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c1ae46ee-12e2-4b36-be16-9c5b6514b6b0">
+				<Properties>
+					<Name>ФорматМагазина</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФорматыМагазинов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7226f15d-c5ac-48f9-9f2b-fc3d9ccf7270">
+				<Properties>
+					<Name>КонтролироватьАссортиментВЗаказеПокупателя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2e005b19-ad32-4bc8-96be-1a16934ed959">
+				<Properties>
+					<Name>ИспользоватьОрдернуюСхемуПриОтраженииИзлишковНедостач</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cf71ab0e-41ba-42ed-9717-e5e8d2b9f9fe">
+				<Properties>
+					<Name>СкладУправляющейСистемы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8699488f-4069-4ffd-a4e6-8939fc1534b8">
+				<Properties>
+					<Name>ПлощадьТорговогоЗала</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6cec6d32-b4a2-4c44-8781-d6c56878f8ea">
+				<Properties>
+					<Name>СкладПоступления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f23a6332-8cc3-4884-8146-7f9393c0d451">
+				<Properties>
+					<Name>ххх_ПутьЗагрузкиНСИ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="98277373-1c99-4b07-8c2c-938954226595">
+				<Properties>
+					<Name>ххх_НаименованиеДляФайлов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c722908d-aaf5-49c1-88ce-5abda7a14dd4">
+				<Properties>
+					<Name>ххх_МагазинскиаяПочта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aeebb523-91c0-47e9-a9c5-eb4a3817e90d">
+				<Properties>
+					<Name>ххх_ПортIMAP</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="211aec37-6af3-4bc6-b317-b5cd97179faf">
+				<Properties>
+					<Name>ххх_ПарольSMTP</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b6cdec1d-8acf-47a2-8e0f-6cf1aeeb4b85">
+				<Properties>
+					<Name>ххх_АдресСервераSMTP</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="53eb47a9-ad0d-483f-91e2-5f6d15cf4801">
+				<Properties>
+					<Name>ххх_ПочтаДляОтправвкиБонусов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="179324e7-c1b6-4ea6-a923-dbf71bcfa0f3">
+				<Properties>
+					<Name>ххх_ПочтаДляОтправвкиРеестров</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="573d4895-bbb1-4447-8206-47cb42b9d130">
+				<Properties>
+					<Name>ххх_НомерАсортиВывода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d46450c0-7ecf-4aa2-b563-11747a9c46ab">
+				<Properties>
+					<Name>ххх_НомерАсортиВввода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>20</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6d877715-5280-4292-bf02-e09a280f6b01">
+				<Properties>
+					<Name>ххх_ИнтернетМагазин</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="252a5667-b659-484f-bc76-93993763885b">
+				<Properties>
+					<Name>ххх_ОрганизацияПриемщик</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4f6ccdf2-48af-4f6d-a963-6635f2224b51">
+				<Properties>
+					<Name>ххх_ОрганизацияПоставщик</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="41e8d201-c298-47a4-be36-f5a5978a3ef8">
+				<Properties>
+					<Name>ххх_КаталогФТПЗагрузки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fd171a21-8ee6-4186-a094-8b3540e228d8">
+				<Properties>
+					<Name>ххх_КаталогФТПВыгрузки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

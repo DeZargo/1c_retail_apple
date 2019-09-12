@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="def360a4-065c-4520-80bb-09f33ef187ee">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкидкиНаценки" category="Object">
+				<xr:TypeId>2118aeb9-7bb3-46dc-abfd-119443a728c2</xr:TypeId>
+				<xr:ValueId>937aa29c-6a98-40c3-97e0-b76492b73814</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкидкиНаценки" category="Ref">
+				<xr:TypeId>7870335c-3bf2-4120-9d5d-583301b5708a</xr:TypeId>
+				<xr:ValueId>fa632825-9771-4bf0-963f-e0d956ca5680</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкидкиНаценки" category="Selection">
+				<xr:TypeId>01345bd5-1c9b-4b9f-8468-042b683770e7</xr:TypeId>
+				<xr:ValueId>355309ca-2fe1-42e7-b5cf-be1f1e656ddd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкидкиНаценки" category="List">
+				<xr:TypeId>5d6ef671-7f16-48ac-9ff1-9f06a9bf97bc</xr:TypeId>
+				<xr:ValueId>e5265ab6-fd75-4709-9767-0f7da6d80fde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкидкиНаценки" category="Manager">
+				<xr:TypeId>e0091a75-d29e-4928-aac9-3891dc184f58</xr:TypeId>
+				<xr:ValueId>22555db5-6b90-4b56-ad61-20a6c4d9bebe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СкидкиНаценки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

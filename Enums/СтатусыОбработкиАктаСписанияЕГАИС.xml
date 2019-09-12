@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="375a9536-3051-4553-b689-fe1cd35f0d6a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыОбработкиАктаСписанияЕГАИС" category="Ref">
+				<xr:TypeId>aa1de542-f276-4d8f-98a3-151e2684dea4</xr:TypeId>
+				<xr:ValueId>00980fbc-acb7-4db8-9751-19e95865d37b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыОбработкиАктаСписанияЕГАИС" category="Manager">
+				<xr:TypeId>69d3a59a-fc06-44d8-ac3b-09b76224d16c</xr:TypeId>
+				<xr:ValueId>9a795ac0-4e7e-47fc-8603-7258467ec8e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыОбработкиАктаСписанияЕГАИС" category="List">
+				<xr:TypeId>a6ff75ef-33fc-4157-83a4-238e2675d843</xr:TypeId>
+				<xr:ValueId>fd7d2d29-e481-465f-9583-18a0835276c5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыОбработкиАктаСписанияЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d337793d-983d-4b67-afcd-1b1f8212a94e">
+				<Properties>
+					<Name>ПроведенЕГАИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

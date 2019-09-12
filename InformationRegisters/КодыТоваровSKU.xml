@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="73d73707-ce75-454d-98d7-eb7c60961a33">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КодыТоваровSKU" category="Record">
+				<xr:TypeId>c8c7103c-4c91-45d9-9b2e-6bad34c0d908</xr:TypeId>
+				<xr:ValueId>7316a81c-98f4-4856-a40a-f74cc1faeb57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КодыТоваровSKU" category="Manager">
+				<xr:TypeId>b96ced60-578f-40c9-b21e-e3ded2939a5a</xr:TypeId>
+				<xr:ValueId>5ba2bd3a-b5a9-4bd1-be6a-306690de2664</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КодыТоваровSKU" category="Selection">
+				<xr:TypeId>a89e1fb1-c1ea-4650-9e46-efebd3bb85d8</xr:TypeId>
+				<xr:ValueId>2f14fb14-7d5e-4588-8e59-4f5bebe4d0b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КодыТоваровSKU" category="List">
+				<xr:TypeId>a615b296-af35-4425-a771-f24c9ae33e9d</xr:TypeId>
+				<xr:ValueId>5d68f44d-c036-47d4-a016-c6732f509546</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КодыТоваровSKU" category="RecordSet">
+				<xr:TypeId>09d54a7c-fce3-41b4-8e38-d447d2a35e05</xr:TypeId>
+				<xr:ValueId>3ef50fe2-1a89-4099-8a67-e3968b633372</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КодыТоваровSKU" category="RecordKey">
+				<xr:TypeId>855db679-1f72-4a81-9f0d-67581c8823e6</xr:TypeId>
+				<xr:ValueId>9ca45897-21c7-4d7a-a55a-3a9fd42a0cdb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КодыТоваровSKU" category="RecordManager">
+				<xr:TypeId>304a2861-b091-4ea8-acec-1c2e86bac840</xr:TypeId>
+				<xr:ValueId>eb4957e9-2301-4421-8f9a-c64cfec86048</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КодыТоваровSKU</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="5975beb2-a19f-4466-bd34-6d8290f2133d">
+				<Properties>
+					<Name>КодыТоваровSKU</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

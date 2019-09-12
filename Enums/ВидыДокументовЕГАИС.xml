@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="9556903e-2582-41a1-bf2b-47814f3fce0b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыДокументовЕГАИС" category="Ref">
+				<xr:TypeId>1b38b4bb-781a-4b89-b8ab-3ccdde9d23e2</xr:TypeId>
+				<xr:ValueId>fb5c3f42-2e5f-4746-8f90-b4cec652e5b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыДокументовЕГАИС" category="Manager">
+				<xr:TypeId>263262bd-79d1-4719-95ce-0d58b19864cf</xr:TypeId>
+				<xr:ValueId>faa35e84-937e-40d4-a305-35f2970a5466</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыДокументовЕГАИС" category="List">
+				<xr:TypeId>1fa10b3a-efd6-443a-b75f-719859a4fe94</xr:TypeId>
+				<xr:ValueId>1e3a1588-d912-41f3-bcab-58c1e3bef011</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыДокументовЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="d8d63c68-d2af-48cc-ab19-600893254b41">
+				<Properties>
+					<Name>ххх_АктФиксацииМарок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="30eccaee-9695-44b6-b93f-4c205bbf25c0">
+				<Properties>
+					<Name>ххх_АктРазфиксацииМарок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3c479a66-daae-4d57-b0d0-5d0254f1cdc4">
+				<Properties>
+					<Name>ЗапросСправки1</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="921caf10-5a7d-4bc7-99cc-8b6a2fb76e2f">
+				<Properties>
+					<Name>ИсторияСправок2ПоТТН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6a412e80-6831-489d-bbf9-a0def5466632">
+				<Properties>
+					<Name>ЗапросОстатковВРегистре1</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5ce2d841-67a3-4c37-b289-e8ea7372539b">
+				<Properties>
+					<Name>ЗапросОстатковВРегистре2</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bf65f0ba-c76f-4661-a99d-a2c601c45235">
+				<Properties>
+					<Name>АктПостановкиНаБалансВРегистр1</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1789f17a-dea6-4607-8427-a24fc7b829e5">
+				<Properties>
+					<Name>АктПостановкиНаБалансВРегистр2</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="093e10a5-52a3-4bf9-af95-d6255e934988">
+				<Properties>
+					<Name>АктПостановкиНаБалансВРегистр3</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

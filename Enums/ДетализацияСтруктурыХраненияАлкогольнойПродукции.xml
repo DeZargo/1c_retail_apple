@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="99883ee4-dbc3-4a63-a5a3-f3de9545b7d6">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДетализацияСтруктурыХраненияАлкогольнойПродукции" category="Ref">
+				<xr:TypeId>bc1f62c7-661c-434b-984e-0916ca04ca6c</xr:TypeId>
+				<xr:ValueId>19228e7d-4708-46ab-a03e-d8af43bdd561</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДетализацияСтруктурыХраненияАлкогольнойПродукции" category="Manager">
+				<xr:TypeId>48f44a81-1fb4-4ef3-b253-70b6cac426be</xr:TypeId>
+				<xr:ValueId>e3171348-33d4-4dff-9e88-82e35ff0fe46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДетализацияСтруктурыХраненияАлкогольнойПродукции" category="List">
+				<xr:TypeId>5f4c602e-e71b-438f-b010-1b950c51c148</xr:TypeId>
+				<xr:ValueId>33c1bdf8-18fe-43c2-9341-b3e153f89f25</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДетализацияСтруктурыХраненияАлкогольнойПродукции</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

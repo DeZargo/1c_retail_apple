@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="a4184fe2-ce43-4483-96ed-7b5e14768c9d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыХраненияПриТранспортировкеВЕТИС" category="Ref">
+				<xr:TypeId>d37960de-3f7b-432e-a92c-1b9836fb7c9a</xr:TypeId>
+				<xr:ValueId>b92d739c-5b1b-436d-9e83-35ab50b996a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыХраненияПриТранспортировкеВЕТИС" category="Manager">
+				<xr:TypeId>5124682a-4f3b-49d7-b5f5-803af00b6ece</xr:TypeId>
+				<xr:ValueId>d3400cc0-cb3f-45f5-a2b8-e46c5dd22dc7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыХраненияПриТранспортировкеВЕТИС" category="List">
+				<xr:TypeId>e5a5bfe0-c868-4987-a2c7-37f738d3e7cd</xr:TypeId>
+				<xr:ValueId>a19fa2c6-7ccf-4906-8790-c234decd2f54</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыХраненияПриТранспортировкеВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

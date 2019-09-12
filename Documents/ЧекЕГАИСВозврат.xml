@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="ca833aa1-5d36-4624-9676-6a767c70cded">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекЕГАИСВозврат" category="Object">
+				<xr:TypeId>dc067fd1-42b7-41bd-ae8e-7227284010de</xr:TypeId>
+				<xr:ValueId>af813401-e20b-4cb6-8612-5d8c9a36e983</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекЕГАИСВозврат" category="Ref">
+				<xr:TypeId>9df9f6de-0fc8-401a-85a8-8fd734e14669</xr:TypeId>
+				<xr:ValueId>606c0e02-1842-4611-af80-3bc63cba57d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекЕГАИСВозврат" category="Selection">
+				<xr:TypeId>7790f6d2-a63e-40e3-9665-3fb55f25cd07</xr:TypeId>
+				<xr:ValueId>9f09e911-39c2-464d-8b3b-015576484620</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекЕГАИСВозврат" category="List">
+				<xr:TypeId>63db1ae5-f82e-4d01-a724-9b7ca308a1e7</xr:TypeId>
+				<xr:ValueId>6469134d-a1d6-469f-af4a-ad59a619f4c6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекЕГАИСВозврат" category="Manager">
+				<xr:TypeId>d7240ca6-4de9-4168-ae50-c58d0436116d</xr:TypeId>
+				<xr:ValueId>40d3a7e6-9554-4166-b7c4-45ceae801740</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЧекЕГАИСВозврат</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

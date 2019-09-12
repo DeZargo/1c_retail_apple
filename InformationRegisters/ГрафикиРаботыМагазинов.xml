@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="f5241cce-ca56-45e7-bd49-fb437986dbb3">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ГрафикиРаботыМагазинов" category="Record">
+				<xr:TypeId>eda143af-e5db-472d-a981-9b699fe7682e</xr:TypeId>
+				<xr:ValueId>2502d6aa-b16a-46b4-a866-ba96ee0f6298</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ГрафикиРаботыМагазинов" category="Manager">
+				<xr:TypeId>1206f7f3-6d0c-404d-826c-e6b43b2b5775</xr:TypeId>
+				<xr:ValueId>a9893f8a-fc10-4ed2-909d-98f250cd992c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ГрафикиРаботыМагазинов" category="Selection">
+				<xr:TypeId>8054e766-d2e8-4479-ae86-2cabfc646826</xr:TypeId>
+				<xr:ValueId>ab1f4f60-44ab-4d64-a0e3-ad59473ef526</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ГрафикиРаботыМагазинов" category="List">
+				<xr:TypeId>4a3c953d-6a14-44bb-918a-f79a727dfa16</xr:TypeId>
+				<xr:ValueId>c3336035-1386-4826-af01-286cf06cbd65</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ГрафикиРаботыМагазинов" category="RecordSet">
+				<xr:TypeId>b39fc7e2-5d43-4dd1-b669-5b9ab47ed878</xr:TypeId>
+				<xr:ValueId>9f77ce38-d366-4aba-8377-8b1f7578b92f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ГрафикиРаботыМагазинов" category="RecordKey">
+				<xr:TypeId>c4a3242c-20f3-4f61-bfe7-3e4920f3710a</xr:TypeId>
+				<xr:ValueId>398b67a6-bc84-46aa-8fcb-5c01acaacf3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ГрафикиРаботыМагазинов" category="RecordManager">
+				<xr:TypeId>05d9cd87-f5a9-4897-9e2b-3ddc3d97923a</xr:TypeId>
+				<xr:ValueId>e333b3d4-ad77-45f2-8f2a-cd03a59da94a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ГрафикиРаботыМагазинов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

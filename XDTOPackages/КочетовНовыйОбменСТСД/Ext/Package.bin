@@ -1,0 +1,50 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://NewExchangeTSD" elementFormQualified="true" attributeFormQualified="false">
+	<property xmlns:d2p1="http://NewExchangeTSD" name="root" type="d2p1:rootType"/>
+	<objectType name="inventoryBody">
+		<property name="inventoryBodyRaw" type="xs:anyType"/>
+	</objectType>
+	<objectType name="inventoryBodyRaw">
+		<property name="id" type="xs:anyType"/>
+		<property name="count" type="xs:anyType"/>
+		<property name="uid" type="xs:string" lowerBound="0"/>
+	</objectType>
+	<objectType name="inventoryBodyType">
+		<property xmlns:d3p1="http://NewExchangeTSD" name="inventoryBodyRaw" type="d3p1:inventoryBodyRaw" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="inventoryMarksRaw">
+		<property name="uid" type="xs:string"/>
+		<property name="mark" type="xs:anyType"/>
+	</objectType>
+	<objectType name="inventoryMarksType">
+		<property xmlns:d3p1="http://NewExchangeTSD" name="inventoryMarksRaw" type="d3p1:inventoryMarksRaw" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="inventoryType">
+		<property name="id" type="xs:anyType"/>
+		<property xmlns:d3p1="http://NewExchangeTSD" name="body" type="d3p1:inventoryBodyType"/>
+		<property xmlns:d3p1="http://NewExchangeTSD" name="marks" type="d3p1:inventoryMarksType" lowerBound="0"/>
+	</objectType>
+	<objectType name="inventorysType">
+		<property xmlns:d3p1="http://NewExchangeTSD" name="inventory" type="d3p1:inventoryType" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="markType">
+		<property name="id" type="xs:anyType"/>
+		<property name="name" type="xs:anyType"/>
+		<property name="mark" type="xs:anyType"/>
+	</objectType>
+	<objectType name="marksType">
+		<property xmlns:d3p1="http://NewExchangeTSD" name="mark" type="d3p1:markType" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="nomenclatureType">
+		<property name="id" type="xs:anyType"/>
+		<property name="name" type="xs:anyType"/>
+		<property name="barcode" type="xs:anyType"/>
+	</objectType>
+	<objectType name="nomenclaturesType">
+		<property xmlns:d3p1="http://NewExchangeTSD" name="nomenclature" type="d3p1:nomenclatureType" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="rootType">
+		<property xmlns:d3p1="http://NewExchangeTSD" name="nomenclatures" type="d3p1:nomenclaturesType" lowerBound="0"/>
+		<property xmlns:d3p1="http://NewExchangeTSD" name="marks" type="d3p1:marksType" lowerBound="0"/>
+		<property xmlns:d3p1="http://NewExchangeTSD" name="inventorys" type="d3p1:inventorysType" lowerBound="0"/>
+	</objectType>
+</package>

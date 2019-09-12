@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="f4254bd0-1db3-475c-8f7d-2bb48435683c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РаспределениеНоменклатуры" category="Record">
+				<xr:TypeId>b8519827-6de0-4837-b33c-60b450b1ff22</xr:TypeId>
+				<xr:ValueId>310f2a1b-9524-415f-82f0-ad000b539fe7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РаспределениеНоменклатуры" category="Manager">
+				<xr:TypeId>ac32b183-3006-4441-873f-ecf661f931cb</xr:TypeId>
+				<xr:ValueId>281bd5ea-611f-4900-844f-8a5efb9bb0ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РаспределениеНоменклатуры" category="Selection">
+				<xr:TypeId>14a67188-2e78-4031-9f73-b182b4e25246</xr:TypeId>
+				<xr:ValueId>f0dbf891-b93f-4eb8-8394-09aff97b50fa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РаспределениеНоменклатуры" category="List">
+				<xr:TypeId>a794073b-fc69-4610-9f41-b640c0346b72</xr:TypeId>
+				<xr:ValueId>94d3a4b9-7d71-422c-9485-dd5d61790296</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РаспределениеНоменклатуры" category="RecordSet">
+				<xr:TypeId>8eb56ef1-18a2-4597-99de-7d595253d8b3</xr:TypeId>
+				<xr:ValueId>7904b84b-d597-41ce-b204-219ebe65c98e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РаспределениеНоменклатуры" category="RecordKey">
+				<xr:TypeId>4e25f7d3-1bf7-42e1-be55-b9352a77123b</xr:TypeId>
+				<xr:ValueId>ca8a419f-fd94-45c7-9db9-1cc483bf26c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РаспределениеНоменклатуры" category="RecordManager">
+				<xr:TypeId>5c27b9c2-1b89-4f93-8307-d273a7d62e0f</xr:TypeId>
+				<xr:ValueId>f4ada6f5-798f-4f9b-8412-868d87bbaa2d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РаспределениеНоменклатуры</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="8de3b55f-e558-420a-9aa2-3937aa9643f0">
+				<Properties>
+					<Name>РаспределениеНоменклатуры</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

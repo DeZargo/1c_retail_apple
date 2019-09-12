@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="dd0e95b2-2234-4721-8904-81ca33cb8916">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НастройкиРаспределенияВыручкиПоСекциямФР" category="Object">
+				<xr:TypeId>17647a10-318d-4f1f-9b2d-1459f563203e</xr:TypeId>
+				<xr:ValueId>fc3d4ac0-f1aa-4208-86bf-f3ca4997e9e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НастройкиРаспределенияВыручкиПоСекциямФР" category="Ref">
+				<xr:TypeId>79b0ad35-ca8e-40e3-bf8c-8bf1858c620e</xr:TypeId>
+				<xr:ValueId>15727972-7b6f-4c37-8c0e-9fdb30f70590</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НастройкиРаспределенияВыручкиПоСекциямФР" category="Selection">
+				<xr:TypeId>ac3df68f-01c0-4895-ba60-ab2dac7ce350</xr:TypeId>
+				<xr:ValueId>b19cc0fb-e4b1-4246-9cba-fc8c99c6b4a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НастройкиРаспределенияВыручкиПоСекциямФР" category="List">
+				<xr:TypeId>552e8950-8c0c-48ac-9534-2c564e51026b</xr:TypeId>
+				<xr:ValueId>103e869f-6622-4acf-8550-9a795a5e0c70</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НастройкиРаспределенияВыручкиПоСекциямФР" category="Manager">
+				<xr:TypeId>bef80383-7450-4aea-b036-160d42de3b34</xr:TypeId>
+				<xr:ValueId>35d991d5-fd9e-4739-9848-402fa9688484</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиРаспределенияВыручкиПоСекциямФР</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="b68d4351-98cc-4553-9284-d9c042e723d8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УдалитьВскрытиеТарыЕГАИС" category="Object">
+				<xr:TypeId>a39855df-32f7-440a-adf0-827f924428bb</xr:TypeId>
+				<xr:ValueId>e37bfe43-d08f-46af-85de-f73c3aa2db53</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УдалитьВскрытиеТарыЕГАИС" category="Ref">
+				<xr:TypeId>f66de784-482d-4c7e-901d-f881ade277dd</xr:TypeId>
+				<xr:ValueId>3af52939-d0d1-4d38-984d-7283fc4774b8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УдалитьВскрытиеТарыЕГАИС" category="Selection">
+				<xr:TypeId>d68cba86-8584-4d88-8dce-560c2cc8066d</xr:TypeId>
+				<xr:ValueId>c1036221-5d66-4bac-9c28-fb455b240a67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УдалитьВскрытиеТарыЕГАИС" category="List">
+				<xr:TypeId>1cfdbcb8-bcdb-4888-aad1-c71c50c6548e</xr:TypeId>
+				<xr:ValueId>6d579772-7bcc-4bd4-9bc1-8488bd52b5e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УдалитьВскрытиеТарыЕГАИС" category="Manager">
+				<xr:TypeId>b6b92758-1b56-4a67-be4d-4ba832d3a572</xr:TypeId>
+				<xr:ValueId>b95b09c3-abc2-40a7-9edf-f36a90b28fa1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдалитьВскрытиеТарыЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

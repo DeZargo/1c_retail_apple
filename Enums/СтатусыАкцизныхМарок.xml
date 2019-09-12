@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="88f8d1bd-0cc2-4666-85c9-15a1f339baed">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыАкцизныхМарок" category="Ref">
+				<xr:TypeId>edd7f081-a7bb-440c-ba17-80fa02e25ef1</xr:TypeId>
+				<xr:ValueId>264e5fa6-8522-4a92-ba49-c254676b9f85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыАкцизныхМарок" category="Manager">
+				<xr:TypeId>97a41108-e975-4a77-b3e7-6f39edee6b8d</xr:TypeId>
+				<xr:ValueId>9adcc6bc-8ee1-4c05-b645-278e32e713ea</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыАкцизныхМарок" category="List">
+				<xr:TypeId>0754571c-eb2d-4f16-a50e-992206f07b02</xr:TypeId>
+				<xr:ValueId>ea5acda8-f660-4d8c-987b-5c79f863b777</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыАкцизныхМарок</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="56cbf6ca-da2e-4119-8298-2caec5f079dc">
+				<Properties>
+					<Name>ВНаличии</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="75c54845-eb3f-4017-b250-90836a52f597">
+				<Properties>
+					<Name>КПостановкеНаБаланс</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

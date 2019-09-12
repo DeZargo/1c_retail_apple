@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="14380fe9-8701-42ee-bf7e-4da6a05b9ea7">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.Ассортимент" category="Record">
+				<xr:TypeId>37aca981-5bcd-4b84-ae14-a22d504f7ae3</xr:TypeId>
+				<xr:ValueId>0b237f49-8740-441c-b105-8c4c4544d263</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.Ассортимент" category="Manager">
+				<xr:TypeId>53ebe83b-932a-4a86-b1e3-daba4998d42a</xr:TypeId>
+				<xr:ValueId>0a7d5049-ec0a-4706-93e5-473e7cf5a55a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.Ассортимент" category="Selection">
+				<xr:TypeId>f91433fd-06df-44fb-a80d-2b9a696ddf0a</xr:TypeId>
+				<xr:ValueId>12c2e398-ab84-4132-9e5e-499f17b4e7f2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.Ассортимент" category="List">
+				<xr:TypeId>5fb88a21-d509-4614-8a57-ff95f7f01719</xr:TypeId>
+				<xr:ValueId>77205e05-04c1-4122-897e-ab90b83854d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.Ассортимент" category="RecordSet">
+				<xr:TypeId>a70ca64a-7900-4463-980e-85f57bcb8cba</xr:TypeId>
+				<xr:ValueId>63cc0f39-de73-44d6-bb67-eb4197e94318</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.Ассортимент" category="RecordKey">
+				<xr:TypeId>60fa77bf-3f5d-44b0-b2df-356b8265c3f2</xr:TypeId>
+				<xr:ValueId>8cd8175c-c852-4010-88b7-020161e6e4ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.Ассортимент" category="RecordManager">
+				<xr:TypeId>5f98b8e3-e0e0-4ab3-ac88-8de47f2cb8b0</xr:TypeId>
+				<xr:ValueId>12be55a4-2ea7-4966-87f2-76a8c64f907e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Ассортимент</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>RecorderSubordinate</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="9ed93c47-f4b8-43c4-8ef5-cb8cbbbdcf39">
+				<Properties>
+					<Name>РазрешеныЗакупки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9ec47f4d-a168-4f18-94f7-b0dea4d3fd79">
+				<Properties>
+					<Name>РазрешеныПродажи</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="efe404ac-52fe-4729-a35d-a71ed4c63280">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="d699aa7b-6bf5-4c63-82ff-3f4888317f4c">
+				<Properties>
+					<Name>ОбъектПланирования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФорматыМагазинов</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

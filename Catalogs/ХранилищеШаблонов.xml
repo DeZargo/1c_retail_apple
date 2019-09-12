@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="9d49ffaa-11cf-424b-bcdf-bf81fa421102">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ХранилищеШаблонов" category="Object">
+				<xr:TypeId>48334f58-a343-4ca5-9a6e-de86d2d6c411</xr:TypeId>
+				<xr:ValueId>f375bf54-bf29-4755-86b9-fc5d7cb39008</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ХранилищеШаблонов" category="Ref">
+				<xr:TypeId>ff5fd4fa-ae1c-438d-8b78-75d751b787b3</xr:TypeId>
+				<xr:ValueId>4b013335-7b8b-47a4-b412-cd7e900697c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ХранилищеШаблонов" category="Selection">
+				<xr:TypeId>c307a01b-bcff-4dbc-b9c3-c7575e4c3057</xr:TypeId>
+				<xr:ValueId>e21af478-45d2-4478-9807-635aa8f50915</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ХранилищеШаблонов" category="List">
+				<xr:TypeId>59b52084-e115-4dff-abba-548bca68d9d3</xr:TypeId>
+				<xr:ValueId>afc35a65-3fa2-4d2a-b05c-9ae2e5e16619</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ХранилищеШаблонов" category="Manager">
+				<xr:TypeId>5aa9aeda-a805-4a7a-9bb7-dafff1c2e365</xr:TypeId>
+				<xr:ValueId>b33ea571-323b-4425-be99-e834126c0c90</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ХранилищеШаблонов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Hierarchical>true</Hierarchical>
+			<DescriptionLength>50</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="67a0f419-d110-4e32-bd18-bac879deaf8e">
+				<Properties>
+					<Name>ОбъектМетаданных</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="18b8ccfa-6e7a-47e9-abd1-174cf94a6043">
+				<Properties>
+					<Name>ТипШаблона</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыШаблонов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e2844892-cc4b-4c47-8e28-d26d05b5e3b4">
+				<Properties>
+					<Name>РазмерМакета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>7</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ad593af9-a704-460c-b604-ff78b4e1588d">
+				<Properties>
+					<Name>Красный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b2b59f91-7f05-4917-bf9a-cebe34242b4a">
+				<Properties>
+					<Name>СхемаКомпоновкиДанных</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>v8:ValueStorage</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

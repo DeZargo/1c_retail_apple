@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="153d61df-a5bb-4b58-8ffb-a8f9843124a8">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВозвратИзРегистра2ЕГАИС" category="Object">
+				<xr:TypeId>7e1e350a-ffd5-4888-9168-d07d32448e08</xr:TypeId>
+				<xr:ValueId>46f9f9e3-c94f-43a4-8063-4749c0c6ab75</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВозвратИзРегистра2ЕГАИС" category="Ref">
+				<xr:TypeId>ee06fe27-c753-4dd1-906a-c99c37d80756</xr:TypeId>
+				<xr:ValueId>f5989e7e-cfd5-4301-9e7d-7d8173b3d5f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВозвратИзРегистра2ЕГАИС" category="Selection">
+				<xr:TypeId>61200528-aa84-4a41-bcc9-6a2c68387e2e</xr:TypeId>
+				<xr:ValueId>f4e03de7-ed08-480f-897b-d06909845c01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВозвратИзРегистра2ЕГАИС" category="List">
+				<xr:TypeId>956ed21b-9f14-4d8c-a98f-331773ebadc9</xr:TypeId>
+				<xr:ValueId>d2b074e3-3bf5-469d-a6e9-1ec79468d5d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВозвратИзРегистра2ЕГАИС" category="Manager">
+				<xr:TypeId>b94fcffc-ceaf-46f3-8551-c9ab249efdb3</xr:TypeId>
+				<xr:ValueId>39b1b2a4-6819-44d3-8dab-a34c1085b670</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВозвратИзРегистра2ЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ef2fef57-1b24-4736-b2c2-c791cc62745e">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3ce33b82-f232-4062-9c4f-b80c2e82fde2">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2c7d5e89-abf1-445f-be0e-c6375e5e0b64">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3ba40a58-c823-4b1d-a4f7-1b4724ff35f9">
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокументаРТ</Form>
+			<TabularSection uuid="e467cd4d-a2f0-40cb-a646-0b560f162ce3">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВозвратИзРегистра2ЕГАИС.Товары" category="TabularSection">
+						<xr:TypeId>2ebd1bad-506a-4d66-9e80-1ff75f95cc4c</xr:TypeId>
+						<xr:ValueId>12d13c2a-739b-4c4f-934b-40d0f2f6adb9</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВозвратИзРегистра2ЕГАИС.Товары" category="TabularSectionRow">
+						<xr:TypeId>453ea419-3828-4b7d-81c0-41d9b028b087</xr:TypeId>
+						<xr:ValueId>f783686f-1ee5-467c-b2f6-b0b5c126f3a8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="799adbfd-9b72-4859-a135-5df8b231d4b3">
+						<Properties>
+							<Name>Упаковка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9e9eaf1c-4593-4c10-a1b3-7895f43231bc">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="43fc8816-f787-469b-b7b7-46cff9acc71f">
+						<Properties>
+							<Name>Справка2</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Справки2ЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0e5a0c04-978a-4880-a9c3-e9106b346888">
+						<Properties>
+							<Name>АлкогольнаяПродукция</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="80f160dc-f5dd-4698-b9fa-dd44d14fc077">
+						<Properties>
+							<Name>КоличествоУпаковок</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="40c8f4cf-719b-45e1-aeed-4ff7b2cd07c8">
+						<Properties>
+							<Name>Характеристика</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

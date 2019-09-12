@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="e1e4e2b7-a03d-4b05-8456-4fb032918f2d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктОРасхожденияхПриПриемкеТоваров" category="Object">
+				<xr:TypeId>128e1add-ba25-4dbf-9509-a785577a0237</xr:TypeId>
+				<xr:ValueId>24843301-f184-4e2f-9b7c-ba15535228ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктОРасхожденияхПриПриемкеТоваров" category="Ref">
+				<xr:TypeId>5f7c081b-9260-4adc-be58-338f93ab6c92</xr:TypeId>
+				<xr:ValueId>2ceb8e31-cecf-4a64-8dde-c9f7d327ad2d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктОРасхожденияхПриПриемкеТоваров" category="Selection">
+				<xr:TypeId>5579ea5a-9e7f-420f-b9c7-92f75fea5636</xr:TypeId>
+				<xr:ValueId>6cf6b5dc-4da4-4bc9-b199-0146f47c09eb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктОРасхожденияхПриПриемкеТоваров" category="List">
+				<xr:TypeId>f21e903d-bd24-4177-96fe-61ac9a942250</xr:TypeId>
+				<xr:ValueId>f905cb4d-2697-48a7-ba90-00612d78fac6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктОРасхожденияхПриПриемкеТоваров" category="Manager">
+				<xr:TypeId>2642afc5-4b10-4ed5-b5fb-e9aad3de00df</xr:TypeId>
+				<xr:ValueId>1d34f9db-c4fa-443d-812e-68bc7e2c3da9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АктОРасхожденияхПриПриемкеТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

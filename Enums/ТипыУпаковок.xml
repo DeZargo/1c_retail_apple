@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="05ac690c-72c0-4f76-842b-08bc3053ea10">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыУпаковок" category="Ref">
+				<xr:TypeId>e90a05ed-f27e-44a1-940e-814ba01267b1</xr:TypeId>
+				<xr:ValueId>74e2e74b-71d8-4194-a187-c3f3b7908819</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыУпаковок" category="Manager">
+				<xr:TypeId>c6607ad0-8ce7-4276-9fd2-550c505bc2ee</xr:TypeId>
+				<xr:ValueId>ef7cebe3-c856-44d7-b37f-0ef1589ea5a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыУпаковок" category="List">
+				<xr:TypeId>a7cb2991-5754-45ac-9bf9-a6a65fc144b4</xr:TypeId>
+				<xr:ValueId>f300ac1f-260e-47e1-abf9-beadd9a64e94</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыУпаковок</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a7cfd312-f7f6-4814-8f41-bb5c1e754cab">
+				<Properties>
+					<Name>МонотоварнаяУпаковка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d2ec8f68-99a7-47b4-83d2-0b0abb5b79da">
+				<Properties>
+					<Name>МультитоварнаяУпаковка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

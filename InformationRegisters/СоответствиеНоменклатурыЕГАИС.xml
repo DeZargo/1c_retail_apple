@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="21bdc5db-4adf-46d5-8110-42f68033c197">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СоответствиеНоменклатурыЕГАИС" category="Record">
+				<xr:TypeId>02cf07d5-3068-4ac0-9a1b-56d48664517f</xr:TypeId>
+				<xr:ValueId>bf7de9b4-9c54-43f7-af6d-394bf3d7ddf1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СоответствиеНоменклатурыЕГАИС" category="Manager">
+				<xr:TypeId>b29f413b-e519-48e1-8d8e-35b58a730bb5</xr:TypeId>
+				<xr:ValueId>66ca2231-cc4f-451f-830f-87671687465c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СоответствиеНоменклатурыЕГАИС" category="Selection">
+				<xr:TypeId>8908cd16-c651-45d2-8a4c-54bb58467561</xr:TypeId>
+				<xr:ValueId>e3188021-b73b-4ef6-b685-7c82ebcbe24a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СоответствиеНоменклатурыЕГАИС" category="List">
+				<xr:TypeId>1c3d05c1-6a86-467d-b6e7-593c99a81836</xr:TypeId>
+				<xr:ValueId>b387de42-f846-432a-bbf6-299c446cfe51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СоответствиеНоменклатурыЕГАИС" category="RecordSet">
+				<xr:TypeId>3dea589b-fa90-419f-899b-00449fb41bfa</xr:TypeId>
+				<xr:ValueId>1d20ed14-feb4-4f7d-a039-1c93be59ff3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СоответствиеНоменклатурыЕГАИС" category="RecordKey">
+				<xr:TypeId>54db9092-6c09-4753-9d5e-f2e3a81591b1</xr:TypeId>
+				<xr:ValueId>00245479-b760-4228-9446-7e9d0b454e72</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СоответствиеНоменклатурыЕГАИС" category="RecordManager">
+				<xr:TypeId>8bd625f5-c386-4521-91dd-5d281c0a0c29</xr:TypeId>
+				<xr:ValueId>4ef2f7bd-b2ce-4087-9606-11890ddea1d1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СоответствиеНоменклатурыЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="9400bf8e-f5e0-43b2-bca0-571c0889d387">
+				<Properties>
+					<Name>АлкогольнаяПродукция</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="5f3f5407-c848-4381-8052-36d2d5df49d3">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.Номенклатура</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

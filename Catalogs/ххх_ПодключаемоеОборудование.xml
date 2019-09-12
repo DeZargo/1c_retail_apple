@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="644942f1-cc9c-4a76-bcc6-221da98246c1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ххх_ПодключаемоеОборудование" category="Object">
+				<xr:TypeId>9bedaa80-1286-48d9-9688-0c074a20e7fc</xr:TypeId>
+				<xr:ValueId>639bdb13-1f9b-4b53-801d-8710d68eabd6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ххх_ПодключаемоеОборудование" category="Ref">
+				<xr:TypeId>5892d1f4-581a-4200-be73-91ba26da0dcf</xr:TypeId>
+				<xr:ValueId>3f156ed2-c109-4ecc-a439-71bd8d5e8e8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ххх_ПодключаемоеОборудование" category="Selection">
+				<xr:TypeId>8c440c6f-20f8-41d9-8345-0f31e6ee6b64</xr:TypeId>
+				<xr:ValueId>e5646618-6e15-4726-bff3-88f1c384018e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ххх_ПодключаемоеОборудование" category="List">
+				<xr:TypeId>13246e61-4ba0-48d5-9e50-ecfb9b1474c2</xr:TypeId>
+				<xr:ValueId>e88c8f7e-ef8a-4cbc-9ad8-e93d4a6b7899</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ххх_ПодключаемоеОборудование" category="Manager">
+				<xr:TypeId>c87dc2e0-8434-40c9-9ffd-9a638cc01292</xr:TypeId>
+				<xr:ValueId>4682a6ea-f0ca-4c03-bc24-40ecaeb1564a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ххх_ПодключаемоеОборудование</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7803658b-5298-4125-ba2d-46a2bf2f4b3c">
+				<Properties>
+					<Name>type</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>1</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

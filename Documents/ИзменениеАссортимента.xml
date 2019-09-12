@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="4d470b3a-e91a-4d72-a466-ff375b588758">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеАссортимента" category="Object">
+				<xr:TypeId>1f16c9a1-7754-4591-a3e2-8d71b7e8da21</xr:TypeId>
+				<xr:ValueId>9a5b6537-1c55-486e-aff4-914bc1645d2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеАссортимента" category="Ref">
+				<xr:TypeId>986d91ff-b5f4-4022-bca4-703fbd851bf4</xr:TypeId>
+				<xr:ValueId>6565f708-8049-4a72-9692-7591aa6bcec5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеАссортимента" category="Selection">
+				<xr:TypeId>41a5db77-1c7a-457d-9b67-ecf679f3eb4e</xr:TypeId>
+				<xr:ValueId>5eb81b0c-8319-4909-a761-ec49a938c1cf</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеАссортимента" category="List">
+				<xr:TypeId>5f19d32a-ce05-4219-9305-ae539b6594f7</xr:TypeId>
+				<xr:ValueId>c4b5cb93-a5e8-40ad-8bf4-777f87b21559</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеАссортимента" category="Manager">
+				<xr:TypeId>8e1246cb-a436-4d8a-ab89-1e983266bed8</xr:TypeId>
+				<xr:ValueId>b2b057d8-b62c-4723-8db1-97fe0fc783c3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИзменениеАссортимента</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

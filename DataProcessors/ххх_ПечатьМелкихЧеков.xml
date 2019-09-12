@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<DataProcessor uuid="18b34c08-2e49-44e2-b580-33b0460d9054">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ххх_ПечатьМелкихЧеков" category="Object">
+				<xr:TypeId>be2541bc-f131-49ad-8056-d5746b03b6c0</xr:TypeId>
+				<xr:ValueId>199e992e-7eac-4198-8446-f330391599e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ххх_ПечатьМелкихЧеков" category="Manager">
+				<xr:TypeId>e732a37d-22a0-42f5-9440-adb221449f8c</xr:TypeId>
+				<xr:ValueId>d8dcd9b5-9880-4590-8ae4-af1aba3f8972</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ххх_ПечатьМелкихЧеков</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать дополнительные ценники</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.ххх_ПечатьМелкихЧеков.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+			<Form>ФормаВыбораНоменклатуры</Form>
+			<Template>МакетБелый</Template>
+			<Template>МакетКрасный</Template>
+			<Template>МакетА4</Template>
+			<Template>Макет2х5Красный</Template>
+			<Template>Макет2х5</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="7de36264-581d-4336-b6a8-caaba56f4eef">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ИнтервалыРаботыМагазинов" category="Object">
+				<xr:TypeId>30467ba8-d5f2-4757-9001-c7a66d458771</xr:TypeId>
+				<xr:ValueId>67888ff8-b31a-4d92-93d3-858eff902e32</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ИнтервалыРаботыМагазинов" category="Ref">
+				<xr:TypeId>ac5c3724-47b3-47f2-9f4c-855058333c34</xr:TypeId>
+				<xr:ValueId>e525cb34-7fac-40c1-96a0-887a342e5a57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ИнтервалыРаботыМагазинов" category="Selection">
+				<xr:TypeId>ddbf41ff-84fd-4f9c-af98-a915eda5cc25</xr:TypeId>
+				<xr:ValueId>db34ecdf-8874-4e43-bc14-b7f7539baf3c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ИнтервалыРаботыМагазинов" category="List">
+				<xr:TypeId>2c59ed6c-c495-409b-9f22-d3575ad9e79f</xr:TypeId>
+				<xr:ValueId>c3ca94cb-9973-4d3f-aecc-ca1888bf13e5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ИнтервалыРаботыМагазинов" category="Manager">
+				<xr:TypeId>04611971-c401-47f3-babf-f12aaff6be57</xr:TypeId>
+				<xr:ValueId>5bb95aed-0457-4ccf-8b6e-58c5838a0f84</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИнтервалыРаботыМагазинов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="35de183f-15e6-4885-a4c2-c5c60e1d4400">
+				<Properties>
+					<Name>ИнтервалыРаботы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

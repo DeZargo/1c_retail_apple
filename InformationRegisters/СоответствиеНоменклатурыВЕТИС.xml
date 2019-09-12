@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="62028a6c-6579-44d0-8712-aecd8d4b641f">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СоответствиеНоменклатурыВЕТИС" category="Record">
+				<xr:TypeId>6d11118d-76c6-47f1-9548-c7be3786e2d8</xr:TypeId>
+				<xr:ValueId>9dbd1996-1adc-4230-a90d-723bac2a4b38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СоответствиеНоменклатурыВЕТИС" category="Manager">
+				<xr:TypeId>d6da789b-7687-4c60-bfa2-6ea91847de05</xr:TypeId>
+				<xr:ValueId>742e21ef-d6da-4c78-82dc-f144ecf494c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СоответствиеНоменклатурыВЕТИС" category="Selection">
+				<xr:TypeId>faafac01-fbd6-48db-99b0-a5bef2823fdc</xr:TypeId>
+				<xr:ValueId>6257db57-109e-4135-b49e-073c8885f1df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СоответствиеНоменклатурыВЕТИС" category="List">
+				<xr:TypeId>2d299fc8-8c6e-45c1-ab46-99e5d06e4deb</xr:TypeId>
+				<xr:ValueId>5785babe-a127-4595-bbbd-e689625185bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СоответствиеНоменклатурыВЕТИС" category="RecordSet">
+				<xr:TypeId>337292b8-063c-4718-ab6c-3dcfa787e274</xr:TypeId>
+				<xr:ValueId>87418a80-564b-4ede-8706-61651221bd3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СоответствиеНоменклатурыВЕТИС" category="RecordKey">
+				<xr:TypeId>0549091a-eaeb-4180-aa02-43fa1867f50c</xr:TypeId>
+				<xr:ValueId>af8f45a2-1c40-45c1-9e8c-ae5310383694</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СоответствиеНоменклатурыВЕТИС" category="RecordManager">
+				<xr:TypeId>b638697c-6cc4-48fd-a391-7d5db05d216f</xr:TypeId>
+				<xr:ValueId>b3ae1869-ea6f-49dd-a989-80578870edd3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СоответствиеНоменклатурыВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="09909503-c61d-42d8-91d2-324f1c0cdeda">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.Номенклатура</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="752d77c7-9c01-4592-9f2d-e31583c51332">
+				<Properties>
+					<Name>Продукция</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПродукцияВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

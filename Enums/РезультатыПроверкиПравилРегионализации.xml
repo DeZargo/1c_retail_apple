@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="37c081f0-3dc6-44e5-83eb-72838485a613">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РезультатыПроверкиПравилРегионализации" category="Ref">
+				<xr:TypeId>fcb50533-fe37-4a8f-81c8-c39398c7b428</xr:TypeId>
+				<xr:ValueId>77dbdb98-690b-4378-8595-d1b97909347b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РезультатыПроверкиПравилРегионализации" category="Manager">
+				<xr:TypeId>9f5ee6ac-7c4a-4028-a14e-f35bb4f953ad</xr:TypeId>
+				<xr:ValueId>4599b7aa-fca0-4a98-859c-988e3b5ca7c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РезультатыПроверкиПравилРегионализации" category="List">
+				<xr:TypeId>c1d15fd0-4b8a-4b76-a830-21d6438d846c</xr:TypeId>
+				<xr:ValueId>bdf1caf6-519c-4bb9-a057-435abfd2e8f1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РезультатыПроверкиПравилРегионализации</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="5c8f944b-711c-4f55-a4f9-161ddf99e5c1">
+				<Properties>
+					<Name>ПеремещениеРазрешено</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8d7a9063-b22e-4cd4-a318-67f4366f4d26">
+				<Properties>
+					<Name>ПеремещениеЗапрещено</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="060c7c1a-f8a3-4c9c-8ae9-127abf95b7de">
+				<Properties>
+					<Name>ПеремещениеРазрешеноПриВыполненииУсловий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

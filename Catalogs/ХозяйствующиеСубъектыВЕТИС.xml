@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="a20532d9-8a93-4ac0-9894-ef8f95717168">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ХозяйствующиеСубъектыВЕТИС" category="Object">
+				<xr:TypeId>ee82ce98-f533-4b80-922b-1381185551fa</xr:TypeId>
+				<xr:ValueId>0ba8fd11-eea4-4468-b3f7-07a927ad8bda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ХозяйствующиеСубъектыВЕТИС" category="Ref">
+				<xr:TypeId>1d0337f8-362c-4b19-b412-cdf16d9e2f29</xr:TypeId>
+				<xr:ValueId>1eb67a14-e970-451d-9417-71bbd31c393f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ХозяйствующиеСубъектыВЕТИС" category="Selection">
+				<xr:TypeId>2f7f44c2-0cd9-4556-ad70-448cc12e7817</xr:TypeId>
+				<xr:ValueId>905ea345-66dc-45a6-9a61-808624693aa2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ХозяйствующиеСубъектыВЕТИС" category="List">
+				<xr:TypeId>46c0911e-ea63-4553-976c-7579996ce6b4</xr:TypeId>
+				<xr:ValueId>1a71b391-7a75-4812-97d2-cbb7996734a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ХозяйствующиеСубъектыВЕТИС" category="Manager">
+				<xr:TypeId>4c87a59f-ff81-4189-84d9-1fe0c4fdeced</xr:TypeId>
+				<xr:ValueId>bd960ae4-7935-4d32-b071-4a9b193ba393</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ХозяйствующиеСубъектыВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="91f0b504-e5ac-4353-80ed-291585abfb00">
+				<Properties>
+					<Name>Идентификатор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.УникальныйИдентификаторВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="228993b5-bd69-49a3-afd2-7b04566941ea">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОрганизацияКонтрагентВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="8a19144b-f296-4b84-8852-e833ab6713a5">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ХозяйствующиеСубъектыВЕТИС.Предприятия" category="TabularSection">
+						<xr:TypeId>8804ce22-e41c-496b-b57e-0225819e298a</xr:TypeId>
+						<xr:ValueId>0077fa35-5da3-4bfe-81c6-480334def518</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ХозяйствующиеСубъектыВЕТИС.Предприятия" category="TabularSectionRow">
+						<xr:TypeId>1419c376-a80a-4383-93c6-a1c24cfe61dc</xr:TypeId>
+						<xr:ValueId>f38be3d6-59ba-4eb5-8939-45d2cac97427</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Предприятия</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="b565fd22-87c7-4309-b3cc-e841a05412d0">
+						<Properties>
+							<Name>ТорговыйОбъект</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ТорговыйОбъектВЕТИС</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2bea4424-c191-404c-9367-d279198b4d4a">
+						<Properties>
+							<Name>ПроизводственныйОбъект</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ПроизводственныйОбъектВЕТИС</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5b9bf83d-fce2-4f79-a2fe-a751d2e69873">
+						<Properties>
+							<Name>Предприятие</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПредприятияВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

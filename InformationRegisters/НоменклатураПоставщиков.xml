@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="1c6c62cb-90c8-4143-9a25-e01143cd569d">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НоменклатураПоставщиков" category="Record">
+				<xr:TypeId>b37f0bc4-7fb0-4023-8c74-4494b5b6a0d8</xr:TypeId>
+				<xr:ValueId>7dd2d73e-a821-41dc-8827-89d86de0b07a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НоменклатураПоставщиков" category="Manager">
+				<xr:TypeId>7022cec3-0787-4101-884c-801c308fc9c8</xr:TypeId>
+				<xr:ValueId>6c11f9ed-3a01-486a-affe-9ced54dfeb81</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НоменклатураПоставщиков" category="Selection">
+				<xr:TypeId>1ec55bac-f84e-4ee4-9b01-d5477f23055f</xr:TypeId>
+				<xr:ValueId>506b9968-fa21-4172-8e36-e8f488a8e82c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НоменклатураПоставщиков" category="List">
+				<xr:TypeId>4c63b6d6-62e2-451d-8fd9-d94921f48268</xr:TypeId>
+				<xr:ValueId>bb8ee1da-2aa2-4154-a0b4-f5ce0da66c6c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НоменклатураПоставщиков" category="RecordSet">
+				<xr:TypeId>319c8e95-aeef-4b5b-91cc-c136f3461352</xr:TypeId>
+				<xr:ValueId>3f8a8924-bdc7-4742-80cf-03f0dc5de5fb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НоменклатураПоставщиков" category="RecordKey">
+				<xr:TypeId>8397155b-125c-4cbb-8397-943e7a20a15d</xr:TypeId>
+				<xr:ValueId>213587b2-9535-405a-a8f5-4cfeace815d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НоменклатураПоставщиков" category="RecordManager">
+				<xr:TypeId>a2e43c62-e26b-4e72-82d5-4c7ad1943399</xr:TypeId>
+				<xr:ValueId>11574a3d-2514-41de-9aca-cb2a150c4614</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НоменклатураПоставщиков</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="5ab2f2a5-9af0-4418-9bc3-edb9ed541e68">
+				<Properties>
+					<Name>ДатаПоследнегоПоступления</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="5401d138-698b-416d-a018-ac4c58e023ad">
+				<Properties>
+					<Name>Цена</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="20a859f6-dbe6-48a6-b459-9036a3d29e00">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1dda1cb4-9884-411b-895b-89c66b9f3f45">
+				<Properties>
+					<Name>Поставщик</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="0df799d2-9200-49ea-bcb2-913e4db492c2">
+				<Properties>
+					<Name>Магазин</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Магазины</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="1f4e2521-07df-4f3e-a774-45157a0348a9">
+				<Properties>
+					<Name>Характеристика</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

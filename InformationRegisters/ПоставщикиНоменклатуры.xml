@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="978809d1-7134-43e2-ad7e-bdcb6767c61a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПоставщикиНоменклатуры" category="Record">
+				<xr:TypeId>44f16e2b-5ca5-46f7-9910-dc0e58822af6</xr:TypeId>
+				<xr:ValueId>aba86f72-7db1-4848-8112-e7da33290030</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПоставщикиНоменклатуры" category="Manager">
+				<xr:TypeId>69895598-e5de-49aa-969b-980ba2fb0b3f</xr:TypeId>
+				<xr:ValueId>d2571cf0-bbe3-42ea-98b0-2c6a6ebc273c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПоставщикиНоменклатуры" category="Selection">
+				<xr:TypeId>689be842-d83f-40a3-b7ad-318d3192e69f</xr:TypeId>
+				<xr:ValueId>1a2913a8-3d9e-4194-aecc-734a273d01b2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПоставщикиНоменклатуры" category="List">
+				<xr:TypeId>3b78fc2b-6690-4aa0-ad7f-13df9551f9a7</xr:TypeId>
+				<xr:ValueId>947e7147-f3d1-4db6-b689-fba9f5384fae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПоставщикиНоменклатуры" category="RecordSet">
+				<xr:TypeId>31797bb0-b6e7-4b4f-8f7d-1c0f9434d8c5</xr:TypeId>
+				<xr:ValueId>4a04c39b-8755-449a-8af3-55841e09b9de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПоставщикиНоменклатуры" category="RecordKey">
+				<xr:TypeId>227ccb19-668c-4d78-a88b-4f2107645fa9</xr:TypeId>
+				<xr:ValueId>5958af94-c264-4677-a964-70a055bcde2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПоставщикиНоменклатуры" category="RecordManager">
+				<xr:TypeId>4d93c68e-5f99-4a74-8e4f-356092e4e862</xr:TypeId>
+				<xr:ValueId>48d7e1c2-32be-4b72-b5e4-66ee2df7a312</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПоставщикиНоменклатуры</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

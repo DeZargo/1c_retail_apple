@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="77b008b9-6e06-468d-b2a3-acf2b4f53ce5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Марки" category="Object">
+				<xr:TypeId>47e4ef77-4cb1-4eda-9c94-a0f8b256e754</xr:TypeId>
+				<xr:ValueId>0fbae0ef-d87e-41d8-80b5-ed5c8e255027</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Марки" category="Ref">
+				<xr:TypeId>a462dba2-048c-4244-9476-d7027c268973</xr:TypeId>
+				<xr:ValueId>57e37c21-2831-4155-a3bd-4be5eb31aa2c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Марки" category="Selection">
+				<xr:TypeId>804045d2-bdcb-4c16-a774-976a234dae66</xr:TypeId>
+				<xr:ValueId>ff8d3377-4531-451f-b74b-5795a690014b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Марки" category="List">
+				<xr:TypeId>c57cc0df-cc9c-48be-bb4b-75a7c4cbaf49</xr:TypeId>
+				<xr:ValueId>240ebe3f-f11c-473d-a7f5-c82d82e45e1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Марки" category="Manager">
+				<xr:TypeId>d40bdfe6-6aed-44eb-9945-55c583c52799</xr:TypeId>
+				<xr:ValueId>71933046-f29c-4f09-9b83-05caf648120e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Марки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

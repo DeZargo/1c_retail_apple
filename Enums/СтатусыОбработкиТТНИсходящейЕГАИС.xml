@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="1cb4e400-e23c-4f3f-9874-17eef8c4cbca">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыОбработкиТТНИсходящейЕГАИС" category="Ref">
+				<xr:TypeId>8c7aab9f-2f15-470a-af8c-cb24bed5f6b8</xr:TypeId>
+				<xr:ValueId>2bbb8ad0-cfd6-4f96-b269-0772670cb31b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыОбработкиТТНИсходящейЕГАИС" category="Manager">
+				<xr:TypeId>02bccd38-cf50-4088-88e0-697924d22748</xr:TypeId>
+				<xr:ValueId>cf375e32-351f-42b0-a034-f454dfa955d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыОбработкиТТНИсходящейЕГАИС" category="List">
+				<xr:TypeId>de67d8e7-c219-4605-9cc2-bdbcb16dc540</xr:TypeId>
+				<xr:ValueId>8181331f-404c-48aa-8fad-3ca2661e785c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыОбработкиТТНИсходящейЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ebedbb9d-86ed-46b1-bf94-cdfda698dc94">
+				<Properties>
+					<Name>Подтвержден</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="80fc49f0-8cab-47a2-8e9f-2008ebb0a693">
+				<Properties>
+					<Name>ПодтвержденСРасхождениями</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a6710dcc-9026-4ae8-ae97-4c4b1020cc09">
+				<Properties>
+					<Name>Черновик</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cef73059-8cdb-417b-ad52-0a2d9c4aa167">
+				<Properties>
+					<Name>ОбрабатываетсяКлиентом</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

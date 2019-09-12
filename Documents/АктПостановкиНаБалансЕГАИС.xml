@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="557c73a9-8f9d-49e1-b936-8393a4d7e4a1">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.АктПостановкиНаБалансЕГАИС" category="Object">
+				<xr:TypeId>3f1356c5-8bff-4924-b54f-8989b8d26bbb</xr:TypeId>
+				<xr:ValueId>927e5a98-5b1b-4859-a057-210737f9c447</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.АктПостановкиНаБалансЕГАИС" category="Ref">
+				<xr:TypeId>7f233470-6c31-491d-9afc-ba55e08ac692</xr:TypeId>
+				<xr:ValueId>1430ebaa-bf3d-428f-a281-5664f035a84a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.АктПостановкиНаБалансЕГАИС" category="Selection">
+				<xr:TypeId>c6153a14-40b7-4b86-ad45-e5fba477c7ef</xr:TypeId>
+				<xr:ValueId>ecd24295-854c-481b-ae64-309c9e73765c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.АктПостановкиНаБалансЕГАИС" category="List">
+				<xr:TypeId>8082afa2-a641-472e-a624-f35cfa89c1bc</xr:TypeId>
+				<xr:ValueId>d515060f-c427-4e7d-8048-8cd2bf148083</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.АктПостановкиНаБалансЕГАИС" category="Manager">
+				<xr:TypeId>41163737-ca98-4f7b-9977-835fc6dd1a13</xr:TypeId>
+				<xr:ValueId>9ad638c3-5b99-43c8-b8fb-929e4c4c5f76</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АктПостановкиНаБалансЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="16eaffac-606a-4cc1-be3a-28cd80e03ffa">
+				<Properties>
+					<Name>ВидДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидыДокументовЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="93ea5998-cb4f-44d6-ad43-1a4647b82ff0">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1794fd76-5d98-4ea0-9555-fdc0979f95b4">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ПользователиИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d2c5f17b-bf38-41f2-a974-63f46d5d5833">
+				<Properties>
+					<Name>ПричинаПостановкиНаБаланс</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПричиныПостановкиНаБалансЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="745f6c0d-713f-4c4d-9625-90b793d85622">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.Организация</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1614df5b-0ffe-41a0-9544-0cfa1901156f">
+				<Properties>
+					<Name>АктСписанияЕГАИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.АктСписанияЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b4a0a995-827e-4dfd-b628-bdfc7a5e25cb">
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеАктаПостановкиНаБалансЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ee62d3ba-66e2-4f04-adf7-2ac82edb35a2">
+				<Properties>
+					<Name>ДатаРегистрацииДвижений</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="97cc895e-ee21-4709-ad06-b721b4219857">
+				<Properties>
+					<Name>ОрганизацияЕГАИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6944312c-41d4-43ad-a9d0-66fc379405ef">
+				<Properties>
+					<Name>ИдентификаторЕГАИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b711cfc3-1626-4e1e-bbdb-dadbab24f176">
+				<Properties>
+					<Name>ТорговыйОбъект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ТорговыйОбъектЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ad3a0f6d-2c74-4549-bbb3-d3ec11ed4237">
+				<Properties>
+					<Name>Идентификатор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокументаРТ</Form>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСпискаДокументов</Form>
+			<TabularSection uuid="1734a305-deaf-4081-9b7e-1ed8eed708d0">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктПостановкиНаБалансЕГАИС.Товары" category="TabularSection">
+						<xr:TypeId>096931d8-d058-4e26-842b-e4e17964657c</xr:TypeId>
+						<xr:ValueId>21fe7fca-ed48-4de8-bbe1-f226a290326f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктПостановкиНаБалансЕГАИС.Товары" category="TabularSectionRow">
+						<xr:TypeId>8aced2c9-fdcc-4f32-9aec-8acc870d78ca</xr:TypeId>
+						<xr:ValueId>5c4657cd-d2e5-4053-9b8e-e2e5725f0749</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="636fa9c4-243d-49c8-8d74-3da0bb0e55d0">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.Номенклатура</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9ed6b6ae-0f50-4990-88fe-713d256d0de7">
+						<Properties>
+							<Name>Характеристика</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ХарактеристикаНоменклатуры</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="88247ab8-9df5-4723-8e6f-28068122ed4b">
+						<Properties>
+							<Name>НомерТТН</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="eb46438f-0a9d-426a-ab00-68ae96059111">
+						<Properties>
+							<Name>НомерПодтвержденияЕГАИС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1ff0a065-ade2-4da7-9592-0e494331f7f5">
+						<Properties>
+							<Name>ДатаРозлива</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="81bf941e-5f34-437d-be7a-49fb14849ac5">
+						<Properties>
+							<Name>АлкогольнаяПродукция</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8236c4f8-3e0d-4ca1-b14f-f383793b6e36">
+						<Properties>
+							<Name>ххх_АлкогольнаяПродукцияДляПереносаС1РНА2Р</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="766f2ff3-9cad-4a43-bf9b-a75bb9ee9a16">
+						<Properties>
+							<Name>ДатаПодтвержденияЕГАИС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3f0e37ee-41b9-4b72-bd4c-0ac392084fe0">
+						<Properties>
+							<Name>ДатаТТН</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8b244b21-ba87-445c-a122-a95f79c20ed0">
+						<Properties>
+							<Name>КоличествоУпаковок</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e436f456-8bf5-477c-ae55-da2d4cd276cc">
+						<Properties>
+							<Name>Упаковка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.Упаковка</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2d065e89-744b-47ea-8beb-840428b78d06">
+						<Properties>
+							<Name>Серия</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СерияНоменклатуры</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="234f4260-d49b-422b-a3a0-2c556ff372d2">
+						<Properties>
+							<Name>КоличествоПоСправке1</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8891df77-3cf7-4383-ae64-0371a14fc5df">
+						<Properties>
+							<Name>Справка2</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Справки2ЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="91b701be-f31a-4f3a-904e-81631952a460">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.АктПостановкиНаБалансЕГАИС.АкцизныеМарки" category="TabularSection">
+						<xr:TypeId>52dfc6a6-c84a-449f-bc75-2e22cbf51b08</xr:TypeId>
+						<xr:ValueId>5daf4002-578e-4d0c-a252-1555c435de60</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.АктПостановкиНаБалансЕГАИС.АкцизныеМарки" category="TabularSectionRow">
+						<xr:TypeId>8ac6b869-9a83-420d-9d74-85a9dff8b399</xr:TypeId>
+						<xr:ValueId>cc8bf04c-4bd9-4b3d-8a68-185480d80cb5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>АкцизныеМарки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2468e5e7-52a0-4906-87d1-409402da1310">
+						<Properties>
+							<Name>ИдентификаторСтроки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>36</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cad0af11-18fb-40f6-8cb6-2b68daf0bab4">
+						<Properties>
+							<Name>АкцизнаяМарка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ШтрихкодыУпаковокТоваров</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="16306c37-f21c-4fd7-8805-2db9054eeeae">
+						<Properties>
+							<Name>ШтрихкодУпаковки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ШтрихкодыУпаковокТоваров</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="800a3704-e4ec-457a-abe0-9620994a3718">
+						<Properties>
+							<Name>Справка2</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Справки2ЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1c5372ea-4b2e-4271-8e57-10ff7eaefae1">
+						<Properties>
+							<Name>Количество</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

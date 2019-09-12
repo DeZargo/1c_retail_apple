@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="866d3c26-72f7-4bdb-9086-909b69c41963">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.МаркировкаТоваровГИСМ" category="Object">
+				<xr:TypeId>49bb1cc1-f44a-41f7-9400-b6053fb1dddf</xr:TypeId>
+				<xr:ValueId>e1379edb-54f4-47dd-891c-44ca960db26a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.МаркировкаТоваровГИСМ" category="Ref">
+				<xr:TypeId>02fbc89b-7ec2-49f5-9f43-7f7ed1352dcf</xr:TypeId>
+				<xr:ValueId>b31a8bce-2f71-4b2e-8579-920c69069ce9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.МаркировкаТоваровГИСМ" category="Selection">
+				<xr:TypeId>53825ebd-de5c-4ec3-956a-b53c8356de1d</xr:TypeId>
+				<xr:ValueId>e5216199-57ee-42cd-8c8b-e465508e70c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.МаркировкаТоваровГИСМ" category="List">
+				<xr:TypeId>c63b5cc0-7f61-4e84-a89e-7bc55291cd29</xr:TypeId>
+				<xr:ValueId>7fe3d9d7-0a5b-4d64-9cef-a733cb872761</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.МаркировкаТоваровГИСМ" category="Manager">
+				<xr:TypeId>437efb81-0ce2-44c6-ae07-342d32fbb715</xr:TypeId>
+				<xr:ValueId>2e6b9b78-b3ad-4fb2-9f57-e583f56724b1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МаркировкаТоваровГИСМ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

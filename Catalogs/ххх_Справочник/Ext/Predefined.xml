@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.7">
+	<Item id="98c4a8db-7d4a-4501-9c7d-0782b3ce25d8">
+		<Name>id_b2</Name>
+		<Code>000000006</Code>
+		<Description>Id b2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="207c90ad-0b71-47a4-b4a8-27db1b029108">
+		<Name>id_b3</Name>
+		<Code>000000007</Code>
+		<Description>Id b3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e57bff53-4b29-4a45-9f83-f26833b06499">
+		<Name>id_b1</Name>
+		<Code>000000005</Code>
+		<Description>id_b1</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="02678a13-e734-402c-9992-ab67e40385a4">
+		<Name>АналитикаХозОперРеализацияСИнтернетМагазина</Name>
+		<Code>000000048</Code>
+		<Description>Аналитика хоз опер реализация с интернет магазина</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="36ac93a3-5ed4-4643-b616-3df4cbb7fce0">
+		<Name>АналитикаХозОперОприходованиеПоРезультатамРевизии</Name>
+		<Code>000000039</Code>
+		<Description>АналитикаХозОперОприходованиеПоРезультатамРевизии</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0e1d62df-f7cb-4155-b10b-8c1956e66d73">
+		<Name>АналитикаХозОперПоступлениеНаИнтернетМагазин</Name>
+		<Code>000000047</Code>
+		<Description>АналитикаХозОперПоступлениеНаИнтернетМагазин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a5baef73-ef53-4611-baed-ea541af000bb">
+		<Name>АналитикаХозОперРеализацияНаИнтернетМагазин</Name>
+		<Code>000000046</Code>
+		<Description>АналитикаХозОперРеализацияНаИнтернетМагазин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="473cdf81-c4c3-4bb2-abe5-4f5ff0194c1a">
+		<Name>АналитикаХозОперСписаниеПоРезультатамРевизии</Name>
+		<Code>000000042</Code>
+		<Description>АналитикаХозОперСписаниеПоРезультатамРевизии</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="639699b3-c05e-4e2d-a59b-82db8078cf6b">
+		<Name>ВидКонтактнойИнофрмацииАдресСклада</Name>
+		<Code>000000023</Code>
+		<Description>Вид контактной инофрмации адрес склада</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="9d3670c2-8a7a-4abb-ac7a-029ca6861327">
+		<Name>ВидКонтактнойИнофрмацииБухгалтер</Name>
+		<Code>000000024</Code>
+		<Description>Вид контактной инофрмации бухгалтер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="2a01b86f-9faf-41d5-a0d7-bab26db0397f">
+		<Name>ВидКонтактнойИнофрмацииДиректор</Name>
+		<Code>000000025</Code>
+		<Description>Вид контактной инофрмации директор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ed2e0d78-7cc7-42e6-8492-aab0fe7768fd">
+		<Name>ВидНоменклатурыАлкоголь</Name>
+		<Code>000000016</Code>
+		<Description>Вид номенклатуры алкоголь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="09abbcfb-96ec-4e89-8fba-2b18e05ff2d1">
+		<Name>ВидНоменклатурыВетис</Name>
+		<Code>000000062</Code>
+		<Description>Вид номенклатуры ветис</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="749b62cb-2a59-4ee1-82ce-2ac1cf63760d">
+		<Name>ВидНоменклатурыТовар</Name>
+		<Code>000000017</Code>
+		<Description>Вид номенклатуры товар</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="08f66955-bfce-47b9-af7f-379f7f6a552f">
+		<Name>ВидЦеныШокиЗачеркнутая</Name>
+		<Code>000000055</Code>
+		<Description>Вид цены шоки зачеркнутая</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="31e99310-f13a-439f-ad8f-abedf7cb0144">
+		<Name>ВыгружатьВИнетМагаз</Name>
+		<Code>000000050</Code>
+		<Description>Выгружать в инет магаз</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="716f0e08-f97b-4309-b417-348e0e9023c7">
+		<Name>ГруппаСигаретыБлоки</Name>
+		<Code>000000057</Code>
+		<Description>Группа сигареты блоки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="71394cec-652a-4f11-92a6-34bddd12c0a4">
+		<Name>ДопРеквизитПоставщик</Name>
+		<Code>000000014</Code>
+		<Description>Доп реквизит поставщик</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="a8725757-afb7-439d-b4e9-4628cf047485">
+		<Name>ЕдИзмКг</Name>
+		<Code>000000018</Code>
+		<Description>Ед изм кг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8ad6a70-5fb5-42ba-9b8d-17d2a8c6a284">
+		<Name>ЕдИзмШт</Name>
+		<Code>000000019</Code>
+		<Description>Ед изм шт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d5df5714-8c5d-4379-af64-0d375a243326">
+		<Name>ЗакупочнаяЦена</Name>
+		<Code>000000013</Code>
+		<Description>Закупочная цена</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4c212e4e-16f0-43c4-9ad0-5588a9c00477">
+		<Name>ИнтернетМагазин</Name>
+		<Code>000000051</Code>
+		<Description>Интернет магазин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="05816ee2-347d-4c58-a9fe-f22a109210e8">
+		<Name>КассаККМ</Name>
+		<Code>000000004</Code>
+		<Description>Касса ККМ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8d7bd098-5a01-4928-bcd2-442e350ed3ed">
+		<Name>КонтрагентБаза1</Name>
+		<Code>000000009</Code>
+		<Description>Контрагент база1</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c45fec05-5bf4-4a59-a445-9fe179563d6b">
+		<Name>КонтрагентБаза2</Name>
+		<Code>000000010</Code>
+		<Description>Контрагент база2</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c552c2f5-1f6b-4897-9ef1-0ad22aed431a">
+		<Name>КонтрагентБаза3</Name>
+		<Code>000000011</Code>
+		<Description>Контрагент база3</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8aad94bf-3aba-471c-9ad1-010ca8bb6078">
+		<Name>КонтрагентИнтернетМагазин</Name>
+		<Code>000000052</Code>
+		<Description>Контрагент интернет магазин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3d70b22e-df39-4ac2-abbd-ce396eb38af0">
+		<Name>КонтрагентМагазин</Name>
+		<Code>000000054</Code>
+		<Description>Контрагент магазин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3de02bae-fd8a-48a6-b267-feb5ef710e9f">
+		<Name>КонтрагентыПапкаИнтерентПокупатели</Name>
+		<Code>000000049</Code>
+		<Description>Контрагенты папка интерент покупатели</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0e15c9b8-f9f6-4df4-89ce-65133e20a16c">
+		<Name>КонтрагентыПапкаПОСТАВЩИКИ</Name>
+		<Code>000000026</Code>
+		<Description>Контрагенты папка ПОСТАВЩИКИ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ce93dd07-68f0-47aa-80cb-a0d81ea9402e">
+		<Name>КонтрагентыПапкаПРОИЗВОДИТЕЛИ</Name>
+		<Code>000000027</Code>
+		<Description>Контрагенты папка ПРОИЗВОДИТЕЛИ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ccbeb1f6-d5f5-4240-938e-f951d4fe375d">
+		<Name>КрасныйЦенник</Name>
+		<Code>000000020</Code>
+		<Description>Красный ценник</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d6727680-94cf-4f53-9b17-b1333b7eb61e">
+		<Name>Магазин</Name>
+		<Code>000000003</Code>
+		<Description>Магазин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e9ddd0fa-e191-4955-9c7e-9f5c7a424d32">
+		<Name>НашШтрихкод</Name>
+		<Code>000000002</Code>
+		<Description>Наш штрихкод</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="456d8297-a22d-4050-a368-48f5d70c05f4">
+		<Name>НДС0</Name>
+		<Code>000000035</Code>
+		<Description>НДС0</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4646d48f-2686-4009-acff-aaf79a12da1a">
+		<Name>НДС10</Name>
+		<Code>000000034</Code>
+		<Description>НДС10</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="08c462c6-368b-4045-a596-537a9fbc6bcd">
+		<Name>НДС18</Name>
+		<Code>000000033</Code>
+		<Description>НДС18</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c9d72e46-62b5-45c4-af3c-3b7432340639">
+		<Name>НоменклатураДляНеСвязанныхАлкокодов</Name>
+		<Code>000000058</Code>
+		<Description>Номенклатура для не связанных алкокодов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3313ac8c-4311-4e44-8fad-c0254da8ff78">
+		<Name>НоменклатураДопРеквизитОсновнойПоставщик</Name>
+		<Code>000000021</Code>
+		<Description>Номенклатура доп реквизит основной поставщик</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="81c0c396-83ee-48bf-a209-af975b7a3af8">
+		<Name>НоменклатураДопСвойствоВыводитьДатуПроизводства</Name>
+		<Code>000000063</Code>
+		<Description>Номенклатура Доп свойство  Выводить дату производства</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c3eed939-cccf-4bd9-b0ca-dd027c0abe52">
+		<Name>НоменклатураДопСвойствоВЕТИС</Name>
+		<Code>000000065</Code>
+		<Description>Номенклатура доп свойство ВЕТИС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="16d7ecc6-b1ad-402f-9a43-f4f38e59d821">
+		<Name>НоменклатураДопСвойствоСигареты</Name>
+		<Code>000000067</Code>
+		<Description>Номенклатура доп свойство сигареты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="22482835-2309-45c6-b892-b88925ba3d78">
+		<Name>НоменклатураДопСвойствоСкоропорт</Name>
+		<Code>000000066</Code>
+		<Description>Номенклатура доп свойство скоропорт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8137b36f-8fd4-41ac-8893-09bb2079fa57">
+		<Name>НоменклатураДопСвойствоСрокГодности</Name>
+		<Code>000000022</Code>
+		<Description>Номенклатура доп свойство срок годности</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4b1978fe-2366-4f3d-a756-8db4f839243f">
+		<Name>НоменклатураДопСвойствоТНВЭД</Name>
+		<Code>000000068</Code>
+		<Description>Номенклатура доп свойство ТНВЭД</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1629b2fc-8f13-49a1-8e6f-a27e8512278a">
+		<Name>ОбъектДляБлокировкиСменыКассиров</Name>
+		<Code>000000061</Code>
+		<Description>Объект для блокировки смены кассиров</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="4bedc9b4-b33d-4c22-a66a-11fd68c93154">
+		<Name>ОрганизацияИнтернетМагазин</Name>
+		<Code>000000053</Code>
+		<Description>Организация интернет магазин</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1cfc72c9-e949-4b9c-9ee7-bf9fe8f42b07">
+		<Name>ОрганизацияТорговлиАлкоголем</Name>
+		<Code>000000044</Code>
+		<Description>Организация торговли алкоголем</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="0354e6d6-73b9-43dd-9165-7a36b3b29909">
+		<Name>ОрганизацияТорговлиПивом</Name>
+		<Code>000000043</Code>
+		<Description>Организация торговли пивом</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="90bbb528-2e1f-4964-8a44-23f1c478d872">
+		<Name>ПапкаРасходныеМатериалы</Name>
+		<Code>000000045</Code>
+		<Description>Папка расходные материалы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d77465b3-a2d9-4244-b88d-b35e79a77487">
+		<Name>ПользовательВЕТИС</Name>
+		<Code>000000060</Code>
+		<Description>Пользователь ВЕТИС</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="bfd105e8-c52d-4695-95bd-bbb2a6064d0e">
+		<Name>ПутьВыгрузкиЗаявок</Name>
+		<Code>000000008</Code>
+		<Description>Путь выгрузки заявок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d82810ca-2812-456d-8b7c-053c290e3c72">
+		<Name>ПутьДляВыгрузкиБонусовБух</Name>
+		<Code>000000032</Code>
+		<Description>Путь для выгрузки бонусов бух</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="11616bfe-d8e1-49e2-b261-cf3fa03a1ad3">
+		<Name>ПутьЗагрузкиНСИ</Name>
+		<Code>000000030</Code>
+		<Description>Путь загрузки НСИ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="823610aa-d538-4345-ada8-f5fe7bb4859d">
+		<Name>ПутьЗагрузкиРеализацийСБазы</Name>
+		<Code>000000038</Code>
+		<Description>Путь загрузки реализация с базы</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ce56621f-5c27-4f65-8ed9-6a4d9988a4aa">
+		<Name>ПутьЗагрузкиЧеков</Name>
+		<Code>000000031</Code>
+		<Description>Путь загрузки чеков</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fc0c69f6-d136-4427-9643-128f6ed79a6a">
+		<Name>РазрешеноПодтверждатьТТНЕГАИСБезПоступления</Name>
+		<Code>000000041</Code>
+		<Description>Разрешено подтверждать ТТНЕ ГАИСБез поступления</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b809626c-d349-4752-93b7-ffc2d08af691">
+		<Name>РазрешитьПерепроведениеДокументов</Name>
+		<Code>000000029</Code>
+		<Description>Разрешить перепроведение документов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e6397c4b-4894-466f-a43b-b5f749843da7">
+		<Name>РазрешитьПокупкуТовараВнеАссортимента</Name>
+		<Code>000000001</Code>
+		<Description>Разрешить покупку товара вне ассортимента</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="23f15c53-4ba4-44f2-aca4-27eba1dcbc3a">
+		<Name>РозничнаяЦена</Name>
+		<Code>000000036</Code>
+		<Description>Розничная цена</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b7c419c6-c69b-4271-8d7e-5a01b78e99d9">
+		<Name>СвязкаКонтрагентаСИдТовараВЕгоБазе</Name>
+		<Code>000000012</Code>
+		<Description>Связка контрагента с ид товара в его базе</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c692baae-b6bc-46fb-9244-3b036214029e">
+		<Name>СостояниеНаВесах</Name>
+		<Code>000000028</Code>
+		<Description>Состояние на весах</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="aa3c2c20-b822-404b-b811-e0e3d705fb38">
+		<Name>СписаниеНаПроизводствоАналитикаХозОпер</Name>
+		<Code>000000015</Code>
+		<Description>Списание на производство аналитика хоз опер</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="619cc7c2-fcfd-4ed4-9e9c-70f666872cee">
+		<Name>ГруппаСигареты</Name>
+		<Code>000000056</Code>
+		<Description>СписокГруппСигареты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f4b5c8ed-d079-4eb4-816d-4f4fe5e65629">
+		<Name>ВидНоменклатурыТара</Name>
+		<Code>000000040</Code>
+		<Description>Тара</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f35d2600-aa58-4510-bc41-f057549c1cfa">
+		<Name>ххх_ЗагрузкаЧеков</Name>
+		<Code>000000037</Code>
+		<Description>Ххх загрузка чеков</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e0a35e54-a8f4-451b-884c-9110371847ea">
+		<Name>ШаблонЦенниковПриЗаписиРаскидываетСоюСКДВсем</Name>
+		<Code>000000059</Code>
+		<Description>Шаблон ценников( при записи раскидывает сою СКД всем)</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

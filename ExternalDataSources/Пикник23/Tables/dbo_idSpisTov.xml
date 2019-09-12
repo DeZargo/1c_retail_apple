@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Table uuid="8139297e-999b-4eb9-8127-adddb85b65e1">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceTableManager.Пикник23.dbo_idSpisTov" category="Manager">
+				<xr:TypeId>91aa11ca-81c9-46fc-9f63-9146922ba15a</xr:TypeId>
+				<xr:ValueId>50a0cbd6-e08d-45fd-915a-dd744378fa7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableObject.Пикник23.dbo_idSpisTov" category="Object">
+				<xr:TypeId>b524f06c-4abd-4d0e-8fe0-3f21c1d560b1</xr:TypeId>
+				<xr:ValueId>a466f9ee-63f5-4039-aeaa-31f33e1d75a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRef.Пикник23.dbo_idSpisTov" category="Ref">
+				<xr:TypeId>f4583664-f5d9-44e5-9fc6-4672b11c2bd8</xr:TypeId>
+				<xr:ValueId>62518a65-bbaa-42c8-af9f-de9166bb371e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableList.Пикник23.dbo_idSpisTov" category="List">
+				<xr:TypeId>d6a74b1e-5d79-441d-9698-f560e23565fd</xr:TypeId>
+				<xr:ValueId>c8001c56-421d-434b-8aae-16df59c6a234</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.Пикник23.dbo_idSpisTov" category="RecordSet">
+				<xr:TypeId>58d325af-7678-40c0-8f58-7ae5737d2e7b</xr:TypeId>
+				<xr:ValueId>03386122-d4fe-4e18-9a50-742b21e067da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.Пикник23.dbo_idSpisTov" category="RecordKey">
+				<xr:TypeId>0fa184d0-064e-425e-b52f-c6af1833bf55</xr:TypeId>
+				<xr:ValueId>d55fee28-54f2-4866-938f-1d81742b7e57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.Пикник23.dbo_idSpisTov" category="RecordManager">
+				<xr:TypeId>ad239cbe-448b-4e31-9aa8-7e7613287d70</xr:TypeId>
+				<xr:ValueId>c599e33f-37f1-4e9a-b874-78fd28903541</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>dbo_idSpisTov</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<TableType>Table</TableType>
+			<TableDataType>ObjectData</TableDataType>
+			<KeyFields>
+				<xr:Field>ExternalDataSource.Пикник23.Table.dbo_idSpisTov.Field.id</xr:Field>
+			</KeyFields>
+			<DefaultObjectForm/>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+		</Properties>
+		<ChildObjects>
+			<Field uuid="e801ed0a-c4a5-4dd4-9ec8-6d8a6234a489">
+				<Properties>
+					<Name>id</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="a85cb51a-a755-49df-8034-2c5ebf693b8e">
+				<Properties>
+					<Name>kol</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>38</v8:Digits>
+							<v8:FractionDigits>8</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="a0b0ef7f-2889-4c9d-ab4d-300e7f533210">
+				<Properties>
+					<Name>senz</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>38</v8:Digits>
+							<v8:FractionDigits>8</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="b091e3c0-7806-4f06-9ad9-a72545f15af6">
+				<Properties>
+					<Name>senr</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>38</v8:Digits>
+							<v8:FractionDigits>8</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="a4344683-6f7b-47c0-abee-373c1561ac06">
+				<Properties>
+					<Name>idspis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="41e718c8-6538-4d87-8d78-d7359de3b533">
+				<Properties>
+					<Name>idtov</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+		</ChildObjects>
+	</Table>
+</MetaDataObject>

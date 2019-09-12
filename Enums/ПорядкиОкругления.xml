@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="2da705df-840d-457e-b423-1205cf9a3984">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядкиОкругления" category="Ref">
+				<xr:TypeId>4f0a372e-ebfe-494d-8a66-a2bbb71a51d0</xr:TypeId>
+				<xr:ValueId>6dc3d296-d3c4-4a5c-898c-9729e953e7e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядкиОкругления" category="Manager">
+				<xr:TypeId>22ed1ae5-e693-4c61-9dc0-957a00ea4d4f</xr:TypeId>
+				<xr:ValueId>91adc9ba-0297-41bf-aefc-602085cceca9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядкиОкругления" category="List">
+				<xr:TypeId>2fbcc3d4-d9a4-4dae-b54f-a0ba6963cd2a</xr:TypeId>
+				<xr:ValueId>d2292f73-47ff-4e6e-9d3c-a66ea0a2a6cd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПорядкиОкругления</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

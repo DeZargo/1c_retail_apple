@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<ExternalDataSource uuid="18f9838d-82e2-4823-9eee-bd0babd7f2e6">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceManager.Пикник23" category="Manager">
+				<xr:TypeId>d6f57281-66f8-414f-a26d-df51ec2218db</xr:TypeId>
+				<xr:ValueId>96b20759-494e-4117-b7bc-0e8a9cf0f30d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTablesManager.Пикник23" category="TablesManager">
+				<xr:TypeId>e4b01428-85e4-402a-b007-f79bdc35d172</xr:TypeId>
+				<xr:ValueId>530e4628-83d6-4a35-b797-c07fa4e05ed8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceCubesManager.Пикник23" category="CubesManager">
+				<xr:TypeId>f72ce2fe-c12b-41a5-866c-6e754f415aa3</xr:TypeId>
+				<xr:ValueId>ce5ef6c5-4ba3-4793-8d9a-3d3df472de14</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Пикник23</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Table>dbo_Tovar</Table>
+			<Table>dbo_spisan</Table>
+			<Table>dbo_idSpisTov</Table>
+			<Table>dbo_pOutGoodsHead</Table>
+			<Table>dbo_pOutGoodsTable</Table>
+			<Table>dbo_shtrix</Table>
+		</ChildObjects>
+	</ExternalDataSource>
+</MetaDataObject>

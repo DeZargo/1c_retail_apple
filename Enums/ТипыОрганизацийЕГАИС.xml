@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="833b949e-e907-405c-876d-cf8ad9277b94">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыОрганизацийЕГАИС" category="Ref">
+				<xr:TypeId>c732e2af-a8a0-4d33-a574-fabb8f1c2b78</xr:TypeId>
+				<xr:ValueId>c8353592-ef04-4ffb-840c-f54819bfabf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыОрганизацийЕГАИС" category="Manager">
+				<xr:TypeId>09deae5d-4e79-4d0a-a71c-85b0672e0930</xr:TypeId>
+				<xr:ValueId>d487880d-9bc4-4610-a340-0d890b46e2ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыОрганизацийЕГАИС" category="List">
+				<xr:TypeId>d3de642b-b95b-430c-87a4-3382d92137b1</xr:TypeId>
+				<xr:ValueId>62ff8d57-8d4f-4189-a767-a4dbce1766df</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыОрганизацийЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

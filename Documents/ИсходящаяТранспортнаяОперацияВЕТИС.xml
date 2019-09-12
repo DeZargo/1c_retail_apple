@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="56d311f0-9ff0-4197-aba7-ed90940ee31c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИсходящаяТранспортнаяОперацияВЕТИС" category="Object">
+				<xr:TypeId>b2bc4c1b-6df5-449b-85a6-dfaa41e2b0fd</xr:TypeId>
+				<xr:ValueId>74a80924-fd6c-48b1-bf05-001ddb349559</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИсходящаяТранспортнаяОперацияВЕТИС" category="Ref">
+				<xr:TypeId>ce69a8b1-6b5d-4966-8313-25c3af5ea2a8</xr:TypeId>
+				<xr:ValueId>1c85c47a-45c4-4e80-8233-c557d270a190</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИсходящаяТранспортнаяОперацияВЕТИС" category="Selection">
+				<xr:TypeId>018ea3a0-72c3-4b61-aad3-ff582c975b4d</xr:TypeId>
+				<xr:ValueId>fffd05b0-eb36-44c9-a567-f5fe9ee67ef8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИсходящаяТранспортнаяОперацияВЕТИС" category="List">
+				<xr:TypeId>2a81e700-ca4c-4fd8-b5d8-afa4d0fd4bde</xr:TypeId>
+				<xr:ValueId>6f8914ce-2a32-4767-accc-a1d0e466fd1f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИсходящаяТранспортнаяОперацияВЕТИС" category="Manager">
+				<xr:TypeId>d6af0b2f-6679-42e5-af23-99a4d56c6eb1</xr:TypeId>
+				<xr:ValueId>2a19c66a-7a12-4787-8c73-a5727a2c10b3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИсходящаяТранспортнаяОперацияВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>9</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="457d5141-7504-4665-ad24-811f3c745fa6">
+				<Properties>
+					<Name>ГрузоотправительПредприятие</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПредприятияВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="33ed7903-ebe2-48ec-84c1-81728d8ff4d6">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4d7aecc3-8a1e-46d7-a7f3-ca3adb510230">
+				<Properties>
+					<Name>СпособХранения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СпособыХраненияПриТранспортировкеВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cb29ee31-8c26-4faf-9299-dd32fd994feb">
+				<Properties>
+					<Name>ГрузоотправительХозяйствующийСубъект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХозяйствующиеСубъектыВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a49b4ca2-b879-4d43-9e94-c27f69edcdc1">
+				<Properties>
+					<Name>ДатаТТН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b0d755b6-d4b7-4ca3-b5f0-1f2078a8ad4b">
+				<Properties>
+					<Name>ГрузополучательПредприятие</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПредприятияВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="90ce2864-7262-4921-bfb0-222425d03e92">
+				<Properties>
+					<Name>ГрузополучательХозяйствующийСубъект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХозяйствующиеСубъектыВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e849c4d8-ca6d-4ef9-bd8f-d5311d05898d">
+				<Properties>
+					<Name>ТТНУказан</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ac2ed2b9-f93b-4e03-8fde-324b56e3cce0">
+				<Properties>
+					<Name>СерияТТН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b9782f2f-2936-41f0-8b39-cea9a7b80f33">
+				<Properties>
+					<Name>НомерТТН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1c4fb991-3933-4f3b-9ebe-f6e2d4b53ebf">
+				<Properties>
+					<Name>ДокументОснование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеИсходящаяТранспортнаяОперацияВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3736a10f-f40c-4b1e-9679-22c6f32f1c32">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="232b48e7-6f76-46f1-82a3-99ffe5818fc1">
+				<Properties>
+					<Name>ПеревозчикХозяйствующийСубъект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХозяйствующиеСубъектыВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dd20b398-4be1-426c-972f-fa0ce9cd80b9">
+				<Properties>
+					<Name>ТипТТН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыДокументовВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСпискаДокументов</Form>
+			<TabularSection uuid="92073196-e35f-4e10-a811-6ac0aeb999e3">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИсходящаяТранспортнаяОперацияВЕТИС.Товары" category="TabularSection">
+						<xr:TypeId>27ba80c7-7b2e-4c28-a705-0e88390f9604</xr:TypeId>
+						<xr:ValueId>a3e064c0-5c83-436b-ad2a-8543049910e7</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИсходящаяТранспортнаяОперацияВЕТИС.Товары" category="TabularSectionRow">
+						<xr:TypeId>527cbc1f-8c6a-48b6-a7f4-60f1ea9aa64c</xr:TypeId>
+						<xr:ValueId>989cb035-a3a5-4761-86bd-03d936afa594</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="16a612b6-1080-4707-bbff-b0ede9a625f5">
+						<Properties>
+							<Name>ТипПроисхождения</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.ТипыПроисхожденияНепищевойПродукцииВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ce074589-bf3d-45de-8642-cedd1e25d998">
+						<Properties>
+							<Name>ЭкспертизаРезультат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.РезультатыЛабораторныхИсследованийВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9c8e0db7-8b34-4f0d-b4e1-f57efaa90ce2">
+						<Properties>
+							<Name>Количество</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="4cbea1b4-14a3-4afa-9915-b82d5944cbcd">
+						<Properties>
+							<Name>ЕдиницаИзмеренияВЕТИС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЕдиницыИзмеренияВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b8d94e5d-fd9b-4b43-a0b2-66b9a05c769c">
+						<Properties>
+							<Name>НизкокачественнаяПродукция</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c04e20fb-13ac-4239-9d28-4060ddcc4cd7">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.Номенклатура</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a747f07b-bcd6-4da3-bfca-cf50312f341b">
+						<Properties>
+							<Name>Характеристика</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ХарактеристикаНоменклатуры</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fe8ae821-a1e2-4171-9d68-9d0bf867f3c8">
+						<Properties>
+							<Name>Серия</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СерияНоменклатурыВЕТИС</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="31945232-df85-41f1-9cb3-0a8595fe2aee">
+						<Properties>
+							<Name>РезультатПроверкиПравилРегионализации</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.РезультатыПроверкиПравилРегионализации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="43fae354-ca91-4163-ae53-f85d4e58e60a">
+						<Properties>
+							<Name>Продукция</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПродукцияВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="85f70d72-0050-4376-aef0-d5a73f77bdf6">
+						<Properties>
+							<Name>КоличествоВЕТИС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e50f1776-a1ab-480e-abbf-c50cec42a4ae">
+						<Properties>
+							<Name>ЗаписьСкладскогоЖурнала</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЗаписиСкладскогоЖурналаВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0f9bcfc8-b133-417f-b364-32da5daca6d1">
+						<Properties>
+							<Name>Цель</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЦелиВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="981c8e36-f0bb-4a10-b87a-05eed8238791">
+						<Properties>
+							<Name>БлагополучиеМестности</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6ff08984-4248-4612-b77b-8559b7b28f1e">
+						<Properties>
+							<Name>ПериодНахожденияЖивотныхНаТерриторииТС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.ПериодыНахожденияЖивотныхНаТерриторииТСВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="62b5f230-4c41-4149-9b32-555b8c74a4c8">
+						<Properties>
+							<Name>КоличествоПериодовНахожденияЖивотныхНаТерриторииТС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>3</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ef516c7d-2308-4b30-9288-bae66897ac3a">
+						<Properties>
+							<Name>ОсобыеОтметки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="40ce798a-f126-43db-af95-b1c8fca8f958">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИсходящаяТранспортнаяОперацияВЕТИС.Маршрут" category="TabularSection">
+						<xr:TypeId>6e0c1c23-5742-4581-b315-33e6b587e52d</xr:TypeId>
+						<xr:ValueId>e40188c3-6a23-4e6f-b927-4918db2029bb</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИсходящаяТранспортнаяОперацияВЕТИС.Маршрут" category="TabularSectionRow">
+						<xr:TypeId>12215ccd-abb6-40b2-9fcf-548ce4cc988e</xr:TypeId>
+						<xr:ValueId>3604fb1b-1302-40bd-a044-de888a8cd02c</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Маршрут</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
