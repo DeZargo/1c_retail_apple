@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="0e78d145-217d-491b-88e0-12d179843972">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.БазовыеЕдиницыИзмерения" category="Object">
+				<xr:TypeId>ae83ac79-02aa-4926-95eb-73156e05455f</xr:TypeId>
+				<xr:ValueId>5a5d5c11-b9e3-4f30-8000-2f9981c021e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.БазовыеЕдиницыИзмерения" category="Ref">
+				<xr:TypeId>eee79765-bf35-4c21-89c9-b3a83ad4fe4b</xr:TypeId>
+				<xr:ValueId>f4fa68c1-c8be-4aeb-85c5-ba175f7a196b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.БазовыеЕдиницыИзмерения" category="Selection">
+				<xr:TypeId>19abbfab-8a76-4932-aed8-af0904943c6b</xr:TypeId>
+				<xr:ValueId>06e27981-94c6-44c8-9100-29672ebbe430</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.БазовыеЕдиницыИзмерения" category="List">
+				<xr:TypeId>772255f2-cdb7-49c4-ad96-ded73e23bfc7</xr:TypeId>
+				<xr:ValueId>01e69c50-d894-4cfd-a84d-79ed5f5a2b37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.БазовыеЕдиницыИзмерения" category="Manager">
+				<xr:TypeId>5abc0fef-ab9c-4816-ab01-bb071b6cfa4a</xr:TypeId>
+				<xr:ValueId>3c26886f-56a4-4094-97b3-355e0709dc04</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БазовыеЕдиницыИзмерения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="dee2e45d-9201-401c-b227-ae53f26426a3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗначенияСвойствОбъектов" category="Object">
+				<xr:TypeId>16ab47ec-9a65-4d31-b5dd-f7772e180cd8</xr:TypeId>
+				<xr:ValueId>781d9993-2f53-44ee-af25-62599cbc4b3a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗначенияСвойствОбъектов" category="Ref">
+				<xr:TypeId>e0ad2400-faa9-4380-af30-1777b67650dc</xr:TypeId>
+				<xr:ValueId>c8e3e353-e2eb-47a8-9bf4-ddf82baf14cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗначенияСвойствОбъектов" category="Selection">
+				<xr:TypeId>32311fe0-0d0c-4d70-a2cc-cad9abe36aaf</xr:TypeId>
+				<xr:ValueId>7b3de691-c005-4201-89d6-d2a7089b70be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗначенияСвойствОбъектов" category="List">
+				<xr:TypeId>765dd551-6f65-45a9-8c04-9537e11faac1</xr:TypeId>
+				<xr:ValueId>a756491d-a177-44c7-8761-2bb6a4d7adda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗначенияСвойствОбъектов" category="Manager">
+				<xr:TypeId>221dd38a-0151-413c-88cb-75c5f530f657</xr:TypeId>
+				<xr:ValueId>83df8435-1052-42e0-876a-02cb2ef31022</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗначенияСвойствОбъектов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>100</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1578a8e7-9a40-408e-b7a3-ed870c5b9ca6">
+				<Properties>
+					<Name>Вес</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

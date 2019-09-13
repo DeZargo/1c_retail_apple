@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="3375db43-370c-4542-b4b7-31b53fc853dd">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтатусыДокументовВЕТИС" category="Record">
+				<xr:TypeId>08cb2902-008a-4bd0-bdea-73c8577c5a43</xr:TypeId>
+				<xr:ValueId>1373fa37-1dff-4f42-9d64-a860d562b3d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтатусыДокументовВЕТИС" category="Manager">
+				<xr:TypeId>de77c579-1133-4ed8-aa04-ea4747e63a05</xr:TypeId>
+				<xr:ValueId>b3e6c641-2e1a-434a-a362-5d02acff01f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтатусыДокументовВЕТИС" category="Selection">
+				<xr:TypeId>16f87fc0-f086-46eb-8531-1cc880041cf0</xr:TypeId>
+				<xr:ValueId>c826887c-a7a6-45f9-890b-50c581215c12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтатусыДокументовВЕТИС" category="List">
+				<xr:TypeId>8b3bdfbc-276b-4d8c-a139-78293c1ba4ab</xr:TypeId>
+				<xr:ValueId>f3f07f34-0bc7-4bce-bd1f-7f8c15390925</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусыДокументовВЕТИС" category="RecordSet">
+				<xr:TypeId>5fc74a95-3c9c-4fde-ad17-4bd74c3cb3fa</xr:TypeId>
+				<xr:ValueId>2cb72eba-ed15-43ff-8d4f-b088df0a7306</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусыДокументовВЕТИС" category="RecordKey">
+				<xr:TypeId>f1dcbe87-0c92-4a0d-830e-072961889df7</xr:TypeId>
+				<xr:ValueId>b69ba922-d7fd-4579-a7ad-3bd9652fd51a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусыДокументовВЕТИС" category="RecordManager">
+				<xr:TypeId>b52c1386-257c-4ca4-b919-db8b88020ae9</xr:TypeId>
+				<xr:ValueId>36c81296-0455-4c4c-a42c-5338119bf078</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыДокументовВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="701a3c43-d311-40fc-821e-08d54fc371e0">
+				<Properties>
+					<Name>ДальнейшееДействие3</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДальнейшиеДействияПоВзаимодействиюВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="96812897-f1d7-4524-b17d-6de08f9c1efc">
+				<Properties>
+					<Name>ДальнейшееДействие2</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДальнейшиеДействияПоВзаимодействиюВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="ddd53d2e-1ca6-4090-8e72-b8b24432f849">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="13321ac8-1717-4d9c-b911-9ccf625c5d61">
+				<Properties>
+					<Name>ДальнейшееДействие1</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДальнейшиеДействияПоВзаимодействиюВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ad8ce025-c9a9-427c-aee3-c43c845bedbd">
+				<Properties>
+					<Name>Документ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДокументыВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

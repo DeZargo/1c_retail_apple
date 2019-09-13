@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="44f222c3-8a01-4b62-a260-06a81c2a1465">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.КонтурEDI_СоответствияТоваров" category="Record">
+				<xr:TypeId>f7d34370-6872-4249-8a01-c1b46c4e4637</xr:TypeId>
+				<xr:ValueId>d6ec12ff-d64c-49bd-94b9-d313269dd5f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.КонтурEDI_СоответствияТоваров" category="Manager">
+				<xr:TypeId>4dced609-0a5c-484e-b053-65f68c63c909</xr:TypeId>
+				<xr:ValueId>b7173d75-4a62-4709-a0f9-00c89337cee7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.КонтурEDI_СоответствияТоваров" category="Selection">
+				<xr:TypeId>f4ee7da1-1f32-4626-a8c2-7df8ebf07c58</xr:TypeId>
+				<xr:ValueId>482b4018-5320-4cd1-b105-3073576a76f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.КонтурEDI_СоответствияТоваров" category="List">
+				<xr:TypeId>a5cb7c23-c08d-445a-9ef0-a4e4c1af1656</xr:TypeId>
+				<xr:ValueId>fc9ffc68-c419-4ab4-8ca7-ae1eae455107</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.КонтурEDI_СоответствияТоваров" category="RecordSet">
+				<xr:TypeId>9a6f2ef3-37b4-45bb-98c8-e2fa5f8d0264</xr:TypeId>
+				<xr:ValueId>c8257482-8b0d-434f-96e8-6236557ac230</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.КонтурEDI_СоответствияТоваров" category="RecordKey">
+				<xr:TypeId>7f880602-ac34-430d-9b0a-04a3c2b14bdd</xr:TypeId>
+				<xr:ValueId>7a338a98-1f21-4c2e-9350-681c9b38e81c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.КонтурEDI_СоответствияТоваров" category="RecordManager">
+				<xr:TypeId>b36dae71-94c1-4294-9750-c7ea10f29cba</xr:TypeId>
+				<xr:ValueId>7c569498-e919-4f2b-abb4-75d9727f4dfe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КонтурEDI_СоответствияТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="159212e6-7223-4d57-8045-46c615667665">
+				<Properties>
+					<Name>GTIN</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>14</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="9d7c67df-7122-4900-9ed7-0561f18a5d9f">
+				<Properties>
+					<Name>НаименованиеПартнера</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>256</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="f94818a1-61e3-4cd9-b864-b313cbb63127">
+				<Properties>
+					<Name>ОсновноеСоответствие</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="2f28bf33-7d65-40f7-8e2b-8e3155ef70e9">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="19b2497b-79f8-4fe1-8b59-60fd670225e1">
+				<Properties>
+					<Name>Единица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="33321cdd-cf19-4fe5-8bdc-cf375275826d">
+				<Properties>
+					<Name>Партнер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:CatalogRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

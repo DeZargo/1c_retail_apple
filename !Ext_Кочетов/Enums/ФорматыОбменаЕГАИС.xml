@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="f4a2dbda-6893-4e61-bc75-642b76c1c831">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ФорматыОбменаЕГАИС" category="Ref">
+				<xr:TypeId>10161bc6-300c-4cb5-b305-3fdd2df72609</xr:TypeId>
+				<xr:ValueId>68c17cd6-5676-457a-9134-f9cf2e110f35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ФорматыОбменаЕГАИС" category="Manager">
+				<xr:TypeId>ff8b7695-b33a-49a9-bf53-73934dfdc35d</xr:TypeId>
+				<xr:ValueId>518c08ef-ac87-4a02-8e52-2453238b5a17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ФорматыОбменаЕГАИС" category="List">
+				<xr:TypeId>cc19ef39-04cf-46cc-84b0-52371b4410bf</xr:TypeId>
+				<xr:ValueId>a5eb4bad-c88e-4adb-a380-320003d8c4dc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФорматыОбменаЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

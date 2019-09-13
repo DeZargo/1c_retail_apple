@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="5166ceb4-9279-48ad-9014-91287608d525">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПродукцияВЕТИС" category="Object">
+				<xr:TypeId>496e5e54-9fc5-4397-8022-4997d92b71a9</xr:TypeId>
+				<xr:ValueId>aebdc8a9-53e2-4e1d-bf5a-1c2537465483</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПродукцияВЕТИС" category="Ref">
+				<xr:TypeId>c515767a-3e91-41a2-a99e-4f2998d9465a</xr:TypeId>
+				<xr:ValueId>ea8b9751-c650-4e26-8ac0-d01a4f8371e0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПродукцияВЕТИС" category="Selection">
+				<xr:TypeId>730988e6-b4a4-4c0f-9104-cbec824a6c48</xr:TypeId>
+				<xr:ValueId>ad569cce-9e33-4484-be11-1d55cbb1b7bd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПродукцияВЕТИС" category="List">
+				<xr:TypeId>bbaf2401-a325-401b-87e4-5ab5868986b3</xr:TypeId>
+				<xr:ValueId>50baa6eb-154c-4858-a2b5-2a1fc3890d7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПродукцияВЕТИС" category="Manager">
+				<xr:TypeId>d9c4a86f-da87-455f-b14b-da475b317476</xr:TypeId>
+				<xr:ValueId>1e170e0a-affa-4f00-b69e-eb16de14ea68</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПродукцияВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ffe53278-6889-4110-90d4-b3ec8da0165c">
+				<Properties>
+					<Name>Идентификатор</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.УникальныйИдентификаторВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

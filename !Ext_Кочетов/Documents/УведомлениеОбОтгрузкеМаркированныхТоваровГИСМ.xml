@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="b3ad0582-d778-4dcb-96e4-59ec7c3475ee">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ" category="Object">
+				<xr:TypeId>d78b6f79-3c7c-456c-8c82-22111e2830ff</xr:TypeId>
+				<xr:ValueId>f241b56f-811a-4d8a-a683-8a0eac5e0eda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ" category="Ref">
+				<xr:TypeId>ae26e3c1-549c-4f29-a495-d0464af503e8</xr:TypeId>
+				<xr:ValueId>a0762cbc-3fb4-4cda-adfa-4110b52ca7aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ" category="Selection">
+				<xr:TypeId>693d99b7-d8fb-4ca3-96c8-e6cf6357fc29</xr:TypeId>
+				<xr:ValueId>8e1e3b2d-e197-4443-bb31-6cbf74b7d3c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ" category="List">
+				<xr:TypeId>695a1ed5-9389-4cb9-8ea1-1b5a9368b615</xr:TypeId>
+				<xr:ValueId>35fe017d-8002-4116-971a-06941140d0d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ" category="Manager">
+				<xr:TypeId>e474d584-75c7-49b7-8e2f-a05b89e32222</xr:TypeId>
+				<xr:ValueId>bef7bbb8-77e6-4d9c-8fe3-11ea4541bdd3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="838564a1-4931-4a5c-af0d-fcb644b91632">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.Организация</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="00ee4564-7d57-4a5b-a943-a954ae56bf5a">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.КонтрагентГосИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e24e01c0-1ca3-4330-9b3a-94d3fae38159">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bf6b0815-712a-4a22-9b7e-eb9e57f13f76">
+				<Properties>
+					<Name>НомерГИСМ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.НомерДокументаГИСМ</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

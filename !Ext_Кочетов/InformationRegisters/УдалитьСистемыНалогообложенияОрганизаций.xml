@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="6458f900-d5b3-4a58-af20-0051b48f293b">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.УдалитьСистемыНалогообложенияОрганизаций" category="Record">
+				<xr:TypeId>fd6289af-fb0b-4999-828d-20c8f9b6294d</xr:TypeId>
+				<xr:ValueId>115fbb91-5b96-4cd6-bd9f-c155415149de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.УдалитьСистемыНалогообложенияОрганизаций" category="Manager">
+				<xr:TypeId>6b75afdf-a7d2-4bad-85e0-0afd735b3dc4</xr:TypeId>
+				<xr:ValueId>6a899102-ba29-40fa-9522-14e66a372e9c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.УдалитьСистемыНалогообложенияОрганизаций" category="Selection">
+				<xr:TypeId>387fbbf9-94d9-4543-90f9-ed18c860ea97</xr:TypeId>
+				<xr:ValueId>2e0cee9d-79f9-42f8-8390-068615862e1b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.УдалитьСистемыНалогообложенияОрганизаций" category="List">
+				<xr:TypeId>e0e2046f-0d56-43d6-9609-5d23d6d72b1a</xr:TypeId>
+				<xr:ValueId>c850e39e-70ae-4f90-acca-9b76871e8aba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.УдалитьСистемыНалогообложенияОрганизаций" category="RecordSet">
+				<xr:TypeId>a7f0802d-5c5f-4e4f-8624-b863f3a46d56</xr:TypeId>
+				<xr:ValueId>6b766336-4c52-4712-9b75-b10c4d9c7e1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.УдалитьСистемыНалогообложенияОрганизаций" category="RecordKey">
+				<xr:TypeId>02034c2f-5176-4ba9-9613-8854c278c74c</xr:TypeId>
+				<xr:ValueId>fccfb80c-b3dd-4720-9981-2234810d7275</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.УдалитьСистемыНалогообложенияОрганизаций" category="RecordManager">
+				<xr:TypeId>ad30e6ab-2c3f-4ab3-9c78-8d50c7fca75e</xr:TypeId>
+				<xr:ValueId>69d634fc-342c-44b1-87e8-6b050023f555</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УдалитьСистемыНалогообложенияОрганизаций</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Month</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="d18675f4-feec-4564-8460-c7f997f2a1eb">
+				<Properties>
+					<Name>СистемаНалогообложения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.УдалитьСистемыНалогообложения</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="b90aa9b1-d792-4bb0-a3cb-a9361040068f">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

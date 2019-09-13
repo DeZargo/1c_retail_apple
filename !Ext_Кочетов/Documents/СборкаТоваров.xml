@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="97f181bf-aba3-4e5d-b478-0fa5c09da1ce">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СборкаТоваров" category="Object">
+				<xr:TypeId>8a48c0aa-2de3-42bf-af71-688099eda7df</xr:TypeId>
+				<xr:ValueId>69b98c20-9c68-44fa-b517-c662fe692a37</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СборкаТоваров" category="Ref">
+				<xr:TypeId>a4ad9662-c8ce-4118-916c-1a08b392b7aa</xr:TypeId>
+				<xr:ValueId>0f60e135-d8dd-4789-88c7-5f1026ec97c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СборкаТоваров" category="Selection">
+				<xr:TypeId>21c180e6-a515-4b0c-ae95-5db62dad5563</xr:TypeId>
+				<xr:ValueId>f01fb6d9-237c-4e83-b00c-8ac7fbb7dd47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СборкаТоваров" category="List">
+				<xr:TypeId>6bb223bc-f5ec-4612-b382-201463e4d6f1</xr:TypeId>
+				<xr:ValueId>321517aa-1593-49ad-9cf3-7263f261eb9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СборкаТоваров" category="Manager">
+				<xr:TypeId>4eb155bb-4bd6-4c53-b540-e96155a16cfd</xr:TypeId>
+				<xr:ValueId>4c311d19-aab7-46eb-b818-e75045017125</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СборкаТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

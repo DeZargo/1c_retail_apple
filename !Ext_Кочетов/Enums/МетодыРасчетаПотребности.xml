@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="a7f509fd-1590-406d-86cc-3d56c59cbf2c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.МетодыРасчетаПотребности" category="Ref">
+				<xr:TypeId>2bf5a0a4-1c63-4a0a-82cc-cba7a726b38b</xr:TypeId>
+				<xr:ValueId>ec33b661-2745-41d1-8441-f60d9de6156e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.МетодыРасчетаПотребности" category="Manager">
+				<xr:TypeId>a1b60b5b-81d0-41d6-931d-ab44d6ae8d12</xr:TypeId>
+				<xr:ValueId>06327cb8-2621-4118-9fc5-c3de8c736458</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.МетодыРасчетаПотребности" category="List">
+				<xr:TypeId>dcc906ca-e53b-43b7-9feb-6db5acb0ebd7</xr:TypeId>
+				<xr:ValueId>ee5e92dc-8bf9-4827-820d-9de4318aea32</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МетодыРасчетаПотребности</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

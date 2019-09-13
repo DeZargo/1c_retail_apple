@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="4929cb4f-e056-4e34-9833-8618c8af5273">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ФИОФизЛиц" category="Record">
+				<xr:TypeId>d119e907-f3b8-486a-a5b3-a5b970e5401c</xr:TypeId>
+				<xr:ValueId>e1675d92-d999-48d5-9503-48a4032164ed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ФИОФизЛиц" category="Manager">
+				<xr:TypeId>cc60d198-88f1-4edc-87a3-8c342bf79b9c</xr:TypeId>
+				<xr:ValueId>c2e55569-1483-4450-a09c-8f549f24122d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ФИОФизЛиц" category="Selection">
+				<xr:TypeId>f224284e-5a8b-478c-bb18-03ee79655b41</xr:TypeId>
+				<xr:ValueId>2b4039bf-9511-4c95-ab77-3c201af53b76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ФИОФизЛиц" category="List">
+				<xr:TypeId>3552ad2c-4dd1-4748-aebe-5b6e5627b6e1</xr:TypeId>
+				<xr:ValueId>6bcfd3d6-767a-48ca-aa67-02eb7c898f79</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ФИОФизЛиц" category="RecordSet">
+				<xr:TypeId>4730cae5-752b-4bc9-a8a9-904f61d7637c</xr:TypeId>
+				<xr:ValueId>93551f77-f879-4016-be9d-a5093bea61a6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ФИОФизЛиц" category="RecordKey">
+				<xr:TypeId>32ca615e-45d5-4860-8a7a-775d5d0a66bc</xr:TypeId>
+				<xr:ValueId>0d3c2a29-92b7-47c1-a80f-17e1c2aef8ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ФИОФизЛиц" category="RecordManager">
+				<xr:TypeId>f50e7b3c-60d4-464e-8700-d416aba15113</xr:TypeId>
+				<xr:ValueId>d536d50f-4f1d-42b8-8db3-96e1d597e2d4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФИОФизЛиц</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<ChartOfCharacteristicTypes uuid="9183b454-af8c-43d9-9ce1-46134ee7ce40">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения" category="Object">
+				<xr:TypeId>3dcb864c-c9f3-472a-a571-dc64a5d24cf2</xr:TypeId>
+				<xr:ValueId>8a4219c9-6fec-482f-a2f8-8b33b5b654de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения" category="Ref">
+				<xr:TypeId>8e50fdf4-080a-43dd-a171-cf910b7ad788</xr:TypeId>
+				<xr:ValueId>db375b98-288e-4647-99e0-3b4e292d9ef7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ДополнительныеРеквизитыИСведения" category="Selection">
+				<xr:TypeId>620f07d8-16d2-4862-8a52-0b111d443d01</xr:TypeId>
+				<xr:ValueId>ceda1c80-57ea-4ec4-b7a3-3dd29988b546</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ДополнительныеРеквизитыИСведения" category="List">
+				<xr:TypeId>5286475f-3ac0-46ca-a89a-f431cbd7a96f</xr:TypeId>
+				<xr:ValueId>41065b47-d077-4b89-bdc6-15b15b218ae4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.ДополнительныеРеквизитыИСведения" category="Characteristic">
+				<xr:TypeId>c5806d81-3fb5-4df4-9631-282a1d64f42f</xr:TypeId>
+				<xr:ValueId>9be61cc1-5ed2-45e8-8012-eb95f30b2396</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ДополнительныеРеквизитыИСведения" category="Manager">
+				<xr:TypeId>6a208641-459c-4bf7-9026-887a9ae3e7be</xr:TypeId>
+				<xr:ValueId>7c138bf3-8d1b-41a2-a00c-f69fa700c4e2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДополнительныеРеквизитыИСведения</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="7271b77e-8a91-4949-a168-5ee9691dcfde">
+				<Properties>
+					<Name>ВладелецДополнительныхЗначений</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2f08363e-e97c-4754-93ac-95c76c466c27">
+				<Properties>
+					<Name>Заголовок</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>75</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2cbccdd7-73db-4845-a846-64301c1feb00">
+				<Properties>
+					<Name>НаборСвойств</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4d629fbf-ddb7-4614-9c41-886b20966098">
+				<Properties>
+					<Name>ДополнительныеЗначенияИспользуются</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34b4a8e6-4aa8-4679-96bc-2061b42fe21d">
+				<Properties>
+					<Name>ЭтоДополнительноеСведение</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="99239efd-902d-42ac-9d37-b6b112b61199">
+				<Properties>
+					<Name>МногострочноеПолеВвода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7a12dc17-f6c3-4f18-b6cc-8fd53ba71721">
+				<Properties>
+					<Name>ЗаполнятьОбязательно</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aece7d96-21ee-4c13-9ba2-4de043866949">
+				<Properties>
+					<Name>ЗаголовокФормыЗначения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="88555af8-15a8-4d6d-8b31-574c6762741a">
+				<Properties>
+					<Name>ЗаголовокФормыВыбораЗначения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>150</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f77853f1-aee5-4600-96e1-99587a857f38">
+				<Properties>
+					<Name>ФорматСвойства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9eafd647-efcd-4095-b99e-a6489e488651">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8f0821cc-a27e-4715-820a-ef1b6f732b29">
+				<Properties>
+					<Name>Подсказка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8604bc95-0372-4ceb-bf13-5d38552988a2">
+				<Properties>
+					<Name>ДополнительныеЗначенияСВесом</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dcd25c15-09c4-4fac-9be4-c6e0dcb7eb31">
+				<Properties>
+					<Name>ВыводитьВВидеГиперссылки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ed1cb90f-5ef6-420d-80fa-607cc6620b2a">
+				<Properties>
+					<Name>Имя</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7c4efe09-9230-40dc-a73e-99d6520d0334">
+				<Properties>
+					<Name>ххх_ИдЦентр</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

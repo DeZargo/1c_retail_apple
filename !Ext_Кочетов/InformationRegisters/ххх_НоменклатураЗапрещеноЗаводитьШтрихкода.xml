@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="884bc982-f25c-423c-b0c3-f7eec5818875">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ххх_НоменклатураЗапрещеноЗаводитьШтрихкода" category="Record">
+				<xr:TypeId>3fadb223-4454-401b-bd02-335473fafa7e</xr:TypeId>
+				<xr:ValueId>a0407860-1e13-469f-a1c0-4e02c5d5d7f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ххх_НоменклатураЗапрещеноЗаводитьШтрихкода" category="Manager">
+				<xr:TypeId>f8574ffa-054d-46df-b5dd-5b6ff10ab826</xr:TypeId>
+				<xr:ValueId>8c30acbd-5dc2-4dc7-bec2-59f219dbc178</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ххх_НоменклатураЗапрещеноЗаводитьШтрихкода" category="Selection">
+				<xr:TypeId>4331f0e1-0214-4735-8201-4b958ffd2ccc</xr:TypeId>
+				<xr:ValueId>597b5c47-916f-45f0-bdb7-435182efe990</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ххх_НоменклатураЗапрещеноЗаводитьШтрихкода" category="List">
+				<xr:TypeId>22e26bd3-8902-4bad-844b-6d109e5dbc12</xr:TypeId>
+				<xr:ValueId>72a01fc0-a14f-4496-a244-01a712d13bf8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ххх_НоменклатураЗапрещеноЗаводитьШтрихкода" category="RecordSet">
+				<xr:TypeId>a9ef80e7-f81f-4b5a-af37-7809f77e754d</xr:TypeId>
+				<xr:ValueId>72b36010-f8ef-4b02-9d95-b1c98b32d0d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ххх_НоменклатураЗапрещеноЗаводитьШтрихкода" category="RecordKey">
+				<xr:TypeId>fa34a5e5-75e8-4b36-9b5b-3aff5c203daf</xr:TypeId>
+				<xr:ValueId>623328a4-0736-48ee-ad1a-e2bc8a64f276</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ххх_НоменклатураЗапрещеноЗаводитьШтрихкода" category="RecordManager">
+				<xr:TypeId>22659db6-2ab4-498a-adcb-16644ea99f9e</xr:TypeId>
+				<xr:ValueId>a9541d6f-a164-4b22-b50b-c648abe56a22</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ххх_НоменклатураЗапрещеноЗаводитьШтрихкода</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="20d949f1-02cb-4990-99d3-94b526aa5f4f">
+				<Properties>
+					<Name>Номенклатура</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

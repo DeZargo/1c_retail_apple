@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="f2f6d0c0-998e-4d44-964f-1c78fe98a203">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыИнформированияГИСМ" category="Ref">
+				<xr:TypeId>cdeed052-8de6-4e6b-a936-7334bde14fa7</xr:TypeId>
+				<xr:ValueId>55ca2d3d-cc72-48f0-b8f6-61ac1579a5da</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыИнформированияГИСМ" category="Manager">
+				<xr:TypeId>0c3d2d1d-fb4f-4267-bd15-d8545b27271e</xr:TypeId>
+				<xr:ValueId>59a5b3e3-9d25-49c1-98e6-bca8021662cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыИнформированияГИСМ" category="List">
+				<xr:TypeId>20c11a1b-64fe-490c-84dd-1f64eba5409a</xr:TypeId>
+				<xr:ValueId>9df97c27-9089-4c0c-97b8-af6fcde3f990</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыИнформированияГИСМ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

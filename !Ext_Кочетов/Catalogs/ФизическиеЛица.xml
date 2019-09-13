@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="88f051c1-2145-483d-a0de-ed58b65a730b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ФизическиеЛица" category="Object">
+				<xr:TypeId>7e64a0f7-357a-4667-9626-1f53abbe6448</xr:TypeId>
+				<xr:ValueId>fd826b06-771f-46df-ba0d-9f45a2c0634e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ФизическиеЛица" category="Ref">
+				<xr:TypeId>5b273119-c2b5-4bac-9c12-f6ce3bf4cd2e</xr:TypeId>
+				<xr:ValueId>adf1367f-0fac-416d-9339-5d806f0d51c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ФизическиеЛица" category="Selection">
+				<xr:TypeId>4fc45349-fe5c-4d8e-a2b1-3019c607d780</xr:TypeId>
+				<xr:ValueId>616fcbf9-4e1d-4bf9-ac1d-76398d4f00ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ФизическиеЛица" category="List">
+				<xr:TypeId>3cbb9f48-5226-461b-ad36-51ccc9af8cd1</xr:TypeId>
+				<xr:ValueId>f67f0f32-c947-49f1-9f1e-7323ae9928ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ФизическиеЛица" category="Manager">
+				<xr:TypeId>7822c26a-d7dc-4457-ae7f-674ce9b0b435</xr:TypeId>
+				<xr:ValueId>b069d7f4-75e8-44e0-995e-c2bfb495dec9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФизическиеЛица</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Hierarchical>true</Hierarchical>
+			<DescriptionLength>50</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0cfe1258-2784-4e40-99b5-c63ba71e38dc">
+				<Properties>
+					<Name>Пол</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПолФизическогоЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="310820a7-1093-489b-be13-d81f3b13fb90">
+				<Properties>
+					<Name>ИНН</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>12</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aee3d63c-78f2-4003-bd50-8804131aa2b3">
+				<Properties>
+					<Name>ДатаРождения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="07458209-8609-4f49-b898-823e0daca92b">
+				<Properties>
+					<Name>Магазин</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Магазины</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e2c03a34-83db-490b-9783-c2b3f524241f">
+				<Properties>
+					<Name>Сотрудник</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f12e6954-e043-4feb-94da-415ea8994243">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Command uuid="f23b6b31-a836-474c-aedf-6d640b967e89">
+				<Properties>
+					<Name>РаботаСотрудника</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelGoTo</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

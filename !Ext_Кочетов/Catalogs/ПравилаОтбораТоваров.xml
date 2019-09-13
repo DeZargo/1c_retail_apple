@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="f46ad1e1-cdb3-45b6-b6ab-798e3e798f4d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПравилаОтбораТоваров" category="Object">
+				<xr:TypeId>4ee15e0e-063d-49c6-b0de-33212ce941fd</xr:TypeId>
+				<xr:ValueId>6735b012-4016-4e58-bb9a-a757d7150c23</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПравилаОтбораТоваров" category="Ref">
+				<xr:TypeId>5f703075-d29f-4012-a2cb-6cfac86282f9</xr:TypeId>
+				<xr:ValueId>6e05a477-72df-4611-a4d1-b8bbb089d5f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПравилаОтбораТоваров" category="Selection">
+				<xr:TypeId>41c92fc1-a001-4129-95c7-60d306a37f38</xr:TypeId>
+				<xr:ValueId>efb182ca-a605-4275-be9f-5f9a5e262b84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПравилаОтбораТоваров" category="List">
+				<xr:TypeId>cea0b279-5b83-468f-904e-6cf6c6e16a79</xr:TypeId>
+				<xr:ValueId>ca283799-0b37-4460-a336-fe3b5e6b041a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПравилаОтбораТоваров" category="Manager">
+				<xr:TypeId>da4c5e9d-5ccf-46d2-8cbb-6805e241eba3</xr:TypeId>
+				<xr:ValueId>ed27db02-3ed9-4354-82d0-0a85131840c9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПравилаОтбораТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

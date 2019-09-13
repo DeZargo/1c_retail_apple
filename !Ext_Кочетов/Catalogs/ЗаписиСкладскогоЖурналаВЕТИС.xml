@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="a2bfa7d7-6971-4252-9f7f-fc1037c6c777">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗаписиСкладскогоЖурналаВЕТИС" category="Object">
+				<xr:TypeId>07abd0fe-9680-4714-932a-f160938bce9a</xr:TypeId>
+				<xr:ValueId>5e15d325-c1ce-487e-915e-677895a7701d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗаписиСкладскогоЖурналаВЕТИС" category="Ref">
+				<xr:TypeId>115ee486-c99f-4b55-8336-f3b83a2f367e</xr:TypeId>
+				<xr:ValueId>d36afd06-1406-462c-bde3-0c53a83d97de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗаписиСкладскогоЖурналаВЕТИС" category="Selection">
+				<xr:TypeId>f73b81f6-13c2-4678-af37-f62f08a343b0</xr:TypeId>
+				<xr:ValueId>65df9693-5be9-4165-87a5-5130b2948096</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗаписиСкладскогоЖурналаВЕТИС" category="List">
+				<xr:TypeId>ebf41431-f998-402a-ac49-cf2c72e55254</xr:TypeId>
+				<xr:ValueId>a1a03957-acf0-42f0-8d8d-d05e87df5043</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗаписиСкладскогоЖурналаВЕТИС" category="Manager">
+				<xr:TypeId>65cf4e82-fda2-47e3-b8e8-9fa576e48e1f</xr:TypeId>
+				<xr:ValueId>3aed7f70-e103-4ad8-988c-14b9486a1a42</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЗаписиСкладскогоЖурналаВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d6366e9e-e1fe-499e-921d-a2d714ec95fe">
+				<Properties>
+					<Name>НомерЗаписи</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dd76a67b-af3f-419f-84c9-2c435e91903b">
+				<Properties>
+					<Name>СрокГодностиКонецПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b7ebb7d9-432d-4de9-9e32-e2d0ab712cbc">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыВерсионныхОбъектовВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2bdc456c-b96d-4caa-9516-d6acf512c7cd">
+				<Properties>
+					<Name>ДатаПроизводстваНачалоПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a0779ff-b914-468e-ab67-ca07bb721767">
+				<Properties>
+					<Name>СрокГодностиНачалоПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6eb0065f-e651-455a-95e6-99e3a4df7c88">
+				<Properties>
+					<Name>ДатаПроизводстваСтрока</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="03fbc549-5442-405d-a149-6f832458018e">
+				<Properties>
+					<Name>ДатаПроизводстваТочностьЗаполнения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТочностьЗаполненияПериодаВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a90143f-927c-42fc-aa08-18e24e558414">
+				<Properties>
+					<Name>ДатаПроизводстваКонецПериода</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aa064a91-cded-48fa-bca3-c7404376c7a6">
+				<Properties>
+					<Name>СрокГодностиСтрока</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cab37c23-024f-4893-b50e-0a7fd4a81ebe">
+				<Properties>
+					<Name>СрокГодностиТочностьЗаполнения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТочностьЗаполненияПериодаВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="caee9076-2793-48f1-9f72-192e157c8885">
+				<Properties>
+					<Name>СтранаПроизводства</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтраныМира</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="625a81dc-7b84-4e95-8c81-5c7c02e01d7e">
+				<Properties>
+					<Name>СкоропортящаясяПродукция</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5703af53-c10e-4a7e-a41e-898c03fdb6f3">
+				<Properties>
+					<Name>НизкокачественнаяПродукция</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

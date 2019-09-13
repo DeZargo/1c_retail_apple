@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<DataProcessor uuid="8c37e112-a63a-4b88-b3c3-31a08fd68871">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПодборТоваров" category="Object">
+				<xr:TypeId>19183729-aacd-4729-97c9-b03e44285556</xr:TypeId>
+				<xr:ValueId>52be8352-6d50-4664-adf6-70b9b544bd5b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПодборТоваров" category="Manager">
+				<xr:TypeId>6b6e2664-abdd-4915-bb8f-680090e13545</xr:TypeId>
+				<xr:ValueId>90c63c30-a12c-42a2-bafb-c15475b05080</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПодборТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="5e071615-4a34-4f66-8166-2cb80d178346">
+				<Properties>
+					<Name>КочетовВидЦен</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кочетов вид цен</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="ad21933f-928d-4796-8746-fdf379d360cf">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ПодборТоваров.Корзина" category="TabularSection">
+						<xr:TypeId>2c2a3fab-a5b6-49b2-81d9-c84e5ea68200</xr:TypeId>
+						<xr:ValueId>2037258e-bfbc-4980-9d84-b03a0ab28151</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПодборТоваров.Корзина" category="TabularSectionRow">
+						<xr:TypeId>58854801-ba89-4a20-8f56-89ebb7d41da8</xr:TypeId>
+						<xr:ValueId>a3f86fc7-df4d-49e6-829f-8e308c2a71de</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Корзина</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ffdff27d-1b6f-4b51-85cd-c78638f78bd8">
+						<Properties>
+							<Name>Упаковка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.УпаковкиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cc5c77a1-676a-4f1e-93e7-d734cb94388e">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b1eda24f-d29a-48b9-b700-5df701b18189">
+						<Properties>
+							<Name>КоличествоУпаковок</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="867c9f05-fcee-4653-8cd1-748e0965fc9b">
+						<Properties>
+							<Name>Цена</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8a3f8d57-8db2-4c3c-bd74-d9023bce8a25">
+						<Properties>
+							<Name>Сумма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a0e7ee09-2bcf-4df6-a762-441f527f8177">
+						<Properties>
+							<Name>Характеристика</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

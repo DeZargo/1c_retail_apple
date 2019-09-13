@@ -1,0 +1,227 @@
+﻿<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="url:\\apple-office.ru" elementFormQualified="true" attributeFormQualified="false">
+	<property name="root">
+		<typeDef xsi:type="ObjectType">
+			<property name="tns" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="xs" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="barcodes" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="barcode" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="itemId" type="xs:integer" lowerBound="0"/>
+							<property name="value" type="xs:string" lowerBound="0"/>
+							<property name="isMain" type="xs:boolean" lowerBound="0"/>
+							<property name="operationName" type="xs:string" lowerBound="0"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+			<property name="alcoholDatas" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="alcoholData" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="typeOfItem_code" type="xs:integer" lowerBound="0"/>
+							<property name="Code" type="xs:string" lowerBound="0"/>
+							<property name="Capacity" type="xs:decimal" lowerBound="0"/>
+							<property name="Price" type="xs:decimal" lowerBound="0"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+			<property name="deductionRateDocs" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="deductionRateDoc" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="startDate" type="xs:dateTime" lowerBound="0"/>
+							<property name="items" lowerBound="0">
+								<typeDef xsi:type="ObjectType">
+									<property name="item" lowerBound="0" upperBound="-1">
+										<typeDef xsi:type="ObjectType">
+											<property name="groupId" type="xs:int" lowerBound="0"/>
+											<property name="shopId" type="xs:int" lowerBound="0"/>
+											<property name="value" type="xs:decimal" lowerBound="0"/>
+										</typeDef>
+									</property>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+			<property name="items" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="item" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="id" type="xs:integer" lowerBound="0"/>
+							<property name="composition" type="xs:string" lowerBound="0"/>
+							<property name="compositionFull" type="xs:string" lowerBound="0"/>
+							<property name="classifier" lowerBound="0">
+								<typeDef xsi:type="ObjectType">
+									<property name="tnved" type="xs:string" lowerBound="0"/>
+									<property name="okpd2" type="xs:string" lowerBound="0"/>
+								</typeDef>
+							</property>
+							<property name="properties" lowerBound="0">
+								<typeDef xsi:type="ObjectType">
+									<property name="property" lowerBound="0" upperBound="-1">
+										<typeDef xsi:type="ObjectType">
+											<property name="id" type="xs:integer" lowerBound="0" form="Attribute"/>
+											<property name="name" type="xs:string" lowerBound="0" form="Attribute"/>
+											<property name="value" type="xs:string" lowerBound="0" form="Attribute"/>
+										</typeDef>
+									</property>
+								</typeDef>
+							</property>
+							<property name="lifeTime" type="xs:integer" lowerBound="0"/>
+							<property name="idB1" type="xs:integer" lowerBound="0"/>
+							<property name="idB2" type="xs:integer" lowerBound="0"/>
+							<property name="idB3" type="xs:integer" lowerBound="0"/>
+							<property name="idB1_Id" type="xs:integer" lowerBound="0" fixed="false" default="-1"/>
+							<property name="idB2_Id" type="xs:integer" lowerBound="0" fixed="false" default="-2"/>
+							<property name="idB3_Id" type="xs:integer" lowerBound="0" fixed="false" default="-3"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+			<property name="documents" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="document" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="operationType" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="date" type="xs:dateTime" lowerBound="0" form="Attribute"/>
+							<property name="number1C" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="shop" lowerBound="0">
+								<typeDef xsi:type="ObjectType">
+									<property name="id" type="xs:integer" lowerBound="0" form="Attribute"/>
+									<property name="__content" type="xs:string" form="Text"/>
+								</typeDef>
+							</property>
+							<property name="guid" type="xs:string" lowerBound="0"/>
+							<property name="dateIn" type="xs:dateTime" lowerBound="0"/>
+							<property name="numberIn" type="xs:string" lowerBound="0"/>
+							<property name="organization" lowerBound="0">
+								<typeDef xsi:type="ObjectType">
+									<property name="inn" type="xs:string" lowerBound="0" form="Attribute"/>
+									<property name="kpp" type="xs:string" lowerBound="0" form="Attribute"/>
+									<property name="__content" type="xs:string" form="Text"/>
+								</typeDef>
+							</property>
+							<property name="contractor" lowerBound="0">
+								<typeDef xsi:type="ObjectType">
+									<property name="inn" type="xs:string" lowerBound="0" form="Attribute"/>
+									<property name="kpp" type="xs:string" lowerBound="0" form="Attribute"/>
+									<property name="id" type="xs:integer" lowerBound="0" form="Attribute"/>
+									<property name="__content" type="xs:string" form="Text"/>
+								</typeDef>
+							</property>
+							<property name="tare" type="xs:decimal" lowerBound="0"/>
+							<property name="invoice" lowerBound="0">
+								<typeDef xsi:type="ObjectType">
+									<property name="date" type="xs:dateTime" lowerBound="0"/>
+									<property name="dateIn" type="xs:dateTime" lowerBound="0"/>
+									<property name="numberIn" type="xs:string" lowerBound="0"/>
+									<property name="number" type="xs:string" lowerBound="0"/>
+									<property name="guid" type="xs:string" lowerBound="0"/>
+								</typeDef>
+							</property>
+							<property name="docAmount" type="xs:decimal" lowerBound="0"/>
+							<property name="comment" type="xs:string" lowerBound="0"/>
+							<property name="items" lowerBound="0">
+								<typeDef xsi:type="ObjectType">
+									<property name="item" lowerBound="0" upperBound="-1">
+										<typeDef xsi:type="ObjectType">
+											<property name="itemId" type="xs:integer" lowerBound="0"/>
+											<property name="id" type="xs:integer" lowerBound="0"/>
+											<property name="quantity" type="xs:decimal" lowerBound="0"/>
+											<property name="priceRetail" type="xs:decimal" lowerBound="0"/>
+											<property name="pricePurchase" type="xs:decimal" lowerBound="0"/>
+											<property name="gtd" type="xs:string" lowerBound="0"/>
+											<property name="idManufacturer" type="xs:integer" lowerBound="0"/>
+											<property name="amount" type="xs:decimal" lowerBound="0"/>
+										</typeDef>
+									</property>
+								</typeDef>
+							</property>
+							<property name="outRefNumber" type="xs:string" lowerBound="0"/>
+							<property name="black" type="xs:boolean" lowerBound="0"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+			<property name="checks" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="check" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="guid" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="shiftNumber" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="numberCashdesk" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="number" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="number1C" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="date" type="xs:dateTime" lowerBound="0" form="Attribute"/>
+							<property name="idCashdesk" type="xs:integer" lowerBound="0" form="Attribute"/>
+							<property name="amount" type="xs:decimal" lowerBound="0" form="Attribute"/>
+							<property name="discount" type="xs:decimal" lowerBound="0" form="Attribute"/>
+							<property name="discountValue" type="xs:decimal" lowerBound="0" form="Attribute"/>
+							<property name="cardNumber" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="name" lowerBound="0" form="Attribute"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+			<property name="suppliers" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="supplier" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="id" type="xs:integer" lowerBound="0"/>
+							<property name="name" type="xs:string" lowerBound="0"/>
+							<property name="nameFull" type="xs:string" lowerBound="0"/>
+							<property name="address" type="xs:string" lowerBound="0"/>
+							<property name="shipping" type="xs:string" lowerBound="0"/>
+							<property name="inn" type="xs:string" lowerBound="0"/>
+							<property name="kpp" type="xs:string" lowerBound="0"/>
+							<property name="bankDetail" type="xs:string" lowerBound="0"/>
+							<property name="director" type="xs:string" lowerBound="0"/>
+							<property name="buh" type="xs:string" lowerBound="0"/>
+							<property name="seria" type="xs:string" lowerBound="0"/>
+							<property name="dateBegin" type="xs:dateTime" lowerBound="0"/>
+							<property name="dateEnd" type="xs:dateTime" lowerBound="0"/>
+							<property name="who" type="xs:string" lowerBound="0"/>
+							<property name="vatPayer" type="xs:boolean" lowerBound="0"/>
+							<property name="edi" type="xs:boolean" lowerBound="0"/>
+							<property name="gln" type="xs:string" lowerBound="0"/>
+							<property name="correctiveInvoice" type="xs:boolean" lowerBound="0"/>
+							<property name="usedInBonuses" type="xs:boolean" lowerBound="0"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+			<property name="properties" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="property" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="id" type="xs:integer" lowerBound="0" form="Attribute"/>
+							<property name="name" type="xs:string" lowerBound="0" form="Attribute"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+			<property name="scales" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="scale" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="ScaleMatrixType" type="xs:string" lowerBound="0" form="Attribute"/>
+							<property name="cell" lowerBound="0" upperBound="-1">
+								<typeDef xsi:type="ObjectType">
+									<property name="itemId" type="xs:integer" lowerBound="0" form="Attribute"/>
+									<property name="itemName" type="xs:string" lowerBound="0" form="Attribute"/>
+									<property name="shopId" type="xs:integer" lowerBound="0" form="Attribute"/>
+									<property name="cell" type="xs:integer" lowerBound="0" form="Attribute"/>
+									<property name="checked" type="xs:boolean" lowerBound="0" form="Attribute"/>
+								</typeDef>
+							</property>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+</package>

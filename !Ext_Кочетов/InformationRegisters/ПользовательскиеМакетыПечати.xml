@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="ecf907ef-5ce9-4d91-a19a-48c756189152">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПользовательскиеМакетыПечати" category="Record">
+				<xr:TypeId>b28e5470-4e1e-4af7-9a98-c1725c467644</xr:TypeId>
+				<xr:ValueId>40c13300-cae6-4cb3-82d5-a7bd01f3da73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПользовательскиеМакетыПечати" category="Manager">
+				<xr:TypeId>328adbbf-719b-424a-9ead-c4f8ecdf8dc3</xr:TypeId>
+				<xr:ValueId>f33707c0-c348-4624-963b-3f84f407bf36</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПользовательскиеМакетыПечати" category="Selection">
+				<xr:TypeId>8891745c-5e5d-471f-8063-a2602c523d3b</xr:TypeId>
+				<xr:ValueId>01a46f97-3e3c-468e-a6d3-29655184bec7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПользовательскиеМакетыПечати" category="List">
+				<xr:TypeId>07eb74b3-ec38-4c9d-910d-6dec7c1dcf8f</xr:TypeId>
+				<xr:ValueId>24e393fd-ddf4-4db0-852d-a0927ec96f7b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПользовательскиеМакетыПечати" category="RecordSet">
+				<xr:TypeId>e7dd4fe1-1094-469b-9399-f4179a9598b9</xr:TypeId>
+				<xr:ValueId>f94c78a5-3962-4569-bfbc-996e1e546919</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПользовательскиеМакетыПечати" category="RecordKey">
+				<xr:TypeId>0707be4f-6a45-433f-8a93-c4927577d506</xr:TypeId>
+				<xr:ValueId>59007abf-33a8-4dc3-a779-4ddc938f844f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПользовательскиеМакетыПечати" category="RecordManager">
+				<xr:TypeId>059cd7f1-1c5b-493f-8e45-d7a843db375d</xr:TypeId>
+				<xr:ValueId>829f13e2-95d9-45e5-9e49-bfce81c2da5a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПользовательскиеМакетыПечати</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="2303d6ad-fae7-4a1d-9059-5c1c03a43b84">
+				<Properties>
+					<Name>Макет</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>v8:ValueStorage</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="e8a4fb10-e332-4585-9f3a-e33f44cd8ede">
+				<Properties>
+					<Name>Использование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="aff07cba-7b00-46d7-b749-41116cdb5caf">
+				<Properties>
+					<Name>ИмяМакета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="47928704-e015-4d36-8a24-6ddb5d87e150">
+				<Properties>
+					<Name>Объект</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

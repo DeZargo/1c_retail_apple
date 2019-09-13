@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="a7c7cc2f-29b9-4342-8b48-738bdcb0c13d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КассыККМ" category="Object">
+				<xr:TypeId>b7c0dac3-9432-4d0e-81d0-1d61df592334</xr:TypeId>
+				<xr:ValueId>074d616f-3c6a-426c-ad8b-907f4f5515a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КассыККМ" category="Ref">
+				<xr:TypeId>2b96aa63-7f1c-4bcc-9cf9-864c0107d090</xr:TypeId>
+				<xr:ValueId>3930266d-31a9-4337-900a-8dd760bae27d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КассыККМ" category="Selection">
+				<xr:TypeId>2e635ccc-b9c2-4fdb-99d8-0f1038b03b34</xr:TypeId>
+				<xr:ValueId>17668680-ff1f-476f-92be-b68b2af96e8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КассыККМ" category="List">
+				<xr:TypeId>a18e8a7a-f3ef-4316-856e-d31303ecb709</xr:TypeId>
+				<xr:ValueId>e6623b93-9da2-464f-9594-678e70df73d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КассыККМ" category="Manager">
+				<xr:TypeId>6c7d55d4-a835-461a-84b6-36987c88c5c8</xr:TypeId>
+				<xr:ValueId>3e7ec886-83d4-43b4-9c87-3595223cf4a3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КассыККМ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Owners>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
+			</Owners>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2260d422-cf55-4b28-9d10-6ded02c77ba2">
+				<Properties>
+					<Name>ШаблонЧекаККМ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХранилищеШаблонов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="98df86ef-05ec-4d1f-ba04-80bc9d831ed6">
+				<Properties>
+					<Name>ТипКассы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ТипыКассККМ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="34fc3dbf-2b2a-441f-a5a2-bd250171d785">
+				<Properties>
+					<Name>Магазин</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Магазины</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1b0b2f87-eafb-40eb-8221-e626e3b5c16b">
+				<Properties>
+					<Name>РабочееМесто</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.РабочиеМеста</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1afde661-b518-42be-bd3a-25e3054cb41e">
+				<Properties>
+					<Name>ПодключаемоеОборудование</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ххх_ПодключаемоеОборудование</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="77909c84-b049-4ca9-a5cf-0fd9499ba1b3">
+				<Properties>
+					<Name>ЭлектронныйЧекSMSПередаютсяПрограммой1С</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="28380916-ffa6-4934-a7c0-578c53bbea3f">
+				<Properties>
+					<Name>НастройкаРаспределенияВыручкиПоСекциям</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.НастройкиРаспределенияВыручкиПоСекциямФР</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2359c921-aa5e-4661-90c1-f44459a1e780">
+				<Properties>
+					<Name>ЭлектронныйЧекEmailПередаютсяПрограммой1С</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2c292f81-339f-4230-baf5-3ab845f9bf74">
+				<Properties>
+					<Name>СоответствиеВидовОплаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СоответствиеВидовОплатыСККМOffline</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ea0f7a92-0b50-48ad-a925-1b471946338b">
+				<Properties>
+					<Name>ШаблонЧекаККМВозврат</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХранилищеШаблонов</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="26646073-72cc-467c-b6e5-fddcb583c59d">
+				<Properties>
+					<Name>ШиринаЛенты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>2</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9ceaccd4-bb00-4f27-bf98-51155f680633">
+				<Properties>
+					<Name>СерийныйНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>128</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0b6f830f-a510-4dc3-ba95-2df6cc32e82f">
+				<Properties>
+					<Name>РегистрационныйНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8327227b-4f06-44e7-9b59-fec955393a53">
+				<Properties>
+					<Name>ххх_ТипКассы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ххх_ТипыКасс</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6ad54ecb-83e7-417c-928d-0c639152d035">
+				<Properties>
+					<Name>ххх_ТипСубд</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1e418578-634e-4fab-91aa-48800054a01e">
+				<Properties>
+					<Name>ххх_ИмяПользователяКассы</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44ef2b09-a71a-4cdf-84a1-e630e9e114f6">
+				<Properties>
+					<Name>ххх_СтрокаСоединения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>300</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="09c9e877-2c8c-4784-886e-00fbd2574cc7">
+				<Properties>
+					<Name>ИспользоватьБезПодключенияОборудования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаВыбора</Form>
+			<Command uuid="8cea0b10-830f-4113-b6b2-330822362a2d">
+				<Properties>
+					<Name>КассыККМ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormNavigationPanelSeeAlso</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

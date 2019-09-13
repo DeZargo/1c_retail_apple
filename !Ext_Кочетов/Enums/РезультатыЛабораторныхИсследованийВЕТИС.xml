@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="a7a7debf-df72-4bab-bc5f-da739d3ba4d3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.РезультатыЛабораторныхИсследованийВЕТИС" category="Ref">
+				<xr:TypeId>724f355a-808e-492b-b971-bcef1e3abfd9</xr:TypeId>
+				<xr:ValueId>6cce0dae-20d5-44cf-9958-5c22126ee4df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.РезультатыЛабораторныхИсследованийВЕТИС" category="Manager">
+				<xr:TypeId>8ed39d89-61d7-4935-bdd5-0fb3360197b8</xr:TypeId>
+				<xr:ValueId>fe05e033-5d51-4233-9565-bc779b0e17b7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.РезультатыЛабораторныхИсследованийВЕТИС" category="List">
+				<xr:TypeId>3b0174eb-12b5-4f54-88fe-d82f2f27c6db</xr:TypeId>
+				<xr:ValueId>4ae34d01-163f-485e-9fbb-d0a49c47ede4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РезультатыЛабораторныхИсследованийВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="cf749d88-8e07-4b5b-9fb5-afa09ca5a647">
+				<Properties>
+					<Name>ИзготовленаИзСырьяПрошедшегоВСЭ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="1bf53078-ecdb-47b4-8188-76a95f368b89">
+				<Properties>
+					<Name>НеПодвергнутаВСЭ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="863f7e23-4a49-4834-a550-868e7b8dea3f">
+				<Properties>
+					<Name>ПодвергнутаВСЭВПолномОбъеме</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<DataProcessor uuid="6a8163d7-b2d1-48a7-9604-1c5be39bfd34">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПомощникПриемкиОтгрузки" category="Object">
+				<xr:TypeId>cb1dce3f-356c-44e0-8bc4-6b64d74bfbe2</xr:TypeId>
+				<xr:ValueId>ab9a18e9-0dc4-4da9-a988-73084ba3bb46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПомощникПриемкиОтгрузки" category="Manager">
+				<xr:TypeId>cb8c6282-7f59-46cd-af78-bbd49c173633</xr:TypeId>
+				<xr:ValueId>1816aa70-caa8-4d93-a8b2-50f8efbd2b5d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПомощникПриемкиОтгрузки</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="dab9e13d-e338-4688-b4bb-f1c6bb6fee94">
+				<Properties>
+					<Name>ВыполнитьПриемку</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>CommandGroup.Сервис</Group>
+				</Properties>
+			</Command>
+			<Command uuid="9b117ce5-96e6-4442-84c4-e9cb5350af96">
+				<Properties>
+					<Name>ВыполнитьОтгрузку</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>CommandGroup.Сервис</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

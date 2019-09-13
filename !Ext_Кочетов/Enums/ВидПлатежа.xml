@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="191b04d5-3097-4cad-ad5e-c4e671daeaf2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидПлатежа" category="Ref">
+				<xr:TypeId>73c50c65-55b4-40a1-8abb-f7ba8f0bc727</xr:TypeId>
+				<xr:ValueId>88f40a25-21fb-4c53-b7f4-d4f9f311ac4b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидПлатежа" category="Manager">
+				<xr:TypeId>452dbbfa-3e98-4282-84b4-9548faab69b6</xr:TypeId>
+				<xr:ValueId>e9795310-d050-491f-8b9d-6415f55270d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидПлатежа" category="List">
+				<xr:TypeId>7ab0dc72-e45d-426b-bd28-318e7f87d125</xr:TypeId>
+				<xr:ValueId>a600356f-d370-4ab8-b592-aaa72ab4ac39</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидПлатежа</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

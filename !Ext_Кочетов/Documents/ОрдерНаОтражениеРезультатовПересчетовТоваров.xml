@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="092446c2-8d62-4cb3-9855-2011042f9b92">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ОрдерНаОтражениеРезультатовПересчетовТоваров" category="Object">
+				<xr:TypeId>ad27ba1a-166b-4cc7-b29f-1aaf7c6ce402</xr:TypeId>
+				<xr:ValueId>918e0e1e-ba00-44c0-aa02-b89067560fe3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ОрдерНаОтражениеРезультатовПересчетовТоваров" category="Ref">
+				<xr:TypeId>d194ca21-e989-49e3-bfb7-35b22860bf84</xr:TypeId>
+				<xr:ValueId>a7b114ed-e8c4-4f65-ba78-88f47ff2025c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ОрдерНаОтражениеРезультатовПересчетовТоваров" category="Selection">
+				<xr:TypeId>2ec96c3a-4c7d-4e8b-901c-7e599bb46bda</xr:TypeId>
+				<xr:ValueId>66d10960-22ed-4faf-904b-07751322477e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ОрдерНаОтражениеРезультатовПересчетовТоваров" category="List">
+				<xr:TypeId>d362303a-773f-47b4-ab5d-122212d05bd3</xr:TypeId>
+				<xr:ValueId>9298c8a4-5666-42a2-bbf4-884949f5bffc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ОрдерНаОтражениеРезультатовПересчетовТоваров" category="Manager">
+				<xr:TypeId>77c9ca90-d9fe-438b-8dde-bf591fcd2768</xr:TypeId>
+				<xr:ValueId>12fd0200-88d1-4c73-b238-fce015a527fe</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОрдерНаОтражениеРезультатовПересчетовТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

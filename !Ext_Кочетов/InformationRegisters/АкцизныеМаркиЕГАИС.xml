@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="772b2cc7-21cd-4ad1-b998-0dd2bbfea797">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АкцизныеМаркиЕГАИС" category="Record">
+				<xr:TypeId>4f8ba786-7bab-4ba6-9f0b-bd540fbea279</xr:TypeId>
+				<xr:ValueId>b366ffd7-376f-42ad-a32a-a1110a129bf3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АкцизныеМаркиЕГАИС" category="Manager">
+				<xr:TypeId>6eefd952-9fd0-4ee3-b4ac-8c65b3e531b1</xr:TypeId>
+				<xr:ValueId>786cb961-ceb7-4e88-af2b-592a124a4750</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АкцизныеМаркиЕГАИС" category="Selection">
+				<xr:TypeId>3920cf4c-b3f7-436b-a2db-70aeddc8b75a</xr:TypeId>
+				<xr:ValueId>e706d09d-fc95-46b5-b2a0-066602ed2401</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АкцизныеМаркиЕГАИС" category="List">
+				<xr:TypeId>d209c6f2-0581-43e5-bd0c-5be97e962673</xr:TypeId>
+				<xr:ValueId>c3705064-0eb2-47a8-a03b-49ac2659b3de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АкцизныеМаркиЕГАИС" category="RecordSet">
+				<xr:TypeId>27e35e45-019e-49d4-b2e5-6ba5a37e39f5</xr:TypeId>
+				<xr:ValueId>66dcb448-7c2f-4ae2-a89a-06a27fdd0ce0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АкцизныеМаркиЕГАИС" category="RecordKey">
+				<xr:TypeId>58bd7a04-3479-4ee4-addf-479f8819cf94</xr:TypeId>
+				<xr:ValueId>17a437e0-ed00-4199-bf9e-e2271e763824</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АкцизныеМаркиЕГАИС" category="RecordManager">
+				<xr:TypeId>47d1648b-d8e3-49a0-a361-9f0e3dbd3f0c</xr:TypeId>
+				<xr:ValueId>4f97d7c8-2a2a-4393-8c38-aaeb1a2dbd9f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АкцизныеМаркиЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DefaultListForm>InformationRegister.АкцизныеМаркиЕГАИС.Form.КочетовФормаСписка</DefaultListForm>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="df3e960e-3011-4fdc-834d-ce3e300a1107">
+				<Properties>
+					<Name>АлкогольнаяПродукция</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторАлкогольнойПродукцииЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="04e9259a-f241-45fc-85bb-dfc67881d1e9">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыАкцизныхМарок</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="fa096391-247f-43b6-95a4-ac50addf0620">
+				<Properties>
+					<Name>Справка2</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Справки2ЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="20cde4eb-fee6-41a9-a4b3-fe5ad917e856">
+				<Properties>
+					<Name>Основание</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДокументыЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="85953597-930f-4103-983e-b1a75503e325">
+				<Properties>
+					<Name>АкцизнаяМарка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ШтрихкодыУпаковокТоваров</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="cac30e5d-414b-4050-a05f-fb0be22c5eaa">
+				<Properties>
+					<Name>ОрганизацияЕГАИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Form>КочетовФормаСписка</Form>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

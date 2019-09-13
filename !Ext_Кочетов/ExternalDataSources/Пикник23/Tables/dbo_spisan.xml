@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Table uuid="fe8e2f2c-4067-46df-bda1-222951cdced1">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceTableManager.Пикник23.dbo_spisan" category="Manager">
+				<xr:TypeId>22b02ea0-b7f1-41e4-bfa0-37abe015686d</xr:TypeId>
+				<xr:ValueId>df9fc2e6-e21d-48ef-8709-ed32552dc429</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableObject.Пикник23.dbo_spisan" category="Object">
+				<xr:TypeId>cc6159ad-d02a-4d0a-b735-67abd02925e8</xr:TypeId>
+				<xr:ValueId>25feef87-136d-4544-ba8d-cb145315b10b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRef.Пикник23.dbo_spisan" category="Ref">
+				<xr:TypeId>a3df91cd-9ae9-4389-ac5f-23e114f20d08</xr:TypeId>
+				<xr:ValueId>01c1978b-5363-4de1-aadf-cb7735954c31</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableList.Пикник23.dbo_spisan" category="List">
+				<xr:TypeId>4ca7eb8e-6139-470e-be35-805cd71030ef</xr:TypeId>
+				<xr:ValueId>83398325-2ad2-40b8-84ef-62d1eb13f728</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.Пикник23.dbo_spisan" category="RecordSet">
+				<xr:TypeId>bea036bd-7a4b-42d5-8a6a-bb7b18315d8a</xr:TypeId>
+				<xr:ValueId>b66a93a7-dcc8-420a-9733-b7a5e476e097</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.Пикник23.dbo_spisan" category="RecordKey">
+				<xr:TypeId>bc235131-735c-4ee9-86b5-6a8912b1efa3</xr:TypeId>
+				<xr:ValueId>7e770c72-a550-4a30-8257-9ed96cb76db1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.Пикник23.dbo_spisan" category="RecordManager">
+				<xr:TypeId>baf2b4d2-cf93-4e76-9060-3b4133cfec47</xr:TypeId>
+				<xr:ValueId>2e94de6a-a33d-4581-bb7f-c5d2f6d968a4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>dbo_spisan</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<TableType>Table</TableType>
+			<TableDataType>ObjectData</TableDataType>
+			<KeyFields>
+				<xr:Field>ExternalDataSource.Пикник23.Table.dbo_spisan.Field.id</xr:Field>
+			</KeyFields>
+			<DefaultObjectForm/>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+		</Properties>
+		<ChildObjects>
+			<Field uuid="7ba2910f-ff4d-4613-bb01-b2d6a22a7b4b">
+				<Properties>
+					<Name>id</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="8a72c8de-4532-410c-88af-cf22a9d8db5d">
+				<Properties>
+					<Name>userr</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="ded70206-b1e0-4c3f-bf9a-58b70b4c0718">
+				<Properties>
+					<Name>vrem</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="4c17aeed-73f4-46ea-ba54-5e5fe6cddf6a">
+				<Properties>
+					<Name>opis</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>50</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="919aa0af-60aa-4fa5-9a8b-e3d38783fe05">
+				<Properties>
+					<Name>summ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>38</v8:Digits>
+							<v8:FractionDigits>8</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="b1122358-8949-4e46-b1ea-addc58b99cd0">
+				<Properties>
+					<Name>dnumd</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+			<Field uuid="9e11a1b4-baac-4603-91cb-71e696853ab1">
+				<Properties>
+					<Name>proved</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<ChoiceForm/>
+				</Properties>
+			</Field>
+		</ChildObjects>
+	</Table>
+</MetaDataObject>

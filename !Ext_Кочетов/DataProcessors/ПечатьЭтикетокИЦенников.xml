@@ -1,0 +1,562 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<DataProcessor uuid="69502ca1-bba5-4500-9a5a-4cb97b042419">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПечатьЭтикетокИЦенников" category="Object">
+				<xr:TypeId>6d6bc3d7-6298-4739-b60d-447a921fee98</xr:TypeId>
+				<xr:ValueId>715826bd-97d5-4e4b-8615-f4b2eee57557</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПечатьЭтикетокИЦенников" category="Manager">
+				<xr:TypeId>c51d808b-4d27-4524-be33-32d191facd99</xr:TypeId>
+				<xr:ValueId>1a7863f8-2d24-4a20-82ca-6c005d79aec9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПечатьЭтикетокИЦенников</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="fb73b0d9-69d7-4f31-a2f8-576a657bfede">
+				<Properties>
+					<Name>Магазин</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Магазины</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="aa6ecece-7fb4-4071-a84f-f2774ebf74c7">
+				<Properties>
+					<Name>ВидЦены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8a87623c-d45c-47e4-af99-bbc9af43138b">
+				<Properties>
+					<Name>ЦеныНазначенныеДействующие</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2766759d-30fb-4bce-bbe5-2182f6284729">
+				<Properties>
+					<Name>ПравилоЦенообразования</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПравилаЦенообразования</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fdcaca64-918c-4f37-ab09-27a81b49b232">
+				<Properties>
+					<Name>ЦеныПоВидуЦены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5401f5b4-1fe5-4c65-bcbf-716cd728c012">
+				<Properties>
+					<Name>ЦеныНаДату</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cd4e0721-65d3-47f7-b949-4504e8cece10">
+				<Properties>
+					<Name>Красный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="026a58ab-28aa-4e52-9659-c647f0ae357e">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ПечатьЭтикетокИЦенников.Товары" category="TabularSection">
+						<xr:TypeId>ff0e6e3a-4390-4581-b65f-7c181d75a4ea</xr:TypeId>
+						<xr:ValueId>01ae574f-28e6-49fe-89ac-1f5d554b5ec8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПечатьЭтикетокИЦенников.Товары" category="TabularSectionRow">
+						<xr:TypeId>95da1ac1-54c9-43d6-a8a9-05403e35df2b</xr:TypeId>
+						<xr:ValueId>fad3105a-5c7a-4c0e-ad7c-17c045fd0fb9</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e409db74-a3b2-4c98-9040-6ed1c7cc8885">
+						<Properties>
+							<Name>КоличествоЦенников</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ffdfc51d-899f-410d-9369-9b8feb3aaa55">
+						<Properties>
+							<Name>НаименованиеПолное</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>1024</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e89f2559-ea67-4c17-a532-522795e49bdd">
+						<Properties>
+							<Name>Выбран</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="dceafc69-2138-4e7a-a71c-aac502baee9c">
+						<Properties>
+							<Name>ШаблонЭтикетки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХранилищеШаблонов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d38ede57-fd53-47c5-a8bf-d96e3edfc65b">
+						<Properties>
+							<Name>Штрихкод</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>200</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b59f0e83-fdb4-4b66-b43a-27f8b8354485">
+						<Properties>
+							<Name>ШтрихСправкиБ</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>200</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8a0165f1-fa3e-4ad5-850a-b9aaeab32536">
+						<Properties>
+							<Name>ОстатокНаСкладе</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c151bae0-0d82-41e1-8eba-dcd18e902a99">
+						<Properties>
+							<Name>SKU</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>9</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="94ede4b3-a835-4feb-8f28-56d0f850ef3f">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9e85b00e-c8bd-4f4a-a4b1-0f6dcc78b651">
+						<Properties>
+							<Name>Справка2</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Справки2ЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e1716873-f91e-4bcf-aa3f-42bf29d53f8e">
+						<Properties>
+							<Name>Характеристика</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9dbfd204-16dd-434f-b752-d7504746068b">
+						<Properties>
+							<Name>Упаковка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.УпаковкиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="69af2740-70c3-47a2-bf62-3014d12ef356">
+						<Properties>
+							<Name>КоличествоВДокументе</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b19cb476-51fb-4111-9788-b103f32fcb56">
+						<Properties>
+							<Name>Цена</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="10887f57-491f-4e88-a132-11595fa83549">
+						<Properties>
+							<Name>Организация</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b61ca291-dd8d-40e2-b1c1-32ebf0dc4051">
+						<Properties>
+							<Name>ШаблонЦенника</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХранилищеШаблонов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3dc9bb27-b484-4c94-8359-0b728b282de3">
+						<Properties>
+							<Name>КоличествоЭтикеток</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0b81aecd-fd19-400d-a8f7-faa91cd41f03">
+						<Properties>
+							<Name>Страна</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="7a85c83e-b762-4628-bda5-4a6ab728cb6c">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ПечатьЭтикетокИЦенников.ДисконтныеКарты" category="TabularSection">
+						<xr:TypeId>f653534d-eb6b-468f-bbfe-3daac1b2ddb6</xr:TypeId>
+						<xr:ValueId>acd92634-cc88-4fbd-9b66-9c9028e677ae</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПечатьЭтикетокИЦенников.ДисконтныеКарты" category="TabularSectionRow">
+						<xr:TypeId>1fa94fba-84c5-44b1-b618-622fcac25761</xr:TypeId>
+						<xr:ValueId>ce28992c-bdca-4b20-8399-886e421a39a2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДисконтныеКарты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6e25fcf3-6ee8-4ea5-8365-83c993f6b269">
+						<Properties>
+							<Name>ШаблонЭтикетки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХранилищеШаблонов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6a4174d7-362d-4444-ac29-f15e587a3691">
+						<Properties>
+							<Name>Выбран</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d139cb45-ed50-4612-a3a4-4ae5e4d3ac32">
+						<Properties>
+							<Name>Штрихкод</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>200</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6a3c0170-649d-49ab-8a20-b69a779130e5">
+						<Properties>
+							<Name>КоличествоЭтикеток</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="361f01d0-af85-4ae1-8b83-5318700fe109">
+						<Properties>
+							<Name>Карта</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ИнформационныеКарты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ef266e23-ab46-4b87-8e21-d8b12a0974f9">
+						<Properties>
+							<Name>Организация</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="fdffb3f1-b087-4993-abb4-55e0fed1f901">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ПечатьЭтикетокИЦенников.РегистрационныеКарты" category="TabularSection">
+						<xr:TypeId>5e71753d-d834-431b-822d-12e8986025c0</xr:TypeId>
+						<xr:ValueId>c4b6d94f-8afa-4619-9669-657e9ae7433a</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПечатьЭтикетокИЦенников.РегистрационныеКарты" category="TabularSectionRow">
+						<xr:TypeId>1af6e6ec-77f1-46f4-bc85-65bee9d0d649</xr:TypeId>
+						<xr:ValueId>917acd02-177d-4f62-8be8-073eff0bcd29</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>РегистрационныеКарты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="07f21f05-c46f-4686-8d05-875028173fee">
+						<Properties>
+							<Name>Выбран</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3b2c7b0f-024f-4c97-9a03-221a22bf76de">
+						<Properties>
+							<Name>Карта</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ИнформационныеКарты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2f1ad5d6-e1c0-40e3-a494-7cf7a651ddd3">
+						<Properties>
+							<Name>Штрихкод</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>200</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="2a3f0e72-4103-447e-89ea-461067e4b3fe">
+						<Properties>
+							<Name>КоличествоЭтикеток</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f25bde49-b6b9-4588-be58-966905543f12">
+						<Properties>
+							<Name>ШаблонЭтикетки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХранилищеШаблонов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8b14d11b-0ada-44e6-aa91-65c174bc459d">
+						<Properties>
+							<Name>Организация</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="dcb5cd5d-10a3-44ac-9acd-789bdec61951">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ПечатьЭтикетокИЦенников.ПодарочныеСертификаты" category="TabularSection">
+						<xr:TypeId>5f425b68-2064-4204-943f-86c883d0c35f</xr:TypeId>
+						<xr:ValueId>2cda2320-4bc3-4777-baf4-c5cf92008c42</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПечатьЭтикетокИЦенников.ПодарочныеСертификаты" category="TabularSectionRow">
+						<xr:TypeId>df82ead0-8f62-4b9f-a38a-66a3663353f0</xr:TypeId>
+						<xr:ValueId>12eed806-04e3-4db0-b417-525387193725</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ПодарочныеСертификаты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="e6e3f953-adaf-4d79-9de9-6145e508c624">
+						<Properties>
+							<Name>НомерСертификата</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СерийныеНомера</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="feedeff3-9023-46a5-86ec-beb9d0082c11">
+						<Properties>
+							<Name>КоличествоЭтикеток</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>10</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b66d28e9-fc2c-4093-8062-b8fa73ab03ea">
+						<Properties>
+							<Name>Штрихкод</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>200</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="03868499-1328-4465-a468-35b74b3549c8">
+						<Properties>
+							<Name>Выбран</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7e413546-c3e3-4237-bda6-c7555f2dd1c4">
+						<Properties>
+							<Name>Сертификат</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f5d4ddbc-1b8d-4459-b68d-52a5554b1259">
+						<Properties>
+							<Name>ШаблонЭтикетки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХранилищеШаблонов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8c992a75-b769-4164-b75d-9939985a6abc">
+						<Properties>
+							<Name>Организация</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

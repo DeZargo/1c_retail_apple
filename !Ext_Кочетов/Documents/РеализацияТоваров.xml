@@ -1,0 +1,771 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="8944063a-c47f-42df-94ae-d03f08cd12ce">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РеализацияТоваров" category="Object">
+				<xr:TypeId>5061b007-4c54-4697-9281-f4d764a3918b</xr:TypeId>
+				<xr:ValueId>c1bc2b44-acec-4188-877a-601dea4be484</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РеализацияТоваров" category="Ref">
+				<xr:TypeId>cd7f5b10-4ed4-4585-84a6-41aeb0361b5a</xr:TypeId>
+				<xr:ValueId>b891ddb8-9ad2-411c-9195-dfc5dd4b4215</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РеализацияТоваров" category="Selection">
+				<xr:TypeId>61ceeb57-3e6c-439a-acd3-6ed2c3a4b5fe</xr:TypeId>
+				<xr:ValueId>89a81d87-cbf2-45b8-8bd0-fdf5a1b961be</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РеализацияТоваров" category="List">
+				<xr:TypeId>4bca9910-2cba-4b58-9e5c-749c36745a52</xr:TypeId>
+				<xr:ValueId>4d10690c-bf72-4508-8e8b-7a2a36bdc57c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РеализацияТоваров" category="Manager">
+				<xr:TypeId>3ccaace0-f932-49ff-a545-860d9caa55ec</xr:TypeId>
+				<xr:ValueId>f4408cea-2050-4a9c-80fd-4655e5e7df91</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РеализацияТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="24c0d606-1eea-4ed3-a37d-1813b845ac63">
+				<Properties>
+					<Name>ДоверенностьЧерезКого</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3607187b-33d9-44b3-948f-439557a0e318">
+				<Properties>
+					<Name>Продавец</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3738e7f4-901c-4dd1-a880-2ddc490b0bab">
+				<Properties>
+					<Name>Магазин</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Магазины</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bec2bc6e-9bcd-4d62-9d24-42228845403d">
+				<Properties>
+					<Name>Организация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="45eb6819-f345-4448-abac-dcd18cec3728">
+				<Properties>
+					<Name>ДоверенностьНомер</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f1158792-2870-4ae8-806e-2d5feacf4990">
+				<Properties>
+					<Name>Контрагент</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ae6dbde9-7d43-4586-8b48-4001e0a1333c">
+				<Properties>
+					<Name>Комментарий</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4d30f290-0cda-4d45-a796-a18b2b1ddd83">
+				<Properties>
+					<Name>Ответственный</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7a81acf8-c25b-461c-b78d-28e10c5cd9d8">
+				<Properties>
+					<Name>ЦенаВключаетНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9500e748-a096-4642-9545-d3a4115d14fc">
+				<Properties>
+					<Name>ДоверенностьДата</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a5ea7889-9054-4761-8ef5-a5e1cab52406">
+				<Properties>
+					<Name>Склад</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="000400d6-ffe8-481e-88d1-ff20a9229522">
+				<Properties>
+					<Name>УчитыватьНДС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7330e62c-994d-402a-95b1-0f41ca8ea317">
+				<Properties>
+					<Name>АдресДоставки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e6bfc030-e654-4501-9007-75b93c33d4e5">
+				<Properties>
+					<Name>БанковскийСчетОрганизации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="af69d1c4-9872-4dd4-859c-dc398971e95e">
+				<Properties>
+					<Name>ДоверенностьВыдана</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bd4900cf-9ed0-4624-a799-23863970e176">
+				<Properties>
+					<Name>ДисконтнаяКарта</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИнформационныеКарты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="11012c00-a259-4cb4-a36d-831bc731d0e4">
+				<Properties>
+					<Name>БонусыНачислены</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6bfc580a-6740-4d44-be93-a67b336c0750">
+				<Properties>
+					<Name>СуммаДокумента</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cb4e21e2-068e-4c13-b236-972ce5448229">
+				<Properties>
+					<Name>ВладелецДисконтнойКарты</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="02f9924d-4fa1-4494-bb56-0eb0a10ab076">
+				<Properties>
+					<Name>СкидкиРассчитаны</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b0cdc88f-d82c-4a01-aaa3-5a845c507645">
+				<Properties>
+					<Name>ххх_ИдЦентр</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cab7fc99-f551-4d67-b4eb-ad10e22650b5">
+				<Properties>
+					<Name>ххх_АналитикаХозОперации</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.АналитикаХозяйственныхОпераций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="0e9b471d-9ab7-4189-ad07-fa1afa22eb10">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РеализацияТоваров.Товары" category="TabularSection">
+						<xr:TypeId>c641ca45-8eae-4757-acc8-b504dfdd6622</xr:TypeId>
+						<xr:ValueId>2858611a-31a7-4399-9269-1ad84f33fa21</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РеализацияТоваров.Товары" category="TabularSectionRow">
+						<xr:TypeId>7fe02607-d15c-4afe-bbd4-63289af62345</xr:TypeId>
+						<xr:ValueId>41672f8c-4936-46f3-b829-45f7e0020821</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Товары</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5f673d77-5bb2-4cd6-908a-57a1bb189fd5">
+						<Properties>
+							<Name>Цена</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e7d20d2c-4c0c-4eea-8eb9-4d7d0ac480b2">
+						<Properties>
+							<Name>ПроцентАвтоматическойСкидки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a6a2227b-f694-4494-963e-5585644ab6d8">
+						<Properties>
+							<Name>СуммаАвтоматическойСкидки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f8d48eb6-85ce-42e6-b533-8d2322abb453">
+						<Properties>
+							<Name>Характеристика</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1e0c344f-25ee-44c3-8a4f-2b271192e468">
+						<Properties>
+							<Name>Упаковка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.УпаковкиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9c50c62e-8245-44ac-8dbc-a686fa06ef15">
+						<Properties>
+							<Name>СтавкаНДС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.СтавкиНДС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="117d577e-a5ed-463e-b572-de7c5ab9d25c">
+						<Properties>
+							<Name>Сумма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="1c26356d-9906-4828-8743-e4728b6e389d">
+						<Properties>
+							<Name>Продавец</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="138d2ab2-103f-41ba-a2b2-93223e57fcf3">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="36cf6f8c-e3a7-445a-bdc2-04edd726c870">
+						<Properties>
+							<Name>СуммаРучнойСкидки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e0c4fabe-b0b5-4528-8643-9ee9fcd97889">
+						<Properties>
+							<Name>ПроцентРучнойСкидки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8d628943-5970-44f4-9d6a-47fd3d592dae">
+						<Properties>
+							<Name>КоличествоУпаковок</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="311d1e51-91aa-4e3c-936d-f9ecf9347958">
+						<Properties>
+							<Name>СуммаНДС</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3376d9c9-18ea-4345-8c26-57fc557a35a9">
+						<Properties>
+							<Name>Штрихкод</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ТипыШтрихкодов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="80e73247-f7a4-4792-8d61-ebc27c90cc0b">
+						<Properties>
+							<Name>СтатусУказанияСерий</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>2</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5a34efc8-dc3e-46bd-9235-e56a64b493e8">
+						<Properties>
+							<Name>Количество</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="78d9595f-3900-492e-b2a2-16dd4a82be84">
+						<Properties>
+							<Name>НеобходимостьВводаАкцизнойМарки</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="55c3d9b6-0030-472c-b176-46746ffc9519">
+						<Properties>
+							<Name>КлючСвязиСерийныхНомеров</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="6a6bdc50-443d-492f-a9a9-b69794b2831c">
+						<Properties>
+							<Name>КлючСвязи</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="87c57784-deb0-412e-b1bd-b88423d3d1d9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РеализацияТоваров.СкидкиНаценки" category="TabularSection">
+						<xr:TypeId>84819070-f201-4ee8-9e39-0903d1f89a1a</xr:TypeId>
+						<xr:ValueId>edcd4784-3961-4fa4-811a-34f9bca8dfba</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РеализацияТоваров.СкидкиНаценки" category="TabularSectionRow">
+						<xr:TypeId>64879318-aacd-435c-a749-822e7588157c</xr:TypeId>
+						<xr:ValueId>1ce81b74-3f1b-4836-b3bd-487b8d273c63</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>СкидкиНаценки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="758b42a9-1757-4796-9806-51c39924cbd0">
+						<Properties>
+							<Name>СкидкаНаценка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СкидкиНаценки</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d69ed0c8-9244-402b-a426-b436ca122f71">
+						<Properties>
+							<Name>ОграниченаМинимальнойЦеной</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="88b3ad21-4004-4c59-a78e-1b2719a7c676">
+						<Properties>
+							<Name>Сумма</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3bca6803-c621-4b8a-b759-8a9c3df04e7e">
+						<Properties>
+							<Name>КлючСвязи</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="79a5f8f9-cbc3-402c-a1cb-9a2c17cd2bcb">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РеализацияТоваров.БонусныеБаллыКНачислению" category="TabularSection">
+						<xr:TypeId>c27b1d78-9b96-48a4-a257-f0515af6df7c</xr:TypeId>
+						<xr:ValueId>c4cff232-f835-4ca0-8f5a-165535a58748</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РеализацияТоваров.БонусныеБаллыКНачислению" category="TabularSectionRow">
+						<xr:TypeId>b753cb71-bb62-4ec2-81d0-a9930d1f16ed</xr:TypeId>
+						<xr:ValueId>986a8f85-8e23-4263-9289-53585f1361a6</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>БонусныеБаллыКНачислению</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="37e10d42-8c78-4d40-9e9e-aff7495db795">
+						<Properties>
+							<Name>СкидкаНаценка</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СкидкиНаценки</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b72c9b95-4ed1-4978-b123-3d7c07b4c980">
+						<Properties>
+							<Name>ДатаНачисления</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b5153ac8-8260-4b20-9694-e918435d5d2e">
+						<Properties>
+							<Name>КлючСвязи</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b20b9629-f403-45a3-8efb-84e17d19b351">
+						<Properties>
+							<Name>КоличествоБонусныхБаллов</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="618b4743-9d61-4a40-8ed7-70a003983909">
+						<Properties>
+							<Name>ДатаСписания</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="99dc4cd4-d86f-4d6b-bb1b-ea5cf1ebf8d7">
+						<Properties>
+							<Name>БонуснаяПрограммаЛояльности</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.БонусныеПрограммыЛояльности</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="074369d9-8074-49a1-993d-7ce98ce733a9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РеализацияТоваров.СерийныеНомера" category="TabularSection">
+						<xr:TypeId>d8ef290b-4e0e-44f9-af21-82b00528722e</xr:TypeId>
+						<xr:ValueId>89de9f62-b907-4e9a-a636-bffd8a157854</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РеализацияТоваров.СерийныеНомера" category="TabularSectionRow">
+						<xr:TypeId>faf7c6de-d268-4e01-b703-333580fc5c4a</xr:TypeId>
+						<xr:ValueId>3a83824e-0044-4027-9d72-bdc2735b7240</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>СерийныеНомера</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="c81394d5-ce27-499f-b51a-ff646e917c64">
+						<Properties>
+							<Name>КлючСвязиСерийныхНомеров</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d7c859bc-146a-4907-8140-c5650cdd7ba0">
+						<Properties>
+							<Name>СерийныйНомер</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СерийныеНомера</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="d8543f72-9098-4656-8af5-cd9165eb54e2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.РеализацияТоваров.Серии" category="TabularSection">
+						<xr:TypeId>b9478ebb-a09b-4f87-8cf2-c475ebda8320</xr:TypeId>
+						<xr:ValueId>4214022a-cc22-4e79-984e-ed45906ff207</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.РеализацияТоваров.Серии" category="TabularSectionRow">
+						<xr:TypeId>1273a14e-f2ae-41ca-b8d5-c2166ecf5a54</xr:TypeId>
+						<xr:ValueId>9a388422-df3a-4d71-8943-2aba2f87db39</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Серии</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0d8ecd6c-d02f-4a89-9696-028563a517dd">
+						<Properties>
+							<Name>Номенклатура</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="533472b3-4995-4d94-9057-b9e629a7e307">
+						<Properties>
+							<Name>Количество</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="284743b5-7acf-47e6-86e6-d6195d84ba45">
+						<Properties>
+							<Name>Серия</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a766de5f-1335-456e-97a2-361eaa99b323">
+						<Properties>
+							<Name>Характеристика</Name>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

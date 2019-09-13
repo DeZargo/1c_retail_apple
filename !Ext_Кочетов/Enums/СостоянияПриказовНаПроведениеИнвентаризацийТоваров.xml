@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="a23667f4-dc5a-4d96-a209-5e44ebbaf74a">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияПриказовНаПроведениеИнвентаризацийТоваров" category="Ref">
+				<xr:TypeId>63b4822d-efeb-4aff-a126-eae8a3003b41</xr:TypeId>
+				<xr:ValueId>2d0f2018-7d99-445e-8703-567c057fb750</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияПриказовНаПроведениеИнвентаризацийТоваров" category="Manager">
+				<xr:TypeId>8654a608-6127-491d-a895-c3910925f0c2</xr:TypeId>
+				<xr:ValueId>bd0e5928-1578-489d-9813-9ca1ea5bf69c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияПриказовНаПроведениеИнвентаризацийТоваров" category="List">
+				<xr:TypeId>e7624e06-ba0a-4c40-8136-1c0b87dcc12d</xr:TypeId>
+				<xr:ValueId>782b2d99-5e0d-4de5-9f5d-eeaf6d45d7a3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СостоянияПриказовНаПроведениеИнвентаризацийТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="9e836fa1-0213-4a47-b244-a536f58a076e">
+				<Properties>
+					<Name>ВПроцессеОформленияОрдеров</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5fd1cd83-0642-4c0e-b8a2-26e8a66b6446">
+				<Properties>
+					<Name>ВПроцессеПересчета</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5bfb5f39-8f70-4cb4-805b-cd8068bef984">
+				<Properties>
+					<Name>Выполнен</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="27ebfca4-0f55-4458-abde-d1fb4a7ed9b4">
+				<Properties>
+					<Name>ВПроцессеОформленияАктов</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a3463f92-ef60-4cb0-bf20-01570f39508a">
+				<Properties>
+					<Name>ПересчетНеНачался</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

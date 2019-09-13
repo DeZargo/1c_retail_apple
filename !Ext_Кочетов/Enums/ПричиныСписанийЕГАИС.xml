@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="3fdab65e-556a-488f-b606-82d7084a9e7d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПричиныСписанийЕГАИС" category="Ref">
+				<xr:TypeId>65366653-3a5a-4400-8ced-d9439c55dde1</xr:TypeId>
+				<xr:ValueId>17680c1b-9f02-4fbb-ae9e-8541f6bcd339</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПричиныСписанийЕГАИС" category="Manager">
+				<xr:TypeId>63d3efbc-57d1-41c4-b8ba-0f59093a733d</xr:TypeId>
+				<xr:ValueId>2db1c3fe-7b0c-4601-8949-494b89ba1af3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПричиныСписанийЕГАИС" category="List">
+				<xr:TypeId>f36b2bd7-e126-44d8-81f7-aef8200f81b5</xr:TypeId>
+				<xr:ValueId>42281ed1-328e-4bb9-8465-3fb566788bd0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПричиныСписанийЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="86f980bc-a821-42e7-824f-612eeada5875">
+				<Properties>
+					<Name>Арест</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8d6fd231-5c70-4219-95d4-8bd23abfa3fc">
+				<Properties>
+					<Name>Потери</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4ce70f7a-706a-4c16-a136-10b3c0e0d6ad">
+				<Properties>
+					<Name>ИныеЦели</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e68e705f-bfe5-47df-bc4e-0661f0a46d5a">
+				<Properties>
+					<Name>Уценка</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="89cb2cdd-8456-4254-a391-4f10bb27109d">
+				<Properties>
+					<Name>Реализация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fb0f3093-74ee-41eb-ac72-be41cd342612">
+				<Properties>
+					<Name>Проверки</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4f2d0c7a-2736-4a0b-b15b-1741cc47688f">
+				<Properties>
+					<Name>Порча</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="34b602fb-7583-472f-9306-542b01d2bdff">
+				<Properties>
+					<Name>Недостача</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="a7f35e19-9e68-4aef-bbda-ef0cb70f64c3">
+				<Properties>
+					<Name>Пересортица</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

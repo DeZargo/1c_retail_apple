@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="455f0e86-f2ed-43f7-97f8-d0187deb86b4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПриходныйОрдерНаТовары" category="Object">
+				<xr:TypeId>5c3481ac-bbf3-43dd-9fda-0f6f19449f75</xr:TypeId>
+				<xr:ValueId>4d7c55cd-4bc5-4f83-875a-2084bc32dd28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПриходныйОрдерНаТовары" category="Ref">
+				<xr:TypeId>fb899b79-7e82-406f-931d-98b4764bf69d</xr:TypeId>
+				<xr:ValueId>d867c0d2-827b-45b8-a8fd-83a470acf36b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПриходныйОрдерНаТовары" category="Selection">
+				<xr:TypeId>d1d6067d-0e9b-4925-b96c-1dfca1ecaa7c</xr:TypeId>
+				<xr:ValueId>60f39795-cbea-4f35-b621-e61043361408</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПриходныйОрдерНаТовары" category="List">
+				<xr:TypeId>9e237ea2-2c22-48b9-b5e3-88228d72415f</xr:TypeId>
+				<xr:ValueId>3d828ca5-5eed-4bc5-b12d-9a593d213b76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПриходныйОрдерНаТовары" category="Manager">
+				<xr:TypeId>b6ba6594-e1c0-4247-b9ab-234883edc39f</xr:TypeId>
+				<xr:ValueId>5f9d58c8-b3a3-4af0-bd9c-02e7abd7eee2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПриходныйОрдерНаТовары</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

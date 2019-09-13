@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="29d014f4-85a2-4c12-a7d4-f08b990bd5ff">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ххх_ЖурналВыполненияРегламентныхЗаданий" category="Record">
+				<xr:TypeId>d199afa7-f7cb-432b-8196-07c080e2f57d</xr:TypeId>
+				<xr:ValueId>3d462f9c-6be6-46f3-8511-64be777ae0d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ххх_ЖурналВыполненияРегламентныхЗаданий" category="Manager">
+				<xr:TypeId>19933bb5-a3f5-4ddf-b2b1-96d5fabcf5ca</xr:TypeId>
+				<xr:ValueId>3f279ccd-14b8-4548-88b5-288a6f6bd813</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ххх_ЖурналВыполненияРегламентныхЗаданий" category="Selection">
+				<xr:TypeId>b76c1eea-ac07-4db8-8ace-e1985ea0ff4b</xr:TypeId>
+				<xr:ValueId>0d3bfe01-d7c0-4810-8539-cb74b45eaa67</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ххх_ЖурналВыполненияРегламентныхЗаданий" category="List">
+				<xr:TypeId>a040b80b-d7e8-4d3e-891e-d5abd5f7cf4f</xr:TypeId>
+				<xr:ValueId>e12a7566-8d87-4679-be98-9cf5c687e63d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ххх_ЖурналВыполненияРегламентныхЗаданий" category="RecordSet">
+				<xr:TypeId>9866a613-1206-4758-9b78-52c61d3b7103</xr:TypeId>
+				<xr:ValueId>24e63790-dc11-4f38-a3af-32d255ef04bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ххх_ЖурналВыполненияРегламентныхЗаданий" category="RecordKey">
+				<xr:TypeId>f2c88ee0-efeb-4ab8-b326-6edcd6bdb6c4</xr:TypeId>
+				<xr:ValueId>2a6ca6f2-8d64-4093-9697-ae3014abca46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ххх_ЖурналВыполненияРегламентныхЗаданий" category="RecordManager">
+				<xr:TypeId>121697d8-a76e-4113-96f4-ef1df5f21d17</xr:TypeId>
+				<xr:ValueId>2a0440a8-0dfc-40fb-b46e-9686e6d1c7c7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ххх_ЖурналВыполненияРегламентныхЗаданий</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

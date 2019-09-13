@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="af0aae71-6981-434b-a1bb-76e010cd69dc">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыОформленияДокументовЕГАИС" category="Ref">
+				<xr:TypeId>c24083ce-d07a-42b4-a76e-31f023a149ca</xr:TypeId>
+				<xr:ValueId>09c25091-1fe4-48af-bbfe-17714347a621</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыОформленияДокументовЕГАИС" category="Manager">
+				<xr:TypeId>99aee8b9-a239-4bf3-aa80-7e6ea40bddb0</xr:TypeId>
+				<xr:ValueId>6218182b-183e-4143-86a3-f42e90453bf1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыОформленияДокументовЕГАИС" category="List">
+				<xr:TypeId>6c8c732a-dbba-4aad-baf6-9cf5d14326dc</xr:TypeId>
+				<xr:ValueId>59c355cd-bd40-43d1-add8-f94e59140e8f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыОформленияДокументовЕГАИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="eff5696d-0bed-463a-a981-c89df9a22ed3">
+				<Properties>
+					<Name>НеОформлено</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7bc57f41-1a00-4180-9bd4-1745fb920325">
+				<Properties>
+					<Name>ОформленоЧастично</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d6f5ab83-ef43-494f-99b9-ff8c0927e5fa">
+				<Properties>
+					<Name>ТребуетсяСопоставлениеНоменклатуры</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

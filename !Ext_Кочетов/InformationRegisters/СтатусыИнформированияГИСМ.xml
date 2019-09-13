@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<InformationRegister uuid="38bc9100-c03e-43b7-b924-99c2f1a195b5">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.СтатусыИнформированияГИСМ" category="Record">
+				<xr:TypeId>d1218d95-0083-40bc-8622-627d9b37a62a</xr:TypeId>
+				<xr:ValueId>7318ec9a-a7b6-40b4-a943-e218f405c4b1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.СтатусыИнформированияГИСМ" category="Manager">
+				<xr:TypeId>62b10e74-4d43-4960-ac59-2674eab04d07</xr:TypeId>
+				<xr:ValueId>ce6c8e4b-775c-44cb-87af-f7a3c0696142</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.СтатусыИнформированияГИСМ" category="Selection">
+				<xr:TypeId>d5b42b15-6287-4223-aefa-f0d98db36ea8</xr:TypeId>
+				<xr:ValueId>f56d9365-30f4-48b3-96ff-19ec6eb5a700</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.СтатусыИнформированияГИСМ" category="List">
+				<xr:TypeId>2c6e257f-f9b2-478b-9168-e243d91697e8</xr:TypeId>
+				<xr:ValueId>828f6aa2-7112-48c2-a918-9699b7b1de58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.СтатусыИнформированияГИСМ" category="RecordSet">
+				<xr:TypeId>33d29f83-35a7-49ee-b7fb-5b588976818b</xr:TypeId>
+				<xr:ValueId>9440c177-0ae2-436d-b2eb-3391a20d8133</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.СтатусыИнформированияГИСМ" category="RecordKey">
+				<xr:TypeId>46d02255-996a-41a7-bf61-4cf1b35ab920</xr:TypeId>
+				<xr:ValueId>0b230697-82a7-4c31-8220-5a86b8613aac</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.СтатусыИнформированияГИСМ" category="RecordManager">
+				<xr:TypeId>ea07c07a-3625-4ec0-8a4c-aef297a8ac26</xr:TypeId>
+				<xr:ValueId>299cbeba-fa6e-495b-b1a4-0ffdcd780c87</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыИнформированияГИСМ</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="b3a01d16-61b4-4a3b-bdd9-c1a6cefadb1c">
+				<Properties>
+					<Name>Статус</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.СтатусыИнформированияГИСМ</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f8498d25-885e-43e5-882c-71d0dd5220eb">
+				<Properties>
+					<Name>ДальнейшееДействие</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ДальнейшиеДействияПоВзаимодействиюГИСМ</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="e8c0ca6e-bc8b-4613-83a8-cead4d30cdd3">
+				<Properties>
+					<Name>Документ</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДокументИнформированияГИСМ</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

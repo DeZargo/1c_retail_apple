@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Document uuid="ee6928b5-e6e9-412e-abb7-ae20d17de31e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремещениеТоваров" category="Object">
+				<xr:TypeId>89fcc893-7f63-4a10-942b-c0d227d47455</xr:TypeId>
+				<xr:ValueId>caba005c-a382-482d-8a54-b3659202ea77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремещениеТоваров" category="Ref">
+				<xr:TypeId>f068ac81-1dc8-45d8-b44c-04f34b477880</xr:TypeId>
+				<xr:ValueId>28e417ad-352d-4082-9700-b89dfd9bdb3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремещениеТоваров" category="Selection">
+				<xr:TypeId>9db8bbc8-7fa6-4eb2-a863-9fbad1c739b2</xr:TypeId>
+				<xr:ValueId>f0dc29fb-c274-475d-a7bb-1c893e9208d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремещениеТоваров" category="List">
+				<xr:TypeId>f2e2992d-d38c-4688-8afa-8cac3a950af9</xr:TypeId>
+				<xr:ValueId>e9dfe9cc-6e32-4dab-ae3f-fb634ada33c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремещениеТоваров" category="Manager">
+				<xr:TypeId>0093ef54-3f1f-4ee2-bb89-f0428f673142</xr:TypeId>
+				<xr:ValueId>f016dbbc-951e-4f45-9cc5-5b13c5f17e47</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПеремещениеТоваров</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3855dbe2-9f7e-45d4-81bb-8f188d3b4845">
+				<Properties>
+					<Name>ТТНВходящаяЕГАИС</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ТТНВходящаяЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

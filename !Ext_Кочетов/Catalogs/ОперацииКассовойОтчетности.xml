@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="f212d48a-73ba-4798-8cdf-f4ed549514ce">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОперацииКассовойОтчетности" category="Object">
+				<xr:TypeId>c3a5d5ab-d76e-4c55-b3d7-34a74b4e2abf</xr:TypeId>
+				<xr:ValueId>5e34e277-ae4c-472e-b544-e1a2ad58b39f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОперацииКассовойОтчетности" category="Ref">
+				<xr:TypeId>805b6283-8021-4eb6-b778-fc430bd6b183</xr:TypeId>
+				<xr:ValueId>59c87bc0-dd5b-4947-b0a4-2d4143b82251</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОперацииКассовойОтчетности" category="Selection">
+				<xr:TypeId>0b60034a-121c-4feb-a049-c3f43fe3a131</xr:TypeId>
+				<xr:ValueId>ac34c755-38a9-4e26-990b-69659b463363</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОперацииКассовойОтчетности" category="List">
+				<xr:TypeId>a9e01261-cf94-4b93-91b7-87561f45b9f3</xr:TypeId>
+				<xr:ValueId>f0f09454-b0f3-4c77-baa8-8d4f18f0fab2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОперацииКассовойОтчетности" category="Manager">
+				<xr:TypeId>e10130f9-9fca-456d-9fee-d8e8db51fef3</xr:TypeId>
+				<xr:ValueId>6bf1cd88-d38d-4969-ac69-390771fc04bf</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОперацииКассовойОтчетности</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<CodeLength>9</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

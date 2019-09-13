@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="a386ae92-20ef-4647-a88b-876770b4b3a1">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЕдиницыИзмеренияВЕТИС" category="Object">
+				<xr:TypeId>a1b05d9b-76e7-47e2-93d7-8662d68c41cc</xr:TypeId>
+				<xr:ValueId>b889344b-d43f-4b7e-ab4f-925a3df933c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЕдиницыИзмеренияВЕТИС" category="Ref">
+				<xr:TypeId>2325cbb5-7125-4d06-aba1-e9a65f947208</xr:TypeId>
+				<xr:ValueId>f0407d10-36ab-4939-befe-32a25f8731ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЕдиницыИзмеренияВЕТИС" category="Selection">
+				<xr:TypeId>efb92cd2-4f03-45bf-9b69-d76e20a9872f</xr:TypeId>
+				<xr:ValueId>1d1d0a86-2a5f-4f72-8e4c-437c42418531</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЕдиницыИзмеренияВЕТИС" category="List">
+				<xr:TypeId>c281a510-4e08-428c-8811-e9883360edc6</xr:TypeId>
+				<xr:ValueId>f51c6c62-c585-4f17-8fd5-669f6a833614</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЕдиницыИзмеренияВЕТИС" category="Manager">
+				<xr:TypeId>40d9b84c-694e-41f4-8f91-7332c9d7065e</xr:TypeId>
+				<xr:ValueId>2e8b4130-72a4-4914-ab06-c160a762f634</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЕдиницыИзмеренияВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

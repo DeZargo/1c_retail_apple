@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="2f220e35-28f5-414b-81af-a34f59a1a4c7">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыШтрихкодов" category="Ref">
+				<xr:TypeId>36a75385-d2ea-4302-a8e8-4cce77b39196</xr:TypeId>
+				<xr:ValueId>0068835f-26c7-4a64-8391-89a67242f201</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыШтрихкодов" category="Manager">
+				<xr:TypeId>b7533f4e-7922-410b-bfd6-467e70540509</xr:TypeId>
+				<xr:ValueId>f32dd188-6410-4169-baea-7a5462199c20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыШтрихкодов" category="List">
+				<xr:TypeId>cdb4ea6b-e7d9-475d-993d-aed627a1075d</xr:TypeId>
+				<xr:ValueId>a0325604-5211-4450-bee1-23deb4673dcd</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыШтрихкодов</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a976c6ef-fa1b-4383-85fb-780a28a76fe0">
+				<Properties>
+					<Name>PDF417</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5fbc41a5-8edd-45c9-87c0-ef2a06f1cb49">
+				<Properties>
+					<Name>DataMatrix</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="36d59871-463d-4808-b630-fabf1b2a4551">
+				<Properties>
+					<Name>EAN13</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

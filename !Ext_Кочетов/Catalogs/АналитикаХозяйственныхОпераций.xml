@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Catalog uuid="f393341f-a1a6-445a-b481-04fb6f99e87b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.АналитикаХозяйственныхОпераций" category="Object">
+				<xr:TypeId>0a98685b-8729-4de3-a696-64b30fed7f41</xr:TypeId>
+				<xr:ValueId>babf4594-333b-4579-a67e-459cf16396f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.АналитикаХозяйственныхОпераций" category="Ref">
+				<xr:TypeId>82d7ee34-db50-4462-a02f-ace36f410060</xr:TypeId>
+				<xr:ValueId>7213b168-2d6b-4546-962e-8b523a2c7674</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.АналитикаХозяйственныхОпераций" category="Selection">
+				<xr:TypeId>88b7df43-f2cd-4a30-a7a3-ec5c39790273</xr:TypeId>
+				<xr:ValueId>5c1caac3-8801-48f1-8a14-695847b6b145</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.АналитикаХозяйственныхОпераций" category="List">
+				<xr:TypeId>c1084343-30b4-4717-99b2-f190f2378a92</xr:TypeId>
+				<xr:ValueId>f3434214-66b1-499f-97ae-5d8809c97b60</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.АналитикаХозяйственныхОпераций" category="Manager">
+				<xr:TypeId>108ffe1a-cdbc-4e31-94d2-ddfab616e342</xr:TypeId>
+				<xr:ValueId>662676f6-5b5c-482a-b14c-b6d9a2a52c4c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АналитикаХозяйственныхОпераций</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>50</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d356d92f-ea23-4203-a784-8ede9711432a">
+				<Properties>
+					<Name>ХозяйственнаяОперация</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="1bd76ceb-6707-4ae9-96da-dabb076020c9">
+				<Properties>
+					<Name>КочетовВидЦен</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Кочетов вид цен</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыЦен</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

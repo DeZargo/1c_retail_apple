@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Enum uuid="ddcd6ea6-cab1-4c56-9a07-0f9c4bf25ead">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПериодыНахожденияЖивотныхНаТерриторииТСВЕТИС" category="Ref">
+				<xr:TypeId>680302f9-4c7b-4a31-907f-30c78a859625</xr:TypeId>
+				<xr:ValueId>8b3d4c65-d573-40d8-a17c-f208d987724a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПериодыНахожденияЖивотныхНаТерриторииТСВЕТИС" category="Manager">
+				<xr:TypeId>c638828b-a0e5-44ba-8982-6d79a7390f0e</xr:TypeId>
+				<xr:ValueId>f895cc12-e813-46e8-8f1c-e48617523bc1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПериодыНахожденияЖивотныхНаТерриторииТСВЕТИС" category="List">
+				<xr:TypeId>203e0b74-cfaf-45c4-afac-27fe94dc0327</xr:TypeId>
+				<xr:ValueId>aa5c0271-ee7d-491d-8604-be8c735773d1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПериодыНахожденияЖивотныхНаТерриторииТСВЕТИС</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="33d85575-f8b9-487b-982a-e702005f3cb4">
+				<Properties>
+					<Name>Никогда</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e7fa28d2-750c-4476-84a9-28e61344350f">
+				<Properties>
+					<Name>СРождения</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="96710bea-9ae6-48bd-a7ce-81e6fd025b2d">
+				<Properties>
+					<Name>НеМенее6Месяцев</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="49b2ef1f-9cf8-45c4-943d-620bb74c5c3a">
+				<Properties>
+					<Name>ЗначениеВМесяцах</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

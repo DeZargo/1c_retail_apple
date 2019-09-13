@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<DataProcessor uuid="e140da21-1fb3-46bf-a902-0d09735715ad">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.СозданиеЧековКоррекции" category="Object">
+				<xr:TypeId>e6234800-0bd8-4804-bfb9-3c34e8176b7d</xr:TypeId>
+				<xr:ValueId>bfc51f0d-0314-4e3e-ad3a-410ebfddf5d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.СозданиеЧековКоррекции" category="Manager">
+				<xr:TypeId>3cba7030-b1e4-4b68-9dbc-039b7cc948c8</xr:TypeId>
+				<xr:ValueId>e5db78f4-2ef9-4be5-8676-69bbbd53016d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СозданиеЧековКоррекции</Name>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Command uuid="a67c854d-4ce7-4fe3-bdfc-4718a27c9633">
+				<Properties>
+					<Name>ЧекКоррекции</Name>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Group>FormCommandBarCreateBasedOn</Group>
+				</Properties>
+			</Command>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>
