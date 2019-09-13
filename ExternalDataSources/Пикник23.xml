@@ -1,31 +1,264 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<ExternalDataSource uuid="18f9838d-82e2-4823-9eee-bd0babd7f2e6">
+	<ExternalDataSource uuid="2bf30509-6251-4d4d-8374-c8e3c8b4cd7c">
 		<InternalInfo>
 			<xr:GeneratedType name="ExternalDataSourceManager.Пикник23" category="Manager">
-				<xr:TypeId>d6f57281-66f8-414f-a26d-df51ec2218db</xr:TypeId>
-				<xr:ValueId>96b20759-494e-4117-b7bc-0e8a9cf0f30d</xr:ValueId>
+				<xr:TypeId>07165734-decb-4132-84da-bdb09250bf0f</xr:TypeId>
+				<xr:ValueId>826a3ae2-c6c5-4602-9439-f43c4d2477ea</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTablesManager.Пикник23" category="TablesManager">
-				<xr:TypeId>e4b01428-85e4-402a-b007-f79bdc35d172</xr:TypeId>
-				<xr:ValueId>530e4628-83d6-4a35-b797-c07fa4e05ed8</xr:ValueId>
+				<xr:TypeId>a2778e35-0f90-4315-87d8-a1b15e965280</xr:TypeId>
+				<xr:ValueId>3da073d4-8d37-4965-9848-e4ccf36fdb0d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceCubesManager.Пикник23" category="CubesManager">
-				<xr:TypeId>f72ce2fe-c12b-41a5-866c-6e754f415aa3</xr:TypeId>
-				<xr:ValueId>ce5ef6c5-4ba3-4793-8d9a-3d3df472de14</xr:ValueId>
+				<xr:TypeId>0ace56aa-8f4b-48cb-97aa-2e4d1ba4cc35</xr:TypeId>
+				<xr:ValueId>c89a5218-07a6-464b-b7d8-5ceed3a37730</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>Пикник23</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пикник23</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DataLockControlMode>Automatic</DataLockControlMode>
 		</Properties>
 		<ChildObjects>
+			<Table>dbo_shtrix</Table>
 			<Table>dbo_Tovar</Table>
-			<Table>dbo_spisan</Table>
+			<Table>dbo_Priemfsraritem</Table>
+			<Table>dbo_ost</Table>
+			<Table>shop_dbo_vesValues</Table>
+			<Table>dbo_pItems</Table>
+			<Table>dbo_pTTKHead</Table>
+			<Table>dbo_pTTKTable</Table>
+			<Table>dbo_gruppa</Table>
 			<Table>dbo_idSpisTov</Table>
+			<Table>dbo_spisan</Table>
 			<Table>dbo_pOutGoodsHead</Table>
 			<Table>dbo_pOutGoodsTable</Table>
-			<Table>dbo_shtrix</Table>
+			<Table>dbo_Prixod</Table>
+			<Table>dbo_idPostTov</Table>
+			<Table>dbo_bonus_m</Table>
+			<Table>dbo_vesValues</Table>
+			<Table>dbo_sostav</Table>
+			<Table>dbo_bonus_m_i</Table>
+			<Table>dbo_MyFunction</Table>
+			<Function uuid="217bbaf1-d39f-4d85-afee-002b8d9836b9">
+				<Properties>
+					<Name>dbo_ImportPriemCountry</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportPriemCountry</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="ecbe3b34-5d62-49c3-b8b5-53bae464da30">
+				<Properties>
+					<Name>dbo_ImportGroup</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Dbo import group</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportGroup(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="e5733d44-dcd9-429c-b00b-27dde7d0e738">
+				<Properties>
+					<Name>dbo_ImportPriemPost</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportPriemPost(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="a344272d-206d-4ddf-a8ac-8994ccae459c">
+				<Properties>
+					<Name>dbo_ImportPriemProizv</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportPriemProizv(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="86276189-53ba-482b-bca5-b86fdfbfa9a3">
+				<Properties>
+					<Name>dbo_ImportPriemTTK_Headers</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportPriemTTK_Headers(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="f7959053-5580-4025-b3bb-5982d8a5754e">
+				<Properties>
+					<Name>dbo_InsertPriemTov</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.InsertPriemTov</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="c329c3f9-d1ac-47d4-a1ac-ff0ee3fa5313">
+				<Properties>
+					<Name>dbo_ImportCustomer</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportCustomer(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="2f16810e-81c5-4435-8075-aa2d96c29a1d">
+				<Properties>
+					<Name>dbo_ImportTovar</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportTovar(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="edb445bd-0428-4533-ad81-f9ee1cf1be49">
+				<Properties>
+					<Name>dbo_ImportItems</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Dbo import items</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportItems(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="bc0a772f-e59b-411b-85a8-42ff9a80decc">
+				<Properties>
+					<Name>dbo_ImportTTK_Headers</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Dbo import TTK headers</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportTTK_Headers(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="68690383-b87c-4717-90d3-304c1d922c97">
+				<Properties>
+					<Name>dbo_ImportTTK_Table</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Dbo import TTK table</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.ImportTTK_Table(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="e5c03d86-06c8-4a76-bdbd-13c5cc079b30">
+				<Properties>
+					<Name>dbo_InsertBarcode</Name>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>dbo.InsertBarcode(&amp;1, &amp;2)</ExpressionInDataSource>
+				</Properties>
+			</Function>
 		</ChildObjects>
 	</ExternalDataSource>
 </MetaDataObject>

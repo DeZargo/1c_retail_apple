@@ -1,70 +1,209 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<InformationRegister uuid="c6742812-f784-4c4b-a65e-b596d4b9dd10">
+	<InformationRegister uuid="7ae33002-0bcb-4c4f-8640-22ecfc931d7d">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.НоменклатураСегмента" category="Record">
-				<xr:TypeId>a9f0223b-e872-488a-b9d9-14fc6e1bb6e0</xr:TypeId>
-				<xr:ValueId>22d15537-f60d-45d3-81d4-6024d4fe08a8</xr:ValueId>
+				<xr:TypeId>aa65a0bb-ab01-4995-b379-ec157533e9c2</xr:TypeId>
+				<xr:ValueId>e0ca47b7-8bb2-428a-8ddc-d116a02c31a7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.НоменклатураСегмента" category="Manager">
-				<xr:TypeId>d0a47c04-c832-482d-836c-acb596e520eb</xr:TypeId>
-				<xr:ValueId>04f46a86-0bbb-4aa1-8e4c-a5acfc5f8d0b</xr:ValueId>
+				<xr:TypeId>a99ceb78-c4b7-4701-855d-3a2b3f4fc1fb</xr:TypeId>
+				<xr:ValueId>086cc8c2-7cb7-43bc-93b2-2fa08594ee92</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.НоменклатураСегмента" category="Selection">
-				<xr:TypeId>e25c1d8c-cd74-4fab-8759-c06eb5df6063</xr:TypeId>
-				<xr:ValueId>21ea4b31-f028-4f4a-99ec-ebbd7d900918</xr:ValueId>
+				<xr:TypeId>2b69547c-31ca-4ea4-88c0-0984aa9eaa5f</xr:TypeId>
+				<xr:ValueId>43b089b9-e159-4939-bdfd-d0febb2ae690</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.НоменклатураСегмента" category="List">
-				<xr:TypeId>8ef710f6-4b1e-4d1e-946e-c9fbcdc758d9</xr:TypeId>
-				<xr:ValueId>a2266ddd-ac7e-4e6c-bb8b-c963a094d981</xr:ValueId>
+				<xr:TypeId>c5534400-1eac-4b3f-bedb-223a09391004</xr:TypeId>
+				<xr:ValueId>58cadd9a-7387-400d-9b61-f50939e4e2ef</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.НоменклатураСегмента" category="RecordSet">
-				<xr:TypeId>d8a8d3fe-beed-4f15-972f-19e11579fb1f</xr:TypeId>
-				<xr:ValueId>1c1dbfe0-ba39-4446-b63b-607e37aa8aa0</xr:ValueId>
+				<xr:TypeId>ad5a3e70-3527-4050-bfa4-e296144a5f54</xr:TypeId>
+				<xr:ValueId>b97e4cd3-445d-4aff-bc99-06957372fbe9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.НоменклатураСегмента" category="RecordKey">
-				<xr:TypeId>e191c9d1-c078-4a04-a572-a11f87f3905e</xr:TypeId>
-				<xr:ValueId>96849a16-132e-4df9-9938-c3b35b640188</xr:ValueId>
+				<xr:TypeId>d25262f9-4f15-4a14-b563-8bd4073429d7</xr:TypeId>
+				<xr:ValueId>8bba1bdd-7af6-4a40-9576-681c5314e7b1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.НоменклатураСегмента" category="RecordManager">
-				<xr:TypeId>b099a8d8-193a-4f36-957a-3f005cde359f</xr:TypeId>
-				<xr:ValueId>d3ffee8e-c696-46e6-8496-dc54878dbc88</xr:ValueId>
+				<xr:TypeId>2a1bf594-033d-4cf7-be75-44471541cfbe</xr:TypeId>
+				<xr:ValueId>df7a2252-5bd1-48ca-ab16-7a57b3422d5a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>НоменклатураСегмента</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номенклатура сегмента</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InList</EditType>
+			<DefaultRecordForm>InformationRegister.НоменклатураСегмента.Form.ФормаЗаписи</DefaultRecordForm>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>false</MainFilterOnPeriod>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<DataLockControlMode>Automatic</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects>
-			<Dimension uuid="874169c3-1467-4c73-a162-76f3b907ba41">
+			<Dimension uuid="7546da69-8c85-436e-a0a9-f54b22a5901a">
 				<Properties>
 					<Name>Сегмент</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сегмент</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.СегментыНоменклатуры</v8:Type>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сегмент номенклатуры, состав которого заполняется</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="17e563f2-f661-41ee-811a-b1146258df72">
+			<Dimension uuid="ac6b7ad9-a760-4727-97be-e61d8c413c6c">
 				<Properties>
 					<Name>Номенклатура</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура, входящая в состав сегмента</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>ShowError</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>true</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="d7e8f58e-7ec8-4b67-bc04-b6e23fafafaf">
+			<Dimension uuid="54868e73-b6a5-4a38-8da1-650264f2fb59">
 				<Properties>
 					<Name>Характеристика</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 					<Type>
 						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Характеристика номенклатуры, входящей в состав сегмента (в случае наличия у номенклатуры характеристик)</v8:content>
+						</v8:item>
+					</ToolTip>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>true</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
+			<Form>ФормаЗаписи</Form>
 		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

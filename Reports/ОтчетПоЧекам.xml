@@ -1,23 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Report uuid="d7fe9c7f-7f12-4390-bb18-8e4c6186527b">
+	<Report uuid="23fa3fe5-aa9c-422f-b1ed-6127b789cdac">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.ОтчетПоЧекам" category="Object">
-				<xr:TypeId>3ecc5ee7-8e4f-4540-a633-9633fcb16be2</xr:TypeId>
-				<xr:ValueId>2be85aab-1dc0-4cf3-ba54-e5c2cd9940db</xr:ValueId>
+				<xr:TypeId>e5eac194-8715-420b-8266-846e87f7361b</xr:TypeId>
+				<xr:ValueId>07df0b8a-fad6-42ef-b257-bb4c9b81e6c3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.ОтчетПоЧекам" category="Manager">
-				<xr:TypeId>10607e93-2f2d-4151-8a81-ccb4151fdf8d</xr:TypeId>
-				<xr:ValueId>86210314-c437-4985-8b31-c1449c501736</xr:ValueId>
+				<xr:TypeId>d2ae7b40-06fc-422b-bf7e-457079c40e95</xr:TypeId>
+				<xr:ValueId>5d501a27-669b-409b-8ad3-fe3911132a9c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ОтчетПоЧекам</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
-			<MainDataCompositionSchema>Report.ОтчетПоЧекам.Template.ОсновнаяСхемаКомпоновкиДанныхКочетов</MainDataCompositionSchema>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет по чекам</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<AuxiliaryForm/>
+			<MainDataCompositionSchema>Report.ОтчетПоЧекам.Template.ОсновнаяСхемаКомпоновкиДанных</MainDataCompositionSchema>
+			<DefaultSettingsForm/>
+			<AuxiliarySettingsForm/>
+			<DefaultVariantForm/>
+			<VariantsStorage/>
+			<SettingsStorage/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Template>ОсновнаяСхемаКомпоновкиДанныхКочетов</Template>
+			<Template>ОсновнаяСхемаКомпоновкиДанных</Template>
 		</ChildObjects>
 	</Report>
 </MetaDataObject>

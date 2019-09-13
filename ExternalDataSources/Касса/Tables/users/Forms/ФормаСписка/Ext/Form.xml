@@ -1,0 +1,952 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Button name="Создать" id="33">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<CommandName>Form.Command.Создать</CommandName>
+				<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="34"/>
+			</Button>
+			<Button name="Редактировать" id="3">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<CommandName>Form.Command.Редактировать</CommandName>
+				<ExtendedTooltip name="РедактироватьРасширеннаяПодсказка" id="4"/>
+			</Button>
+			<Button name="Удалить" id="35">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<CommandName>Form.Command.Удалить</CommandName>
+				<ExtendedTooltip name="УдалитьРасширеннаяПодсказка" id="36"/>
+			</Button>
+			<Button name="ФормаОбновить" id="37">
+				<Type>CommandBarButton</Type>
+				<Visible>false</Visible>
+				<CommandName>Form.Command.Обновить</CommandName>
+				<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="38"/>
+			</Button>
+			<Button name="ФормаЗаписать" id="98">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Записать</CommandName>
+				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="99"/>
+			</Button>
+			<Button name="ФормаЗакрыть" id="100">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Закрыть</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьРасширеннаяПодсказка" id="101"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnClose">ПриЗакрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="5">
+			<Representation>List</Representation>
+			<Visible>false</Visible>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Список</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокКонтекстноеМеню" id="6"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="7"/>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="8"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="9">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="10"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="12">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="13"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="15">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="16"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="СписокКасса" id="18">
+					<DataPath>Список.Касса</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокКассаКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="СписокКассаРасширеннаяПодсказка" id="20"/>
+				</InputField>
+				<InputField name="Списокid" id="21">
+					<DataPath>Список.id</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокidКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="СписокidРасширеннаяПодсказка" id="23"/>
+				</InputField>
+				<InputField name="СписокName" id="24">
+					<DataPath>Список.Name</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокNameКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="СписокNameРасширеннаяПодсказка" id="26"/>
+				</InputField>
+				<InputField name="СписокRULES" id="27">
+					<DataPath>Список.RULES</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокRULESКонтекстноеМеню" id="28"/>
+					<ExtendedTooltip name="СписокRULESРасширеннаяПодсказка" id="29"/>
+				</InputField>
+				<InputField name="СписокFULLNAME" id="30">
+					<DataPath>Список.FULLNAME</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокFULLNAMEКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="СписокFULLNAMEРасширеннаяПодсказка" id="32"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<RadioButtonField name="ТипПоиска" id="39">
+			<DataPath>ТипПоиска</DataPath>
+			<Visible>false</Visible>
+			<ReadOnly>true</ReadOnly>
+			<RadioButtonType>RadioButtons</RadioButtonType>
+			<ChoiceList>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>По кассе</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">ПоКассам</Value>
+					</xr:Value>
+				</xr:Item>
+				<xr:Item>
+					<xr:Presentation/>
+					<xr:CheckState>0</xr:CheckState>
+					<xr:Value xsi:type="FormChoiceListDesTimeValue">
+						<Presentation>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>По человеку</v8:content>
+							</v8:item>
+						</Presentation>
+						<Value xsi:type="xs:string">ПоЛюдям</Value>
+					</xr:Value>
+				</xr:Item>
+			</ChoiceList>
+			<ContextMenu name="ТипПоискаКонтекстноеМеню" id="40"/>
+			<ExtendedTooltip name="ТипПоискаРасширеннаяПодсказка" id="41"/>
+			<Events>
+				<Event name="OnChange">ТипПоискаПриИзменении</Event>
+			</Events>
+		</RadioButtonField>
+		<InputField name="Rules" id="154">
+			<DataPath>Rules</DataPath>
+			<ContextMenu name="RulesКонтекстноеМеню" id="155"/>
+			<ExtendedTooltip name="RulesРасширеннаяПодсказка" id="156"/>
+			<Events>
+				<Event name="OnChange">RulesПриИзменении</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="Группа1" id="42">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="43"/>
+			<ChildItems>
+				<Table name="Люди" id="60">
+					<Representation>List</Representation>
+					<CommandBarLocation>Top</CommandBarLocation>
+					<ReadOnly>true</ReadOnly>
+					<RowSelectionMode>Row</RowSelectionMode>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<DataPath>Люди</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ЛюдиКонтекстноеМеню" id="61"/>
+					<AutoCommandBar name="ЛюдиКоманднаяПанель" id="62">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="ЛюдиДобавитьЧеловека" id="106">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьЧеловека</CommandName>
+								<ExtendedTooltip name="ЛюдиДобавитьЧеловекаРасширеннаяПодсказка" id="107"/>
+							</Button>
+							<Button name="ЛюдиУдалитьЧеловека" id="108">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.УдалитьЧеловека</CommandName>
+								<ExtendedTooltip name="ЛюдиУдалитьЧеловекаРасширеннаяПодсказка" id="109"/>
+							</Button>
+							<Button name="ЛюдиСортироватьСписокПоВозрастанию" id="102">
+								<Type>CommandBarButton</Type>
+								<OnlyInAllActions>true</OnlyInAllActions>
+								<CommandName>Form.Item.Люди.StandardCommand.SortListAsc</CommandName>
+								<ExtendedTooltip name="ЛюдиСортироватьСписокПоВозрастаниюРасширеннаяПодсказка" id="103"/>
+							</Button>
+							<Button name="ЛюдиСортироватьСписокПоУбыванию" id="104">
+								<Type>CommandBarButton</Type>
+								<OnlyInAllActions>true</OnlyInAllActions>
+								<CommandName>Form.Item.Люди.StandardCommand.SortListDesc</CommandName>
+								<ExtendedTooltip name="ЛюдиСортироватьСписокПоУбываниюРасширеннаяПодсказка" id="105"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ЛюдиРасширеннаяПодсказка" id="63"/>
+					<SearchStringAddition name="ЛюдиСтрокаПоиска" id="64">
+						<AdditionSource>
+							<Item>Люди</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЛюдиСтрокаПоискаКонтекстноеМеню" id="65"/>
+						<ExtendedTooltip name="ЛюдиСтрокаПоискаРасширеннаяПодсказка" id="66"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ЛюдиСостояниеПросмотра" id="67">
+						<AdditionSource>
+							<Item>Люди</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЛюдиСостояниеПросмотраКонтекстноеМеню" id="68"/>
+						<ExtendedTooltip name="ЛюдиСостояниеПросмотраРасширеннаяПодсказка" id="69"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ЛюдиУправлениеПоиском" id="70">
+						<AdditionSource>
+							<Item>Люди</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ЛюдиУправлениеПоискомКонтекстноеМеню" id="71"/>
+						<ExtendedTooltip name="ЛюдиУправлениеПоискомРасширеннаяПодсказка" id="72"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="Selection">ЛюдиВыбор</Event>
+						<Event name="OnActivateRow">ЛюдиПриАктивизацииСтроки</Event>
+						<Event name="ChoiceProcessing">ЛюдиОбработкаВыбора</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="ЛюдиФИО" id="73">
+							<DataPath>Люди.ФИО</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЛюдиФИОКонтекстноеМеню" id="74"/>
+							<ExtendedTooltip name="ЛюдиФИОРасширеннаяПодсказка" id="75"/>
+							<Events>
+								<Event name="OnChange">ЛюдиФИОПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ЛюдиИНН" id="76">
+							<DataPath>Люди.ИНН</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЛюдиИННКонтекстноеМеню" id="77"/>
+							<ExtendedTooltip name="ЛюдиИННРасширеннаяПодсказка" id="78"/>
+							<Events>
+								<Event name="OnChange">ЛюдиИННПриИзменении</Event>
+							</Events>
+						</InputField>
+						<InputField name="ЛюдиКарточка" id="79">
+							<DataPath>Люди.Карточка</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЛюдиКарточкаКонтекстноеМеню" id="80"/>
+							<ExtendedTooltip name="ЛюдиКарточкаРасширеннаяПодсказка" id="81"/>
+							<Events>
+								<Event name="OnChange">ЛюдиКарточкаПриИзменении</Event>
+							</Events>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<Table name="СписокКассы" id="82">
+					<Representation>List</Representation>
+					<CommandBarLocation>Top</CommandBarLocation>
+					<ReadOnly>true</ReadOnly>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<DataPath>СписокКассы</DataPath>
+					<CommandSet>
+						<ExcludedCommand>Add</ExcludedCommand>
+						<ExcludedCommand>CancelSearch</ExcludedCommand>
+						<ExcludedCommand>Change</ExcludedCommand>
+						<ExcludedCommand>Copy</ExcludedCommand>
+						<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+						<ExcludedCommand>Delete</ExcludedCommand>
+						<ExcludedCommand>EndEdit</ExcludedCommand>
+						<ExcludedCommand>Find</ExcludedCommand>
+						<ExcludedCommand>MoveDown</ExcludedCommand>
+						<ExcludedCommand>MoveUp</ExcludedCommand>
+						<ExcludedCommand>OutputList</ExcludedCommand>
+						<ExcludedCommand>SelectAll</ExcludedCommand>
+						<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+						<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+						<ExcludedCommand>SortListAsc</ExcludedCommand>
+						<ExcludedCommand>SortListDesc</ExcludedCommand>
+					</CommandSet>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СписокКассыКонтекстноеМеню" id="83"/>
+					<AutoCommandBar name="СписокКассыКоманднаяПанель" id="84">
+						<Autofill>false</Autofill>
+						<ChildItems>
+							<Button name="ДобавитьКассу" id="110">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ДобавитьКассу</CommandName>
+								<ExtendedTooltip name="ДобавитьКассуРасширеннаяПодсказка" id="111"/>
+							</Button>
+							<Button name="СписокКассыУдалитьКассу" id="112">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.УдалитьКассу</CommandName>
+								<ExtendedTooltip name="СписокКассыУдалитьКассуРасширеннаяПодсказка" id="113"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокКассыРасширеннаяПодсказка" id="85"/>
+					<SearchStringAddition name="СписокКассыСтрокаПоиска" id="86">
+						<AdditionSource>
+							<Item>СписокКассы</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокКассыСтрокаПоискаКонтекстноеМеню" id="87"/>
+						<ExtendedTooltip name="СписокКассыСтрокаПоискаРасширеннаяПодсказка" id="88"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокКассыСостояниеПросмотра" id="89">
+						<AdditionSource>
+							<Item>СписокКассы</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокКассыСостояниеПросмотраКонтекстноеМеню" id="90"/>
+						<ExtendedTooltip name="СписокКассыСостояниеПросмотраРасширеннаяПодсказка" id="91"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокКассыУправлениеПоиском" id="92">
+						<AdditionSource>
+							<Item>СписокКассы</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокКассыУправлениеПоискомКонтекстноеМеню" id="93"/>
+						<ExtendedTooltip name="СписокКассыУправлениеПоискомРасширеннаяПодсказка" id="94"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnActivateRow">СписокКассыПриАктивизацииСтроки</Event>
+						<Event name="ChoiceProcessing">СписокКассыОбработкаВыбора</Event>
+					</Events>
+					<ChildItems>
+						<InputField name="СписокКассыКасса" id="95">
+							<DataPath>СписокКассы.Касса</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокКассыКассаКонтекстноеМеню" id="96"/>
+							<ExtendedTooltip name="СписокКассыКассаРасширеннаяПодсказка" id="97"/>
+						</InputField>
+						<CheckBoxField name="СписокКассыЕстьВКассе" id="151">
+							<DataPath>СписокКассы.ЕстьВКассе</DataPath>
+							<Visible>false</Visible>
+							<EditMode>EnterOnInput</EditMode>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="СписокКассыЕстьВКассеКонтекстноеМеню" id="152"/>
+							<ExtendedTooltip name="СписокКассыЕстьВКассеРасширеннаяПодсказка" id="153"/>
+							<Events>
+								<Event name="OnChange">СписокКассыЕстьВКассеПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Список1" id="114">
+			<Representation>List</Representation>
+			<Visible>false</Visible>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Список</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="Список1КонтекстноеМеню" id="115"/>
+			<AutoCommandBar name="Список1КоманднаяПанель" id="116"/>
+			<ExtendedTooltip name="Список1РасширеннаяПодсказка" id="117"/>
+			<SearchStringAddition name="Список1СтрокаПоиска" id="118">
+				<AdditionSource>
+					<Item>Список1</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Список1СтрокаПоискаКонтекстноеМеню" id="119"/>
+				<ExtendedTooltip name="Список1СтрокаПоискаРасширеннаяПодсказка" id="120"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="Список1СостояниеПросмотра" id="121">
+				<AdditionSource>
+					<Item>Список1</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="Список1СостояниеПросмотраКонтекстноеМеню" id="122"/>
+				<ExtendedTooltip name="Список1СостояниеПросмотраРасширеннаяПодсказка" id="123"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="Список1УправлениеПоиском" id="124">
+				<AdditionSource>
+					<Item>Список1</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="Список1УправлениеПоискомКонтекстноеМеню" id="125"/>
+				<ExtendedTooltip name="Список1УправлениеПоискомРасширеннаяПодсказка" id="126"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="Список1Касса" id="127">
+					<DataPath>Список.Касса</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Список1КассаКонтекстноеМеню" id="128"/>
+					<ExtendedTooltip name="Список1КассаРасширеннаяПодсказка" id="129"/>
+				</InputField>
+				<InputField name="Список1id" id="130">
+					<DataPath>Список.id</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Список1idКонтекстноеМеню" id="131"/>
+					<ExtendedTooltip name="Список1idРасширеннаяПодсказка" id="132"/>
+				</InputField>
+				<InputField name="Список1Name" id="133">
+					<DataPath>Список.Name</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Список1NameКонтекстноеМеню" id="134"/>
+					<ExtendedTooltip name="Список1NameРасширеннаяПодсказка" id="135"/>
+				</InputField>
+				<InputField name="Список1RULES" id="136">
+					<DataPath>Список.RULES</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Список1RULESКонтекстноеМеню" id="137"/>
+					<ExtendedTooltip name="Список1RULESРасширеннаяПодсказка" id="138"/>
+				</InputField>
+				<InputField name="Список1FULLNAME" id="139">
+					<DataPath>Список.FULLNAME</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Список1FULLNAMEКонтекстноеМеню" id="140"/>
+					<ExtendedTooltip name="Список1FULLNAMEРасширеннаяПодсказка" id="141"/>
+				</InputField>
+				<InputField name="Список1inn" id="142">
+					<DataPath>Список.inn</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Список1innКонтекстноеМеню" id="143"/>
+					<ExtendedTooltip name="Список1innРасширеннаяПодсказка" id="144"/>
+				</InputField>
+				<CheckBoxField name="Список1Изменен" id="145">
+					<DataPath>Список.Изменен</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Список1ИзмененКонтекстноеМеню" id="146"/>
+					<ExtendedTooltip name="Список1ИзмененРасширеннаяПодсказка" id="147"/>
+				</CheckBoxField>
+				<CheckBoxField name="Список1Удален" id="148">
+					<DataPath>Список.Удален</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Список1УдаленКонтекстноеМеню" id="149"/>
+					<ExtendedTooltip name="Список1УдаленРасширеннаяПодсказка" id="150"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Касса" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Касса</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КассыККМ</v8:Type>
+					</Type>
+				</Column>
+				<Column name="id" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Name" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Name</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="RULES" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>RULES</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="FULLNAME" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>FULLNAME</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="inn" id="6">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Inn</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Изменен" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменен</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Удален" id="8">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Удален</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СписокКассы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список кассы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Касса" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Касса</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КассыККМ</v8:Type>
+					</Type>
+				</Column>
+				<Column name="ид" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ид</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="ЕстьВКассе" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Есть в кассе</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Люди" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Люди</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="ФИО" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="ИНН" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>13</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="Карточка" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Карточка</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Column>
+				<Column name="id" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Id</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="ТипПоиска" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип поиска</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>ТипПоиска</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="НекстИд" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Некст ид</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КодВозвратаДиалогаДа" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код возврата диалога да</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Rules" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Rules</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>1</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Редактировать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Редактировать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Редактировать</Action>
+		</Command>
+		<Command name="Создать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Создать</Action>
+		</Command>
+		<Command name="Удалить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Удалить</Action>
+		</Command>
+		<Command name="Обновить" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Обновить</Action>
+		</Command>
+		<Command name="Записать" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Записать1</Action>
+		</Command>
+		<Command name="Закрыть" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Закрыть1</Action>
+		</Command>
+		<Command name="ДобавитьЧеловека" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить человека</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить человека</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьЧеловека</Action>
+		</Command>
+		<Command name="УдалитьЧеловека" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить человека</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить человека</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьЧеловека</Action>
+		</Command>
+		<Command name="ДобавитьКассу" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить кассу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить кассу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьКассу</Action>
+		</Command>
+		<Command name="УдалитьКассу" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить кассу</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить кассу</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>УдалитьКассу</Action>
+		</Command>
+	</Commands>
+</Form>

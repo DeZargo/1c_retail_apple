@@ -1,26 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Constant uuid="a9280c39-ff2a-48bc-99f7-00d59cec274e">
+	<Constant uuid="2276dfb2-a199-4b9c-92e6-a624c3345362">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ИспользоватьПравилаИменованияНоменклатуры" category="Manager">
-				<xr:TypeId>e99595b5-de64-4da9-a4d9-ea90eabafe77</xr:TypeId>
-				<xr:ValueId>a9a3e76e-c4b9-4831-961d-d8aa4746b9ee</xr:ValueId>
+				<xr:TypeId>9b1b3538-451f-4923-a935-909d63879c3b</xr:TypeId>
+				<xr:ValueId>5a7f3388-29a7-41ba-ba99-3a830ca00d32</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueManager.ИспользоватьПравилаИменованияНоменклатуры" category="ValueManager">
-				<xr:TypeId>8c190c90-b091-4570-94cc-dfa2f62e541e</xr:TypeId>
-				<xr:ValueId>120e4047-8715-4fff-beca-5231bb22a31b</xr:ValueId>
+				<xr:TypeId>bb27d818-9882-4bb9-9b5d-4a1cccd5bdfb</xr:TypeId>
+				<xr:ValueId>1c245d7f-5607-41b6-bf8a-1e9d24dfbced</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueKey.ИспользоватьПравилаИменованияНоменклатуры" category="ValueKey">
-				<xr:TypeId>198d210c-4294-47b6-9910-e0291d7cdab9</xr:TypeId>
-				<xr:ValueId>61483fdf-72a1-4d77-8f88-b4d22457d6ff</xr:ValueId>
+				<xr:TypeId>283be5a6-3d97-50f4-94ce-5cbc8f3bc3c7</xr:TypeId>
+				<xr:ValueId>c01fe970-ec4c-59cd-8aef-6e8d1f432abb</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ИспользоватьПравилаИменованияНоменклатуры</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать правила именования номенклатуры</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format/>
+			<EditFormat/>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 	</Constant>
 </MetaDataObject>

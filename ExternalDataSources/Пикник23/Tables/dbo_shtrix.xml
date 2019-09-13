@@ -1,45 +1,82 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Table uuid="44e20f59-fc37-40ae-94aa-5b34d2b644c3">
+	<Table uuid="54269fa4-cdd2-432b-988d-4029a65e7407">
 		<InternalInfo>
 			<xr:GeneratedType name="ExternalDataSourceTableManager.Пикник23.dbo_shtrix" category="Manager">
-				<xr:TypeId>d8903348-1716-4ebd-8f73-35406b311d0a</xr:TypeId>
-				<xr:ValueId>8492c8f6-32d8-48eb-871e-4b76ddff374f</xr:ValueId>
+				<xr:TypeId>a7cc536b-4d7a-4f2e-b6bb-4f584f4df34d</xr:TypeId>
+				<xr:ValueId>2367a2e3-ff09-4494-8c8b-ba2431e6fca3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableObject.Пикник23.dbo_shtrix" category="Object">
-				<xr:TypeId>a92229d9-88b0-4a53-9a0f-3172f860f705</xr:TypeId>
-				<xr:ValueId>a152fe90-6075-4454-a154-6b96150066f5</xr:ValueId>
+				<xr:TypeId>6841b295-4109-478c-9894-b6fadefa62fa</xr:TypeId>
+				<xr:ValueId>72fe6cf2-0f08-489a-8c72-9c3eb1180a53</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableRef.Пикник23.dbo_shtrix" category="Ref">
-				<xr:TypeId>fbeaffaa-26d7-4491-8fc5-99b8cd425362</xr:TypeId>
-				<xr:ValueId>dad1be4b-ed6c-48fd-b003-912f9d599630</xr:ValueId>
+				<xr:TypeId>dfe855fa-5fc3-4a63-aa58-97945c3ae19a</xr:TypeId>
+				<xr:ValueId>75d4f141-8ed8-4438-9d55-7007db9df170</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableList.Пикник23.dbo_shtrix" category="List">
-				<xr:TypeId>c009adf7-0e86-46b0-aa2b-964073ec75a5</xr:TypeId>
-				<xr:ValueId>fbe2bcd9-f6fa-4d91-a4c8-f8f07fbee20a</xr:ValueId>
+				<xr:TypeId>3933ffc8-903d-456f-a3e6-23eab9bdb34b</xr:TypeId>
+				<xr:ValueId>5537961a-1b2f-46cc-b972-f277a259ed99</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.Пикник23.dbo_shtrix" category="RecordSet">
-				<xr:TypeId>8a9e3b3e-a2f8-4c88-a746-8a09fe8c2b6f</xr:TypeId>
-				<xr:ValueId>b5181b17-bf65-4074-97c4-200f650d2c29</xr:ValueId>
+				<xr:TypeId>6d86fa84-7958-444e-a450-8c25c8b8989d</xr:TypeId>
+				<xr:ValueId>306129d1-9044-4474-a1dc-20c942914398</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.Пикник23.dbo_shtrix" category="RecordKey">
-				<xr:TypeId>a5ebb2d6-0bf1-40a3-850e-29836f6a7e6f</xr:TypeId>
-				<xr:ValueId>3f802c98-f28c-4c49-8d7f-358f303cf465</xr:ValueId>
+				<xr:TypeId>afb5e94c-8019-46f6-a1b9-79dc8468893e</xr:TypeId>
+				<xr:ValueId>de1e7ea6-b447-43e9-b587-276f1a0f62a0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.Пикник23.dbo_shtrix" category="RecordManager">
-				<xr:TypeId>456bf56b-5d4c-4d8a-b253-d02a6abbd616</xr:TypeId>
-				<xr:ValueId>7ce8e7ff-51e8-4b01-b593-da9b51ef129d</xr:ValueId>
+				<xr:TypeId>6a469760-9054-4253-98b4-d21d3268c5f1</xr:TypeId>
+				<xr:ValueId>917177c3-d614-4d63-b919-59b0fd193ec6</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>dbo_shtrix</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym/>
+			<Comment/>
+			<TableType>Table</TableType>
+			<NameInDataSource>dbo.shtrix</NameInDataSource>
+			<ExpressionInDataSource/>
+			<TableDataType>NonobjectData</TableDataType>
+			<KeyFields/>
+			<PresentationField/>
+			<ParentField/>
+			<UnfilledParentValue xsi:nil="true"/>
+			<Characteristics/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<QuickChoice>false</QuickChoice>
+			<InputByString/>
+			<CreateOnInput>Auto</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DefaultObjectForm/>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ReadOnly>false</ReadOnly>
+			<TransactionsIsolationLevel>Auto</TransactionsIsolationLevel>
+			<DataVersionField/>
+			<EditType>InDialog</EditType>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Automatic</DataLockControlMode>
 		</Properties>
 		<ChildObjects>
-			<Field uuid="a66518a8-4d4b-4d46-af47-9c25e226cb0c">
+			<Field uuid="e947d770-6696-4d43-b21a-92be5994e51e">
 				<Properties>
 					<Name>id</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -47,18 +84,71 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ChoiceForm/>
+					<NameInDataSource>id</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>false</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="a573418e-c4c8-4a07-a041-92842ce2a98d">
+			<Field uuid="b6f99e49-660f-4bb2-8e1a-c42e1d3c9b5c">
 				<Properties>
 					<Name>id_tov</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ChoiceForm/>
+					<NameInDataSource>id_tov</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>false</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="2302d098-c3aa-4fb8-8873-ba7ca380a341">
+			<Field uuid="3adb395d-3464-438e-b726-9967a7cb4509">
 				<Properties>
 					<Name>sk</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -66,6 +156,60 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ChoiceForm/>
+					<NameInDataSource>sk</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>false</AllowNull>
+				</Properties>
+			</Field>
+			<Field uuid="9c3769b6-a143-4cca-92c9-d34dcbea3464">
+				<Properties>
+					<Name>blok</Name>
+					<Synonym/>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:boolean">false</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<ChoiceForm/>
+					<NameInDataSource>blok</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
 		</ChildObjects>

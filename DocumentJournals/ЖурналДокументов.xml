@@ -1,32 +1,86 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<DocumentJournal uuid="15be032e-eabb-4913-a244-ff6ff85d1827">
+	<DocumentJournal uuid="13c0addf-3522-4656-a10c-3b2d0d53dda3">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentJournalSelection.ЖурналДокументов" category="Selection">
-				<xr:TypeId>c86f4ca6-4d60-42a3-8beb-aac29f0054ad</xr:TypeId>
-				<xr:ValueId>ab853215-35c9-4591-b295-25e5a9fc1a8d</xr:ValueId>
+				<xr:TypeId>5e6ca610-ad47-41e2-9aab-12049e10df59</xr:TypeId>
+				<xr:ValueId>63975b79-5b9e-4025-bde3-94829a28e2a2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentJournalList.ЖурналДокументов" category="List">
-				<xr:TypeId>2c83f2f4-7c75-4f13-a3b3-7dcaf6917e3f</xr:TypeId>
-				<xr:ValueId>293560ef-e36a-46be-837a-afc7850b22de</xr:ValueId>
+				<xr:TypeId>ee2d73ef-7687-4870-b70c-95559ac56640</xr:TypeId>
+				<xr:ValueId>14a1faf7-e9a5-42a8-97ae-c5cd7ada1cac</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentJournalManager.ЖурналДокументов" category="Manager">
-				<xr:TypeId>d8e28d55-8fa8-4b51-90f3-bbe4ec0386e5</xr:TypeId>
-				<xr:ValueId>053226c7-4140-4fb8-b105-aa04a3849a9d</xr:ValueId>
+				<xr:TypeId>37a92d21-6829-4e51-9b95-fb91ce2d4a0f</xr:TypeId>
+				<xr:ValueId>069ef315-2c2b-482f-810d-6700e2364942</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ЖурналДокументов</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал документов</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DefaultForm>DocumentJournal.ЖурналДокументов.Form.ФормаСписка</DefaultForm>
+			<AuxiliaryForm/>
+			<UseStandardCommands>true</UseStandardCommands>
 			<RegisteredDocuments>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СчетФактураПолученный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЧекККМ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦенНоменклатуры</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СчетФактураВыданный</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПересортицаТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПересчетТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УдалитьКассоваяСмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТоваров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеАссортимента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказПокупателя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказПоставщику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтПокупателя</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Я_ПересортицаТоваров</xr:Item>
 			</RegisteredDocuments>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Column uuid="007bb561-ad61-44d1-bc50-dfe44900e576">
+			<Column uuid="b20e228c-fa03-457e-8d55-e14e2c97d5cb">
 				<Properties>
 					<Name>ххх_ИдЦентр</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ххх ид центр</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>IndexWithAdditionalOrder</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СписаниеТоваров.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СчетФактураВыданный.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СчетФактураПолученный.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.УстановкаЦенНоменклатуры.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЧекККМ.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровПоставщику.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказПокупателя.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаказПоставщику.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ИзменениеАссортимента.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.УдалитьКассоваяСмена.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ОприходованиеТоваров.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересортицаТоваров.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПересчетТоваров.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПоступлениеТоваров.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.РеализацияТоваров.Attribute.ххх_ИдЦентр</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ВозвратТоваровОтПокупателя.Attribute.ххх_ИдЦентр</xr:Item>
+					</References>
 				</Properties>
 			</Column>
 			<Form>ФормаСписка</Form>

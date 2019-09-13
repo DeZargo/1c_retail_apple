@@ -1,20 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<DataProcessor uuid="f4d1e780-ec25-4e4a-b5cf-f7990470fad0">
+	<DataProcessor uuid="340e71eb-0dbe-4b4d-b9f9-2c14238ca017">
 		<InternalInfo>
 			<xr:GeneratedType name="DataProcessorObject.ххх_АвтоТесты" category="Object">
-				<xr:TypeId>b088924c-0c84-4d03-9773-14a8d8ebf9f9</xr:TypeId>
-				<xr:ValueId>98255cf7-8171-45d3-9032-01859352a480</xr:ValueId>
+				<xr:TypeId>f6799a64-c9cd-4fab-ae38-907946d57bc4</xr:TypeId>
+				<xr:ValueId>5216111b-89f7-4911-abf1-09e7fc4a4048</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DataProcessorManager.ххх_АвтоТесты" category="Manager">
-				<xr:TypeId>42a6a0c6-0070-496d-a8a9-475ca8e5cafa</xr:TypeId>
-				<xr:ValueId>05924478-bba5-430b-beea-4727d75c00ce</xr:ValueId>
+				<xr:TypeId>5c380b44-f646-451a-8fbb-b476a61e4f2c</xr:TypeId>
+				<xr:ValueId>f9539b38-55a3-4e60-863d-d5d2f2488d8c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ххх_АвтоТесты</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Авто тесты</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.ххх_АвтоТесты.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Form>Форма</Form>
+		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

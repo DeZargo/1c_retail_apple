@@ -1,17 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<DefinedType uuid="ff965689-89dd-4f9d-ab48-83964cab4557">
+	<DefinedType uuid="69eda346-1c43-41d2-b117-55d24973a406">
 		<InternalInfo>
 			<xr:GeneratedType name="DefinedType.ххх_Партия" category="DefinedType">
-				<xr:TypeId>697239ea-413b-48a8-b27d-fc6d1492a752</xr:TypeId>
-				<xr:ValueId>85645fa1-e639-4914-9900-989dd9f6b756</xr:ValueId>
+				<xr:TypeId>59a03eee-c0cb-4ac4-b680-907360b560e9</xr:TypeId>
+				<xr:ValueId>fad24528-e72b-4c2f-bff3-d721d34e589e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ххх_Партия</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ххх партия</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
 			<Type>
 				<v8:Type>cfg:DocumentRef.ПоступлениеТоваров</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВводНачальныхОстатковУзла</v8:Type>
+				<v8:Type>cfg:DocumentRef.ВозвратТоваровОтПокупателя</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПересчетТоваров</v8:Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:Type>cfg:DocumentRef.ОприходованиеТоваров</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
+				<v8:Type>cfg:DocumentRef.КорректировкаРегистров</v8:Type>
+				<v8:Type>cfg:DocumentRef.ПересортицаТоваров</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
 			</Type>
 		</Properties>
 	</DefinedType>

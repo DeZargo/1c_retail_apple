@@ -1,42 +1,198 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<InformationRegister uuid="29d014f4-85a2-4c12-a7d4-f08b990bd5ff">
+	<InformationRegister uuid="36171824-75dc-45cf-bbf1-7d20bef155ff">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.ххх_ЖурналВыполненияРегламентныхЗаданий" category="Record">
-				<xr:TypeId>d199afa7-f7cb-432b-8196-07c080e2f57d</xr:TypeId>
-				<xr:ValueId>3d462f9c-6be6-46f3-8511-64be777ae0d3</xr:ValueId>
+				<xr:TypeId>67209102-fd7d-47a8-9d60-93d14f73c097</xr:TypeId>
+				<xr:ValueId>65f2ea67-773a-4b10-8a7b-45712e89f1d0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.ххх_ЖурналВыполненияРегламентныхЗаданий" category="Manager">
-				<xr:TypeId>19933bb5-a3f5-4ddf-b2b1-96d5fabcf5ca</xr:TypeId>
-				<xr:ValueId>3f279ccd-14b8-4548-88b5-288a6f6bd813</xr:ValueId>
+				<xr:TypeId>1bda1b90-2dfe-4a13-a03e-abfc30b9ae47</xr:TypeId>
+				<xr:ValueId>7579caf8-b550-4e27-9a9b-99fe9dfcff0d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.ххх_ЖурналВыполненияРегламентныхЗаданий" category="Selection">
-				<xr:TypeId>b76c1eea-ac07-4db8-8ace-e1985ea0ff4b</xr:TypeId>
-				<xr:ValueId>0d3bfe01-d7c0-4810-8539-cb74b45eaa67</xr:ValueId>
+				<xr:TypeId>2d063412-5af2-4446-9d5b-45f81ed1d94f</xr:TypeId>
+				<xr:ValueId>f7ce35b1-7096-4360-ab9d-cfbeaefaded4</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.ххх_ЖурналВыполненияРегламентныхЗаданий" category="List">
-				<xr:TypeId>a040b80b-d7e8-4d3e-891e-d5abd5f7cf4f</xr:TypeId>
-				<xr:ValueId>e12a7566-8d87-4679-be98-9cf5c687e63d</xr:ValueId>
+				<xr:TypeId>4ced1b48-3679-4e53-af91-d09be82d7a09</xr:TypeId>
+				<xr:ValueId>48d2af30-24b7-4f3d-96d2-d1548c75c646</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.ххх_ЖурналВыполненияРегламентныхЗаданий" category="RecordSet">
-				<xr:TypeId>9866a613-1206-4758-9b78-52c61d3b7103</xr:TypeId>
-				<xr:ValueId>24e63790-dc11-4f38-a3af-32d255ef04bb</xr:ValueId>
+				<xr:TypeId>7d202729-a5d2-47ea-b542-db7b93625518</xr:TypeId>
+				<xr:ValueId>ef14394e-19dd-43dc-aa74-8399fc8e7258</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.ххх_ЖурналВыполненияРегламентныхЗаданий" category="RecordKey">
-				<xr:TypeId>f2c88ee0-efeb-4ab8-b326-6edcd6bdb6c4</xr:TypeId>
-				<xr:ValueId>2a6ca6f2-8d64-4093-9697-ae3014abca46</xr:ValueId>
+				<xr:TypeId>5b05c2cf-9d2c-4d44-b4b1-318cebe5054d</xr:TypeId>
+				<xr:ValueId>3474362c-6e61-4a79-854d-5b3cae754f74</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.ххх_ЖурналВыполненияРегламентныхЗаданий" category="RecordManager">
-				<xr:TypeId>121697d8-a76e-4113-96f4-ef1df5f21d17</xr:TypeId>
-				<xr:ValueId>2a0440a8-0dfc-40fb-b46e-9686e6d1c7c7</xr:ValueId>
+				<xr:TypeId>e1759338-fd1e-4d6f-8c03-070b4d7e707e</xr:TypeId>
+				<xr:ValueId>19bb9457-b873-4363-b06e-3bfa27438ee9</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ххх_ЖурналВыполненияРегламентныхЗаданий</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ххх журнал выполнения регламентных заданий</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<EditType>InDialog</EditType>
+			<DefaultRecordForm/>
+			<DefaultListForm/>
+			<AuxiliaryRecordForm/>
+			<AuxiliaryListForm/>
 			<InformationRegisterPeriodicity>Second</InformationRegisterPeriodicity>
 			<WriteMode>Independent</WriteMode>
+			<MainFilterOnPeriod>true</MainFilterOnPeriod>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>DontUse</FullTextSearch>
+			<EnableTotalsSliceFirst>false</EnableTotalsSliceFirst>
+			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<Resource uuid="7f17d629-3d4c-43a0-8254-7e66cf766503">
+				<Properties>
+					<Name>ЗавершеноУспешно</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Завершено успешно</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>250</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>true</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Resource>
+			<Dimension uuid="903d4827-c9f2-4453-82f2-47ada8990996">
+				<Properties>
+					<Name>РегламентноеЗадание</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Регламентное задание</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>200</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="7126b2eb-ea0c-4cb1-a566-a9dbda2f6bee">
+				<Properties>
+					<Name>Магазин</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Магазин</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Магазины</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Master>false</Master>
+					<MainFilter>true</MainFilter>
+					<DenyIncompleteValues>false</DenyIncompleteValues>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
 	</InformationRegister>
 </MetaDataObject>

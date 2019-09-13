@@ -1,29 +1,54 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<ExternalDataSource uuid="590b3aab-1ed9-45a3-9384-73d6e8c8e8dd">
+	<ExternalDataSource uuid="42e7250c-1299-4cfb-9dd5-81283b80db92">
 		<InternalInfo>
 			<xr:GeneratedType name="ExternalDataSourceManager.Касса" category="Manager">
-				<xr:TypeId>36911274-f0e6-4e60-b3bb-f9f8afd4bed0</xr:TypeId>
-				<xr:ValueId>d1560072-3c64-4e67-8eb6-22d59a727ea5</xr:ValueId>
+				<xr:TypeId>d9fa47a9-90fa-4ef1-b28e-9f9bde970590</xr:TypeId>
+				<xr:ValueId>a1ab9c36-7f0b-4e19-a32a-ce5f7b526e60</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTablesManager.Касса" category="TablesManager">
-				<xr:TypeId>9cf6c039-b7b3-4095-ae50-3c5c9d9ed1a0</xr:TypeId>
-				<xr:ValueId>9531076c-ead7-42e6-b5d8-841c02b79049</xr:ValueId>
+				<xr:TypeId>ad9b73e9-5db9-4cc3-8cda-49666ed687c3</xr:TypeId>
+				<xr:ValueId>4ce6aedf-0b93-4d86-b49b-a8fb3efcfa95</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceCubesManager.Касса" category="CubesManager">
-				<xr:TypeId>83db4e84-17e3-48d3-bcc5-ffefe72ba738</xr:TypeId>
-				<xr:ValueId>bffd755c-a210-420f-9e67-b501a8abbc84</xr:ValueId>
+				<xr:TypeId>6f48abf5-069a-49d4-960d-80804e262593</xr:TypeId>
+				<xr:ValueId>76481de4-f94e-4a9f-a168-572a4038e550</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>Касса</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Касса</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DataLockControlMode>Automatic</DataLockControlMode>
 		</Properties>
 		<ChildObjects>
-			<Function uuid="34242a8a-741f-4507-9d52-45b34c3018bf">
+			<Table>cheks</Table>
+			<Table>chek_items</Table>
+			<Table>items</Table>
+			<Table>users</Table>
+			<Table>Unload</Table>
+			<Table>atrib_proper</Table>
+			<Table>chek_egais</Table>
+			<Table>dimensions</Table>
+			<Table>discount_card</Table>
+			<Table>items_atrib</Table>
+			<Table>items_feature</Table>
+			<Function uuid="17dc2204-46f5-4de6-a9ef-6cfa7fb6c9df">
 				<Properties>
-					<Name>export_chek</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>export_cheks_of_session</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Export cheks of session</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -31,12 +56,41 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<ExpressionInDataSource>cassa.export_cheks_of_session(&amp;1)</ExpressionInDataSource>
 				</Properties>
 			</Function>
-			<Function uuid="444418af-5a9a-4c0c-b74a-46379d92a4be">
+			<Function uuid="7cba42dd-5449-43ce-b1c8-c216f118325c">
+				<Properties>
+					<Name>export_chek</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Export chek</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>10</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<ExpressionInDataSource>cassa.export_chek(&amp;1)</ExpressionInDataSource>
+				</Properties>
+			</Function>
+			<Function uuid="2a882a08-95c5-4804-872f-033263c99f93">
 				<Properties>
 					<Name>get_session_sum</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Get session sum</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<ReturnValue>true</ReturnValue>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -45,25 +99,15 @@
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
+					<ExpressionInDataSource>cassa.get_session_sum(&amp;1)</ExpressionInDataSource>
 				</Properties>
 			</Function>
-			<Function uuid="d8ceea5a-96f5-4d44-a00d-77e5b10fe016">
-				<Properties>
-					<Name>export_cheks_of_session</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>10</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Function>
-			<Function uuid="2a17a4d8-0124-4120-8ae9-009797cd8212">
+			<Function uuid="b75481ac-2f19-4e46-940c-93aa9855bb4c">
 				<Properties>
 					<Name>cassa_change_user</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -71,12 +115,15 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<ExpressionInDataSource>cassa.change_user(&amp;1, &amp;2, &amp;3, &amp;4, &amp;5)</ExpressionInDataSource>
 				</Properties>
 			</Function>
-			<Function uuid="cbe01d27-aaf9-4a36-b131-7dffdb583cee">
+			<Function uuid="4967d40e-1edc-4902-bad2-e9c3e4830a17">
 				<Properties>
 					<Name>cassa_delete_user</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -84,12 +131,15 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<ExpressionInDataSource>cassa.delete_user(&amp;1)</ExpressionInDataSource>
 				</Properties>
 			</Function>
-			<Function uuid="b70026ff-8628-435f-a7b5-b8e761660d7a">
+			<Function uuid="36d9e535-e191-41c2-8178-948c9f5f6fd6">
 				<Properties>
 					<Name>cassa_get_session_sum</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
+					<ReturnValue>false</ReturnValue>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -97,6 +147,7 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<ExpressionInDataSource>cassa.get_session_sum(&amp;1, &amp;2)</ExpressionInDataSource>
 				</Properties>
 			</Function>
 		</ChildObjects>
