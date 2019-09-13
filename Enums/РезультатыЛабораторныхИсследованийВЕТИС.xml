@@ -1,41 +1,167 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Enum uuid="a7a7debf-df72-4bab-bc5f-da739d3ba4d3">
+	<Enum uuid="3b2d02b3-449d-47e7-9745-18f15710a435">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.РезультатыЛабораторныхИсследованийВЕТИС" category="Ref">
-				<xr:TypeId>724f355a-808e-492b-b971-bcef1e3abfd9</xr:TypeId>
-				<xr:ValueId>6cce0dae-20d5-44cf-9958-5c22126ee4df</xr:ValueId>
+				<xr:TypeId>49d26aee-4df7-4441-9807-920ab7711574</xr:TypeId>
+				<xr:ValueId>18061b83-a9d6-4de6-aa76-3ebcf88bf12d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.РезультатыЛабораторныхИсследованийВЕТИС" category="Manager">
-				<xr:TypeId>8ed39d89-61d7-4935-bdd5-0fb3360197b8</xr:TypeId>
-				<xr:ValueId>fe05e033-5d51-4233-9565-bc779b0e17b7</xr:ValueId>
+				<xr:TypeId>e381cb65-91f2-4a21-a049-c206fa91fd34</xr:TypeId>
+				<xr:ValueId>11fc2a69-9fa9-467e-a8a3-d475d4a1aed7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.РезультатыЛабораторныхИсследованийВЕТИС" category="List">
-				<xr:TypeId>3b0174eb-12b5-4f54-88fe-d82f2f27c6db</xr:TypeId>
-				<xr:ValueId>4ae34d01-163f-485e-9fbb-d0a49c47ede4</xr:ValueId>
+				<xr:TypeId>7fd7e33a-2aca-4db4-b1d5-1b39a3b20388</xr:TypeId>
+				<xr:ValueId>0fc827aa-22e2-4f81-a690-30460a925c15</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>РезультатыЛабораторныхИсследованийВЕТИС</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результаты лабораторных исследований ВетИС</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Order">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="cf749d88-8e07-4b5b-9fb5-afa09ca5a647">
+			<EnumValue uuid="8feb2c49-2dcd-44b1-a6bb-f9d7f8954d5f">
 				<Properties>
-					<Name>ИзготовленаИзСырьяПрошедшегоВСЭ</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НетДанных</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Нет данных</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="1bf53078-ecdb-47b4-8188-76a95f368b89">
+			<EnumValue uuid="8d15e72f-2b77-4ee2-8f79-b81f3def53a5">
+				<Properties>
+					<Name>Положительный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Положительный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5b43a942-0e47-4221-ab76-4fe9ebc3624c">
+				<Properties>
+					<Name>Отрицательный</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отрицательный</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="208de97a-531c-4e3e-a74e-709f0269047f">
 				<Properties>
 					<Name>НеПодвергнутаВСЭ</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не подвергнута ветеринарно-санитарной экспертизе</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="863f7e23-4a49-4834-a550-868e7b8dea3f">
+			<EnumValue uuid="412405c0-756f-4aa2-a8a8-f90e1a455daf">
+				<Properties>
+					<Name>ИзготовленаИзСырьяПрошедшегоВСЭ</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изготовлена из сырья, прошедшего ветеринарно-санитарную экспертизу</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d6cec3c3-545b-4b07-81c8-fb9f0b260224">
 				<Properties>
 					<Name>ПодвергнутаВСЭВПолномОбъеме</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подвергнута ветеринарно-санитарной экспертизе в полном объеме</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

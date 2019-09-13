@@ -1,26 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Constant uuid="8252eb82-c070-422f-9818-6b90be7d5f13">
+	<Constant uuid="720cad60-edf6-4521-8b9f-0dc8eac8b1c4">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ИспользоватьРезервированиеПоЗаказамПокупателей" category="Manager">
-				<xr:TypeId>1dd388fd-5871-40d5-ad50-ca781854389d</xr:TypeId>
-				<xr:ValueId>b5dcda8b-52d9-4a61-ba1b-4dab58ec4646</xr:ValueId>
+				<xr:TypeId>2d2f78ef-fb5b-467d-9fa3-66a0b94ef113</xr:TypeId>
+				<xr:ValueId>93912d8f-8db6-4d14-a2a4-0aaa7c42150f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueManager.ИспользоватьРезервированиеПоЗаказамПокупателей" category="ValueManager">
-				<xr:TypeId>5d2dc70b-7913-43c5-a18e-1661ed033814</xr:TypeId>
-				<xr:ValueId>1e4138ae-6f43-4aec-b074-4d35f32baf47</xr:ValueId>
+				<xr:TypeId>ad73209a-e058-4c47-9b9b-e044f99cf909</xr:TypeId>
+				<xr:ValueId>cd4fc2f7-b6f1-44cf-9335-5b1ff80388cd</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueKey.ИспользоватьРезервированиеПоЗаказамПокупателей" category="ValueKey">
-				<xr:TypeId>54ca6e8e-7fe2-5322-990b-22c3d553a793</xr:TypeId>
-				<xr:ValueId>30fef8d7-83a7-5a1a-bc30-65ba15377d2c</xr:ValueId>
+				<xr:TypeId>043eff1d-f186-506b-9ee1-dceecab38323</xr:TypeId>
+				<xr:ValueId>39e0373b-6479-534a-a8c2-06753b6c38b4</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ИспользоватьРезервированиеПоЗаказамПокупателей</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать резервирование по заказам покупателей</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format/>
+			<EditFormat/>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 	</Constant>
 </MetaDataObject>

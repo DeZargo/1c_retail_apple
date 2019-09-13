@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="58">
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="59"/>
+			<ChildItems>
+				<InputField name="Дата" id="55">
+					<DataPath>Дата</DataPath>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="56"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="57"/>
+					<Events>
+						<Event name="OnChange">ДатаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Папка" id="60">
+					<DataPath>Папка</DataPath>
+					<ContextMenu name="ПапкаКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="ПапкаРасширеннаяПодсказка" id="62"/>
+					<Events>
+						<Event name="OnChange">ПапкаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="Контрагент" id="63">
+					<DataPath>Контрагент</DataPath>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="65"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnGetDataAtServer">СписокПриПолученииДанныхНаСервере</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="id_tov" id="16">
+					<DataPath>Список.id_tov</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="id_tovКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="id_tovРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="naim" id="19">
+					<DataPath>Список.naim</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="naimКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="naimРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="prodsum" id="22">
+					<DataPath>Список.prodsum</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="prodsumКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="prodsumРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="prodkol" id="25">
+					<DataPath>Список.prodkol</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="prodkolКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="prodkolРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="prib_rub" id="28">
+					<DataPath>Список.prib_rub</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="prib_rubКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="prib_rubРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+				<LabelField name="senz_prkol" id="31">
+					<DataPath>Список.senz_prkol</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="senz_prkolКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="senz_prkolРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="senr_prkol" id="34">
+					<DataPath>Список.senr_prkol</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="senr_prkolКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="senr_prkolРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="id_post" id="37">
+					<DataPath>Список.id_post</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="id_postКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="id_postРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+				<LabelField name="id_proizv" id="40">
+					<DataPath>Список.id_proizv</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="id_proizvКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="id_proizvРасширеннаяПодсказка" id="42"/>
+				</LabelField>
+				<LabelField name="senz" id="43">
+					<DataPath>Список.senz</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="senzКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="senzРасширеннаяПодсказка" id="45"/>
+				</LabelField>
+				<LabelField name="senr" id="46">
+					<DataPath>Список.senr</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="senrКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="senrРасширеннаяПодсказка" id="48"/>
+				</LabelField>
+				<LabelField name="ost" id="49">
+					<DataPath>Список.ost</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ostКонтекстноеМеню" id="50"/>
+					<ExtendedTooltip name="ostРасширеннаяПодсказка" id="51"/>
+				</LabelField>
+				<LabelField name="dat" id="52">
+					<DataPath>Список.dat</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="datКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="datРасширеннаяПодсказка" id="54"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.id_tov,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.naim,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.prodsum,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.prodkol,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.prib_rub,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.senz_prkol,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.senr_prkol,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.id_post,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.id_proizv,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.senz,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.senr,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.ost,
+	ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction.dat
+ИЗ
+	ВнешнийИсточникДанных.Пикник23.Таблица.dbo_MyFunction КАК ВнешнийИсточникДанныхПикник23Таблицаdbo_MyFunction</QueryText>
+				<MainTable>ExternalDataSource.Пикник23.Table.dbo_MyFunction</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Дата" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Папка" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Папка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Контрагент" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

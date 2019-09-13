@@ -6,20 +6,10 @@
 				<xr:Common>false</xr:Common>
 			</Visibility>
 		</Command>
+		<Command name="Report.ПересеченияСегментаНоменклатуры.StandardCommand.Open">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
 	</CommandsVisibility>
-	<CommandsPlacement>
-		<Command name="InformationRegister.НоменклатураСегмента.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-			<Placement>Auto</Placement>
-		</Command>
-	</CommandsPlacement>
-	<CommandsOrder>
-		<Command name="InformationRegister.НоменклатураСегмента.StandardCommand.OpenList">
-			<CommandGroup>NavigationPanelSeeAlso</CommandGroup>
-		</Command>
-	</CommandsOrder>
-	<GroupsOrder>
-		<Group>NavigationPanelImportant</Group>
-		<Group>NavigationPanelSeeAlso</Group>
-	</GroupsOrder>
 </CommandInterface>

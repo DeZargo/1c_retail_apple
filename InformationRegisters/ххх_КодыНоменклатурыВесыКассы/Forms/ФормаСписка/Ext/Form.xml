@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаКоманда1" id="37">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Команда1</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Подбор товаров</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаКоманда1РасширеннаяПодсказка" id="38"/>
+			</Button>
+			<Button name="ФормаПерезаполнитьСостояниеВВесахУНоменклатуры" id="42">
+				<Type>CommandBarButton</Type>
+				<OnlyInAllActions>false</OnlyInAllActions>
+				<CommandName>Form.Command.ПерезаполнитьСостояниеВВесахУНоменклатуры</CommandName>
+				<ExtendedTooltip name="ФормаПерезаполнитьСостояниеВВесахУНоменклатурыРасширеннаяПодсказка" id="43"/>
+			</Button>
+			<Button name="ФормаСместитьНа1000" id="44">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.СместитьНа1000</CommandName>
+				<ExtendedTooltip name="ФормаСместитьНа1000РасширеннаяПодсказка" id="45"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing">ОбработкаВыбора</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<InputField name="оборудования" id="39">
+			<DataPath>оборудования</DataPath>
+			<ContextMenu name="оборудованияКонтекстноеМеню" id="40"/>
+			<ExtendedTooltip name="оборудованияРасширеннаяПодсказка" id="41"/>
+		</InputField>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>Список</DataPath>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="9"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="10">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="11"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="12"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="13">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="15"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Оборудование" id="16">
+					<DataPath>Список.Оборудование</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="ОборудованиеКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ОборудованиеРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="Номенклатура" id="19">
+					<DataPath>Список.Номенклатура</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="НоменклатураКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="НаименованиеДляЭтикетки" id="34">
+					<DataPath>Список.НаименованиеДляЭтикетки</DataPath>
+					<ContextMenu name="НаименованиеДляЭтикеткиКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="НаименованиеДляЭтикеткиРасширеннаяПодсказка" id="36"/>
+				</LabelField>
+				<LabelField name="НомерЯчейки" id="25">
+					<DataPath>Список.НомерЯчейки</DataPath>
+					<ContextMenu name="НомерЯчейкиКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="НомерЯчейкиРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="Код" id="22">
+					<DataPath>Список.Код</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="КодКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="НомерДляСостава" id="31">
+					<DataPath>Список.НомерДляСостава</DataPath>
+					<ContextMenu name="НомерДляСоставаКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="НомерДляСоставаРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<LabelField name="Инкримента" id="28">
+					<DataPath>Список.Инкримента</DataPath>
+					<ContextMenu name="ИнкриментаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ИнкриментаРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+	ххх_КодыНоменклатурыВесыКассы.Оборудование КАК Оборудование,
+	ххх_КодыНоменклатурыВесыКассы.Номенклатура КАК Номенклатура,
+	ххх_КодыНоменклатурыВесыКассы.Номенклатура.ххх_НаименованиеЭтикетка КАК НаименованиеДляЭтикетки,
+	ххх_КодыНоменклатурыВесыКассы.Код КАК НомерЯчейки,
+	ххх_КодыНоменклатурыВесыКассы.Номенклатура.ххх_ИдЦентр КАК Код,
+	ххх_КодыНоменклатурыВесыКассы.Инкримента КАК Инкримента,
+	ххх_КодыНоменклатурыВесыКассы.НомерДляСостава КАК НомерДляСостава
+ИЗ
+	РегистрСведений.ххх_КодыНоменклатурыВесыКассы КАК ххх_КодыНоменклатурыВесыКассы</QueryText>
+				<MainTable>InformationRegister.ххх_КодыНоменклатурыВесыКассы</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="оборудования" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оборудования</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.ххх_ПодключаемоеОборудование</v8:Type>
+			</Settings>
+		</Attribute>
+		<Attribute name="ххх_КолвоДобавляемоеКЯчейкам" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ххх колво добавляемое к ячейкам</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Команда1" id="1">
+			<Action>Команда1</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="ПерезаполнитьСостояниеВВесахУНоменклатуры" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезаполнить состояние в весах у номенклатуры</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Перезаполнить состояние в весах у номенклатуры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПерезаполнитьСостояниеВВесахУНоменклатуры</Action>
+		</Command>
+		<Command name="СместитьНа1000" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сместить на1000</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сместить на1000</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СместитьНа1000</Action>
+		</Command>
+	</Commands>
+</Form>

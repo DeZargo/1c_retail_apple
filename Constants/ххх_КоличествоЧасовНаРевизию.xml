@@ -1,23 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Constant uuid="3c67bb36-9e4f-44d6-8b7b-03f7557eaefa">
+	<Constant uuid="996c3065-ed95-4a97-af0e-b5c97db8f687">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ххх_КоличествоЧасовНаРевизию" category="Manager">
-				<xr:TypeId>e807513a-b460-4d55-af83-e8ac28a2a312</xr:TypeId>
-				<xr:ValueId>1d3b29ed-191b-4a73-897d-5c7ecec2f643</xr:ValueId>
+				<xr:TypeId>3e083c27-6ef1-473d-97b0-4fa091b873ba</xr:TypeId>
+				<xr:ValueId>bdfb4b01-16e6-4503-bc2d-f53070099db9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueManager.ххх_КоличествоЧасовНаРевизию" category="ValueManager">
-				<xr:TypeId>fff0cd24-99e9-4c4b-8bce-92bc3f611e09</xr:TypeId>
-				<xr:ValueId>ce990675-014f-412f-abf5-b6963eb5fb24</xr:ValueId>
+				<xr:TypeId>a3cdd8ec-bd68-4a1a-b074-f0c4bc411d2c</xr:TypeId>
+				<xr:ValueId>4b44f0f1-2ad6-4c09-b190-dced1c3c5de9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueKey.ххх_КоличествоЧасовНаРевизию" category="ValueKey">
-				<xr:TypeId>d89b3d81-1786-5df3-8884-2d80411dc866</xr:TypeId>
-				<xr:ValueId>7bd856fc-da43-5652-9b66-08b2f135efe6</xr:ValueId>
+				<xr:TypeId>040f4ca0-4a43-5d7c-8b6b-0f7d37f48e65</xr:TypeId>
+				<xr:ValueId>1ccc84e6-f3f9-59fc-9590-75910a501759</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ххх_КоличествоЧасовНаРевизию</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ххх количество часов на ревизию</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
@@ -26,6 +32,30 @@
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format/>
+			<EditFormat/>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 	</Constant>
 </MetaDataObject>

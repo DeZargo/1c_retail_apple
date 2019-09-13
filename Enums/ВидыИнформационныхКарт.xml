@@ -1,35 +1,77 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Enum uuid="9c4397a1-b3fa-4f82-ba50-13b88bd34b64">
+	<Enum uuid="896e64d3-e972-4fe7-a5a4-8c08bff6d757">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ВидыИнформационныхКарт" category="Ref">
-				<xr:TypeId>e1c34990-804a-4af8-8b65-098301f63384</xr:TypeId>
-				<xr:ValueId>3d42cacc-321a-49df-a639-04e1da88b8aa</xr:ValueId>
+				<xr:TypeId>1fa43020-9250-4d81-914f-f8ec734c054c</xr:TypeId>
+				<xr:ValueId>f36c6c83-9ec8-4615-a8f6-8d51ae2dd2fd</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ВидыИнформационныхКарт" category="Manager">
-				<xr:TypeId>d6b28248-2f35-4edd-b0c5-c2bd7c6d68e2</xr:TypeId>
-				<xr:ValueId>e2ff542b-4add-4715-ace5-47534c12fe2f</xr:ValueId>
+				<xr:TypeId>b7dcc1b0-385a-475f-9166-fd3fdf0e3ca1</xr:TypeId>
+				<xr:ValueId>5657c768-3299-4711-ad24-42886d94bc58</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ВидыИнформационныхКарт" category="List">
-				<xr:TypeId>8a974e27-3bad-4c73-895a-ad1e00c7f819</xr:TypeId>
-				<xr:ValueId>1cc57ba6-bff4-4caf-ba7b-3633fc8089a6</xr:ValueId>
+				<xr:TypeId>9a1a0455-ff12-4ec4-b0f3-1dbb2a30ae70</xr:TypeId>
+				<xr:ValueId>15d57f70-a73d-4bf9-9f45-061dc2a701e1</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ВидыИнформационныхКарт</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виды информационных карт</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>(Упр)</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="a92ae244-7414-470c-98f2-6f04f88470be">
-				<Properties>
-					<Name>Смешанная</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="fd8fb5aa-351b-4cae-8f3d-7bf7504c3f2f">
+			<EnumValue uuid="a3df65a1-ecbb-490e-a7fd-e210b3415a03">
 				<Properties>
 					<Name>Штриховая</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Штриховая</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f2cfb66d-3210-4912-adc2-34d196c0e691">
+				<Properties>
+					<Name>Магнитная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Магнитная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="46f1dab5-cc27-4aba-878b-5e7a44b18e47">
+				<Properties>
+					<Name>Смешанная</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Смешанная</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

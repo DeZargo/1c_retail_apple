@@ -1,77 +1,203 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Enum uuid="3fdab65e-556a-488f-b606-82d7084a9e7d">
+	<Enum uuid="896de60a-61f6-4759-a4bf-341eb71a3eac">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ПричиныСписанийЕГАИС" category="Ref">
-				<xr:TypeId>65366653-3a5a-4400-8ced-d9439c55dde1</xr:TypeId>
-				<xr:ValueId>17680c1b-9f02-4fbb-ae9e-8541f6bcd339</xr:ValueId>
+				<xr:TypeId>32caded8-5178-4656-af0f-ba986a9b8e76</xr:TypeId>
+				<xr:ValueId>7dfc25a9-a059-44b8-a185-4f90a4cdb32a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ПричиныСписанийЕГАИС" category="Manager">
-				<xr:TypeId>63d3efbc-57d1-41c4-b8ba-0f59093a733d</xr:TypeId>
-				<xr:ValueId>2db1c3fe-7b0c-4601-8949-494b89ba1af3</xr:ValueId>
+				<xr:TypeId>5ba5fea2-07d7-4b23-b878-40073516d7c8</xr:TypeId>
+				<xr:ValueId>353c5a1b-1823-454c-9151-2c9d3af1757c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ПричиныСписанийЕГАИС" category="List">
-				<xr:TypeId>f36b2bd7-e126-44d8-81f7-aef8200f81b5</xr:TypeId>
-				<xr:ValueId>42281ed1-328e-4bb9-8465-3fb566788bd0</xr:ValueId>
+				<xr:TypeId>607350a5-4a1c-4730-b9f0-39be2b47d40c</xr:TypeId>
+				<xr:ValueId>d554c572-7769-4111-8c5d-a4a6d2879d42</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ПричиныСписанийЕГАИС</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Причины списаний ЕГАИС</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Order">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="86f980bc-a821-42e7-824f-612eeada5875">
-				<Properties>
-					<Name>Арест</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="8d6fd231-5c70-4219-95d4-8bd23abfa3fc">
-				<Properties>
-					<Name>Потери</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="4ce70f7a-706a-4c16-a136-10b3c0e0d6ad">
-				<Properties>
-					<Name>ИныеЦели</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="e68e705f-bfe5-47df-bc4e-0661f0a46d5a">
-				<Properties>
-					<Name>Уценка</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="89cb2cdd-8456-4254-a391-4f10bb27109d">
-				<Properties>
-					<Name>Реализация</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="fb0f3093-74ee-41eb-ac72-be41cd342612">
-				<Properties>
-					<Name>Проверки</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="4f2d0c7a-2736-4a0b-b15b-1741cc47688f">
-				<Properties>
-					<Name>Порча</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="34b602fb-7583-472f-9306-542b01d2bdff">
-				<Properties>
-					<Name>Недостача</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="a7f35e19-9e68-4aef-bbda-ef0cb70f64c3">
+			<EnumValue uuid="de4aa452-9602-4b1c-8a1e-0438b452e2d9">
 				<Properties>
 					<Name>Пересортица</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пересортица</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b57d24d1-8986-453b-aab4-92ea3826bb8e">
+				<Properties>
+					<Name>Недостача</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Недостача</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Хищение, злоупотребление материально ответственных лиц, ошибки учета, естественная убыль</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="8c9265e7-c14c-463f-addb-b7b0172afd1e">
+				<Properties>
+					<Name>Уценка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уценка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Уценка (списание) в результате порчи</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="49bfe019-5a6a-4343-b83f-d56fc89a6745">
+				<Properties>
+					<Name>Порча</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Порча</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Списание объема продукции, не подлежащей дальнейшей реализации (бой, срок годности, порча)</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="137b81a0-e4ae-414d-98fe-92cf59b1b800">
+				<Properties>
+					<Name>Потери</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Потери</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Потери при транспортировке</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="472ed38e-9c8e-4ac9-9ade-bd70caf97ebb">
+				<Properties>
+					<Name>Проверки</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверки</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Списание объема продукции, израсходованной на лабораторные нужды для прохождения добровольной проверки качества, рекламные образцы</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fcb29415-f0e7-4ec1-820b-d778990ea8c2">
+				<Properties>
+					<Name>Арест</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Арест</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Списание арестованной продукции, изъятой из оборота продукции, конфискованной продукции по решению суда</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e4fddc59-4985-4004-8adb-7aeef7cf3a1d">
+				<Properties>
+					<Name>ИныеЦели</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Иные цели</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Списание продукции, когда ФСМ/АМ невозможно считать</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7dc0732f-aadb-4a96-8877-364f5a22dcd7">
+				<Properties>
+					<Name>Реализация</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Реализация</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Розничная реализация продукции, не подлежащей фиксации в ЕГАИС</Comment>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

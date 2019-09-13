@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Subsystem uuid="1fba73ea-b842-4ba7-b24a-d9f95abe5f6c">
+		<Properties>
+			<Name>ГИСМ</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ГИСМ</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияГИСМ_РТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.ИнтеграцияГИСМКлиентРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркировкаТоваровГИСМВызовСервераРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркировкаТоваровГИСМКлиентРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркировкаТоваровГИСМКлиентСерверРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.МаркировкаТоваровГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеДокументовЗакупкиГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеМаркировокТоваровГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеУведомленийОбОтгрузкеМаркированныхТоваровГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеУведомленийОПоступленииМаркированныхТоваровГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ДобавлениеИзменениеУведомленийОСписанииКиЗГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеДокументовЗакупкиГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеМаркировокТоваровГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеУведомленийОбОтгрузкеМаркированныхТоваровГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеУведомленийОПоступленииМаркированныхТоваровГИСМРТ</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Role.ЧтениеУведомленийОСписанииКиЗГИСМРТ</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AccumulationRegisterAggregates xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
+	<Aggregate id="f35933de-da9f-43cd-8a57-e0c2acc2b9c8">
+		<Use>Always</Use>
+		<Periodicity>Day</Periodicity>
+		<Dimensions>
+			<Dimension ref="AccumulationRegister.Продажи.Dimension.Магазин">false</Dimension>
+			<Dimension ref="AccumulationRegister.Продажи.Dimension.Склад">false</Dimension>
+			<Dimension ref="AccumulationRegister.Продажи.Dimension.Смена">true</Dimension>
+			<Dimension ref="AccumulationRegister.Продажи.Dimension.Номенклатура">false</Dimension>
+			<Dimension ref="AccumulationRegister.Продажи.Dimension.Характеристика">false</Dimension>
+			<Dimension ref="AccumulationRegister.Продажи.Dimension.ДокументПродажи">true</Dimension>
+			<Dimension ref="AccumulationRegister.Продажи.Dimension.Продавец">false</Dimension>
+			<Dimension ref="AccumulationRegister.Продажи.Dimension.ЗаказПокупателя">false</Dimension>
+		</Dimensions>
+	</Aggregate>
+</AccumulationRegisterAggregates>

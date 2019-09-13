@@ -1,47 +1,89 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Enum uuid="c4a6ae24-b9fa-45ce-b556-7dacc522a5cc">
+	<Enum uuid="9d11e7ee-51c1-4bfd-bcff-f2f6b32dba86">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ЮрФизЛицо" category="Ref">
-				<xr:TypeId>2935710d-5fe3-448a-a2c9-6a8e83fc2ac4</xr:TypeId>
-				<xr:ValueId>40e64f06-e451-4d21-8a83-93a2f8865e12</xr:ValueId>
+				<xr:TypeId>3c458dea-5008-4c82-9b60-815d199300e7</xr:TypeId>
+				<xr:ValueId>4eccbc25-c1e2-4287-8adc-06dafe0babe3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ЮрФизЛицо" category="Manager">
-				<xr:TypeId>594728b8-873d-44ba-8db4-4b4d18c832e1</xr:TypeId>
-				<xr:ValueId>f2b2735f-b807-41e3-9f59-202e980b1672</xr:ValueId>
+				<xr:TypeId>30ed3c8d-3f70-469c-a4b0-f61974d0b67c</xr:TypeId>
+				<xr:ValueId>b6dc3efe-1e6e-4362-8df0-e15fe22accd3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ЮрФизЛицо" category="List">
-				<xr:TypeId>bacbd46b-279c-4e34-83de-7dc740a47797</xr:TypeId>
-				<xr:ValueId>79c1ac66-31b8-4f6a-9744-7bd5d1c275e4</xr:ValueId>
+				<xr:TypeId>091f5de8-e293-4a5b-8723-4b49e8d9053d</xr:TypeId>
+				<xr:ValueId>32143424-64c7-40b5-989c-54841e1a44f2</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ЮрФизЛицо</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Юр. / физ. лицо</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment>Определяет, является ли организация или контрагент юридическим лицом или нет.</Comment>
+			<UseStandardCommands>true</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="fa7522ef-3bf1-4264-8573-cc462b1c37f9">
-				<Properties>
-					<Name>ФизЛицо</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="8d80d3b1-6088-46c9-9d60-de7dba27374c">
+			<EnumValue uuid="626ef841-9555-460d-a22e-a2183931b318">
 				<Properties>
 					<Name>ЮрЛицо</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Юр. лицо</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="d69020a1-cb41-4043-b9b6-5b255c04d57b">
+			<EnumValue uuid="b40caf82-70d6-4c61-86d0-e1c27366a691">
 				<Properties>
-					<Name>ИндивидуальныйПредприниматель</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ФизЛицо</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Физ. лицо</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="e301660d-54b0-45f6-af48-800f32e8e5ec">
+			<EnumValue uuid="8cd1e4c5-d537-47ae-9aea-cdce6d3aa49f">
 				<Properties>
 					<Name>ЮрЛицоНеРезидент</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Юр. лицо, за пределами РФ</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="daafbb42-9077-4a92-b56d-4309fad202b9">
+				<Properties>
+					<Name>ИндивидуальныйПредприниматель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Индивидуальный предприниматель(ПБОЮЛ)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
 				</Properties>
 			</EnumValue>
 		</ChildObjects>

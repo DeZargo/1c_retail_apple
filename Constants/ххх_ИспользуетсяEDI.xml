@@ -1,26 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Constant uuid="f6cce3b9-8739-42f8-8a0e-789fd783fe65">
+	<Constant uuid="c7cef8a5-fc9c-4a56-b9fb-40e52164e512">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ххх_ИспользуетсяEDI" category="Manager">
-				<xr:TypeId>71e0cc6c-945b-42e8-88f9-2921e3f8a4ed</xr:TypeId>
-				<xr:ValueId>f3f29583-d518-4d74-b598-b6fa15409781</xr:ValueId>
+				<xr:TypeId>1a0b6e01-f27a-4674-bbe9-25817da56e15</xr:TypeId>
+				<xr:ValueId>07d46405-aaff-4051-984b-3acb8f73e67c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueManager.ххх_ИспользуетсяEDI" category="ValueManager">
-				<xr:TypeId>38b39cad-8b42-49ce-9d6b-050b7c1ae16c</xr:TypeId>
-				<xr:ValueId>e11b6f5c-ae6f-4472-9f39-e7af07f9cd41</xr:ValueId>
+				<xr:TypeId>a40fc98c-3809-474c-87c2-9f54f2f7d84c</xr:TypeId>
+				<xr:ValueId>bad6fdc8-085e-40fa-bb00-210d84e30f85</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueKey.ххх_ИспользуетсяEDI" category="ValueKey">
-				<xr:TypeId>0fb2081d-a320-4de0-a0a2-91b6d02f3fcf</xr:TypeId>
-				<xr:ValueId>544a0035-dfb1-4fe8-a226-ebb92a3f9913</xr:ValueId>
+				<xr:TypeId>403fd045-17f6-46d5-9fb8-a3926f0ade32</xr:TypeId>
+				<xr:ValueId>2d4380fc-00d7-4fb6-b6c1-57d8daffdb9c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ххх_ИспользуетсяEDI</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ххх используется EDI</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format/>
+			<EditFormat/>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 	</Constant>
 </MetaDataObject>

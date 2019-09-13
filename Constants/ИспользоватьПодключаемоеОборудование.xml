@@ -1,26 +1,56 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Constant uuid="354d72e9-ab64-4632-ba0a-0fcb827f7834">
+	<Constant uuid="8c192891-998f-47c5-aff8-72c481fac11a">
 		<InternalInfo>
 			<xr:GeneratedType name="ConstantManager.ИспользоватьПодключаемоеОборудование" category="Manager">
-				<xr:TypeId>d1f3288f-4d9d-477f-a18f-e6bc4803683b</xr:TypeId>
-				<xr:ValueId>3d5fc3fc-a135-40b3-a6c1-ef402a48a731</xr:ValueId>
+				<xr:TypeId>8dc16006-30fb-4057-bf3e-e3f73628b5c8</xr:TypeId>
+				<xr:ValueId>27a4d3f9-3a60-455e-9d91-e199bc2bab39</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueManager.ИспользоватьПодключаемоеОборудование" category="ValueManager">
-				<xr:TypeId>5bf28961-809d-4ff1-b7ad-cb77a33d4cf1</xr:TypeId>
-				<xr:ValueId>9ef39010-e61e-41c1-bafb-a76ca3809d50</xr:ValueId>
+				<xr:TypeId>43de45e1-7739-4000-9c48-d23a16c004d2</xr:TypeId>
+				<xr:ValueId>f56349c9-0bcb-4dfa-aa20-8ed9f275a520</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ConstantValueKey.ИспользоватьПодключаемоеОборудование" category="ValueKey">
-				<xr:TypeId>41454368-53a7-5725-9a8c-d5e2ef613024</xr:TypeId>
-				<xr:ValueId>0ccd7de7-da0a-58e0-b10c-fa40af5c6bfe</xr:ValueId>
+				<xr:TypeId>562e4ffe-240c-512b-952d-e840a25d22bd</xr:TypeId>
+				<xr:ValueId>4ea83fcf-b242-5433-ac09-44c24373d955</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ИспользоватьПодключаемоеОборудование</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать подключаемое оборудование</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+			<UseStandardCommands>false</UseStandardCommands>
+			<DefaultForm/>
+			<ExtendedPresentation/>
+			<Explanation/>
+			<PasswordMode>false</PasswordMode>
+			<Format/>
+			<EditFormat/>
+			<ToolTip/>
+			<MarkNegatives>false</MarkNegatives>
+			<Mask/>
+			<MultiLine>false</MultiLine>
+			<ExtendedEdit>false</ExtendedEdit>
+			<MinValue xsi:nil="true"/>
+			<MaxValue xsi:nil="true"/>
+			<FillChecking>DontCheck</FillChecking>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<ChoiceParameterLinks/>
+			<ChoiceParameters/>
+			<QuickChoice>Auto</QuickChoice>
+			<ChoiceForm/>
+			<LinkByType/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 	</Constant>
 </MetaDataObject>

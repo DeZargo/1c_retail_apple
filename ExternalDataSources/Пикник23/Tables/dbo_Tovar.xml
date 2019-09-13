@@ -1,49 +1,84 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Table uuid="d8ec1238-ec00-4a59-bd77-c0e650e19040">
+	<Table uuid="e93700f3-70de-4622-8114-ba08deb681e9">
 		<InternalInfo>
 			<xr:GeneratedType name="ExternalDataSourceTableManager.Пикник23.dbo_Tovar" category="Manager">
-				<xr:TypeId>c4349d45-b350-4d2f-8ee0-02d9505a13e2</xr:TypeId>
-				<xr:ValueId>992f2147-eff2-4117-be4d-5271237c42a0</xr:ValueId>
+				<xr:TypeId>d8bfa18f-7bc9-4c81-9cef-6b02c59b459f</xr:TypeId>
+				<xr:ValueId>87d6f717-5aa1-410a-b0c5-13ce464591e3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableObject.Пикник23.dbo_Tovar" category="Object">
-				<xr:TypeId>94f052be-2114-499e-8034-9baec07bc576</xr:TypeId>
-				<xr:ValueId>80ca220f-44d4-4de0-8074-84874c0dc1e0</xr:ValueId>
+				<xr:TypeId>90a4f03b-f298-4340-8013-bea4f5412473</xr:TypeId>
+				<xr:ValueId>6f0e632e-8ecf-4f50-9c8e-e67583aedb8f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableRef.Пикник23.dbo_Tovar" category="Ref">
-				<xr:TypeId>bae510ba-55c9-4875-8138-1d8e270b36f2</xr:TypeId>
-				<xr:ValueId>a3a197f6-4f71-43fc-ab19-f0cf17d1393c</xr:ValueId>
+				<xr:TypeId>12f93bba-8a61-4d60-b0b6-87355da63c3c</xr:TypeId>
+				<xr:ValueId>e5432ae7-c4ea-426d-b76c-8634d556149a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableList.Пикник23.dbo_Tovar" category="List">
-				<xr:TypeId>75e32d08-ef66-444a-95fa-0ff6fa55f7f4</xr:TypeId>
-				<xr:ValueId>e4d1ab60-2ba1-4036-bcce-b8f16493725f</xr:ValueId>
+				<xr:TypeId>2f170d99-9b02-41f4-b331-bf4697a8ccc3</xr:TypeId>
+				<xr:ValueId>785936f4-7c1b-401b-84ae-ee6613cb12e5</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableRecordSet.Пикник23.dbo_Tovar" category="RecordSet">
-				<xr:TypeId>be4cd6c7-c7a5-4eeb-8721-67dc9818c80d</xr:TypeId>
-				<xr:ValueId>dbf88112-3c85-4520-9d92-fb5269b9ccb5</xr:ValueId>
+				<xr:TypeId>9affc4e1-d97f-4bbd-afbe-9f6bcba88848</xr:TypeId>
+				<xr:ValueId>a5b62eac-86fd-46c5-8c75-620a3047f21d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableRecordKey.Пикник23.dbo_Tovar" category="RecordKey">
-				<xr:TypeId>1440a29d-5dd2-425a-8e78-dfa9668cb141</xr:TypeId>
-				<xr:ValueId>7fa9f772-b6e9-4e48-9aaa-eab27a6994be</xr:ValueId>
+				<xr:TypeId>b4ab4117-efc4-4a22-b261-cf282cc47f11</xr:TypeId>
+				<xr:ValueId>343d987a-25de-4d66-b68a-6ed61eff96ec</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExternalDataSourceTableRecordManager.Пикник23.dbo_Tovar" category="RecordManager">
-				<xr:TypeId>11a2f554-2bd7-4ee0-aa89-424d96c01441</xr:TypeId>
-				<xr:ValueId>94c60e51-137d-4337-9803-5fa1a5a1c313</xr:ValueId>
+				<xr:TypeId>04ac49a8-ce46-465d-9023-6cd8996b66d2</xr:TypeId>
+				<xr:ValueId>7bd1d969-ba85-47df-8503-40b417525d17</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>dbo_Tovar</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym/>
+			<Comment/>
+			<TableType>Table</TableType>
+			<NameInDataSource>dbo.Tovar</NameInDataSource>
+			<ExpressionInDataSource/>
+			<TableDataType>NonobjectData</TableDataType>
+			<KeyFields>
+				<xr:Field>ExternalDataSource.Пикник23.Table.dbo_Tovar.Field.id</xr:Field>
+			</KeyFields>
+			<PresentationField/>
+			<ParentField/>
+			<UnfilledParentValue xsi:nil="true"/>
+			<Characteristics/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<QuickChoice>false</QuickChoice>
+			<InputByString/>
+			<CreateOnInput>Auto</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 			<DefaultObjectForm/>
 			<DefaultRecordForm/>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<RecordPresentation/>
+			<ExtendedRecordPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ReadOnly>false</ReadOnly>
+			<TransactionsIsolationLevel>Auto</TransactionsIsolationLevel>
+			<DataVersionField/>
+			<EditType>InDialog</EditType>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Automatic</DataLockControlMode>
 		</Properties>
 		<ChildObjects>
-			<Field uuid="eb35ba20-54c6-4342-9601-0493969486e1">
+			<Field uuid="15291b07-e158-45ed-ac7e-503efc1cd81b">
 				<Properties>
 					<Name>id</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -51,13 +86,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>id</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>false</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="6e55ffd2-a50c-40c3-9049-b20dcd847ed2">
+			<Field uuid="e67ee407-c11d-4ab9-9d75-3f258f9ce928">
 				<Properties>
 					<Name>naim</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -65,13 +122,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>naim</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="249eb2d3-234b-43d7-bba9-fda8d9cad913">
+			<Field uuid="9a7aa945-202f-4e06-8207-2957c859d8e2">
 				<Properties>
 					<Name>id_post</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -79,13 +158,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>id_post</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="88039ba9-13b7-4ca9-b457-8abe1788fe33">
+			<Field uuid="203cc4f7-3adb-4fe9-819f-4560b240f328">
 				<Properties>
 					<Name>id_ed</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -93,13 +194,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>id_ed</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="f3326119-5d96-464f-9017-3c55b860fcb5">
+			<Field uuid="ed05924f-00b3-4523-a822-bf8b5b9862b3">
 				<Properties>
 					<Name>cenZ</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -108,13 +231,35 @@
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>cenZ</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="e0e2e6ae-3df0-4ce3-a216-c7f4238ebcd5">
+			<Field uuid="1d428f1a-6f02-4d51-9a1b-cb21ffb2243c">
 				<Properties>
 					<Name>cenR</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -123,13 +268,35 @@
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>cenR</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="dadb37e5-17cb-4a98-aab5-5584d3e9b0df">
+			<Field uuid="0bf2c394-728a-4941-ab1b-bea386062ec7">
 				<Properties>
 					<Name>id_grup</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -137,13 +304,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>id_grup</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="ffce9edc-1549-4616-8666-df61b53fbdf6">
+			<Field uuid="cc6a4826-268b-4e34-b784-facbf60a3913">
 				<Properties>
 					<Name>id_nds</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -151,13 +340,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>id_nds</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="0ab39f18-4cc4-476c-904a-32030c7b2f0c">
+			<Field uuid="21edfaa1-22ce-479b-9546-3a406f262430">
 				<Properties>
 					<Name>naimcas</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -165,13 +376,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>naimcas</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="05e00896-e9db-4d8b-a441-74b6ad7b395d">
+			<Field uuid="18622285-70f6-4082-a58f-d33b26fd711d">
 				<Properties>
 					<Name>naimsen</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -179,13 +412,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>naimsen</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="553348e1-18c4-4511-9701-e8e6dc872bd3">
+			<Field uuid="dc007edf-e2ed-43ab-bfd2-67c0152663cd">
 				<Properties>
 					<Name>naimskod</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -193,13 +448,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>naimskod</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="6c6f66d9-2e15-4193-b44f-8c37bc33b6e1">
+			<Field uuid="8433adfa-36eb-4e4a-9282-3b12c0a25627">
 				<Properties>
 					<Name>id_proizv</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -207,23 +484,67 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>id_proizv</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="a2104366-1eb0-45ff-8c9e-9c4693e9a846">
+			<Field uuid="5242bc8a-40f5-416e-9cd1-681de02562f6">
 				<Properties>
 					<Name>dopusk</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:boolean">false</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>dopusk</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="116e1ddb-87a1-4805-9223-139af06d9aab">
+			<Field uuid="bf113542-992f-4d9b-ae30-4cbf13ef1e55">
 				<Properties>
 					<Name>basenaim</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -231,13 +552,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>basenaim</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="35e4f0cb-295c-4dce-b4b7-a64524043f40">
+			<Field uuid="dca9b56f-5bd8-4d7e-8ade-d11eb40122c1">
 				<Properties>
 					<Name>id_country</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -245,13 +588,35 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>id_country</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="e153006e-22a1-4597-a6ce-1fea96bbcecf">
+			<Field uuid="adb3b749-e0d6-4568-8def-be306ac4f9fb">
 				<Properties>
 					<Name>krep</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -260,13 +625,35 @@
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>krep</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="2b8013bd-8214-4d96-82db-f791132c6985">
+			<Field uuid="5eb1d594-af50-4732-9d17-b1a06ac709ea">
 				<Properties>
 					<Name>volume</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
 						<v8:NumberQualifiers>
@@ -275,13 +662,35 @@
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>volume</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
-			<Field uuid="d8b3f343-f903-44ff-b8ab-d786aaad6f77">
+			<Field uuid="11ca1077-84a4-40b5-9114-9cbe05537959">
 				<Properties>
 					<Name>type</Name>
-					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Synonym/>
+					<Comment/>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -289,7 +698,28 @@
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 					<ChoiceForm/>
+					<NameInDataSource>type</NameInDataSource>
+					<ReadOnly>false</ReadOnly>
+					<AllowNull>true</AllowNull>
 				</Properties>
 			</Field>
 		</ChildObjects>

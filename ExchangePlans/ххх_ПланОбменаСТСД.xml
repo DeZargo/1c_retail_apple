@@ -1,32 +1,75 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<ExchangePlan uuid="47527107-1938-4c2e-876f-eacb2bb428ae">
+	<ExchangePlan uuid="df694eaf-0d3b-4348-be7e-c5a06007666f">
 		<InternalInfo>
-			<xr:ThisNode>31f75ec2-f8f6-434d-b573-6d1c070746dd</xr:ThisNode>
+			<xr:ThisNode>d79421a1-fb62-4059-aacc-bf3d02aaaabf</xr:ThisNode>
 			<xr:GeneratedType name="ExchangePlanObject.ххх_ПланОбменаСТСД" category="Object">
-				<xr:TypeId>5b117541-f31d-4cc7-9fc3-34910d9feccc</xr:TypeId>
-				<xr:ValueId>070d706c-e0d0-44d3-807d-12b3ea8b0234</xr:ValueId>
+				<xr:TypeId>05cf080f-8598-4528-98af-fe1c90467bf6</xr:TypeId>
+				<xr:ValueId>d68494f8-166b-41b1-9f86-03866bf7965f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExchangePlanRef.ххх_ПланОбменаСТСД" category="Ref">
-				<xr:TypeId>a084e3ba-e6d0-439b-9e73-a08bae593500</xr:TypeId>
-				<xr:ValueId>4cc7df72-89f5-4dcb-bb43-8a70865ed69c</xr:ValueId>
+				<xr:TypeId>c198fbcd-cf26-4ced-a398-010b55c6c820</xr:TypeId>
+				<xr:ValueId>cca05a10-b319-47bb-be4c-09148444fe24</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExchangePlanSelection.ххх_ПланОбменаСТСД" category="Selection">
-				<xr:TypeId>b8a0b925-1b3e-4005-bec4-5d953b10c127</xr:TypeId>
-				<xr:ValueId>9bc91d5e-2549-4937-8289-b88faa637e64</xr:ValueId>
+				<xr:TypeId>6d6eadcd-a4f8-4e13-881e-c2cc54022e25</xr:TypeId>
+				<xr:ValueId>d659d2b1-ce87-4cbd-97f6-a95fd1f733d1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExchangePlanList.ххх_ПланОбменаСТСД" category="List">
-				<xr:TypeId>c13dbaf0-2b6f-4d8b-aac7-32406cee1152</xr:TypeId>
-				<xr:ValueId>be1aa927-5186-4e9d-9669-bf16ec30e21d</xr:ValueId>
+				<xr:TypeId>bde0fe20-e9e2-4304-a04c-c148b3589719</xr:TypeId>
+				<xr:ValueId>b73d8faa-f1d0-487f-867e-81abb906412e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ExchangePlanManager.ххх_ПланОбменаСТСД" category="Manager">
-				<xr:TypeId>211e011f-6457-48bf-a71a-eee7058b7ddd</xr:TypeId>
-				<xr:ValueId>4542d95c-7aee-4ee9-9be3-73d1f6bdbcc8</xr:ValueId>
+				<xr:TypeId>2d306ac5-195a-46c7-9881-6d4a66cb73f1</xr:TypeId>
+				<xr:ValueId>a1620738-b1a6-4bb9-b385-daa3b337fda8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ххх_ПланОбменаСТСД</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ххх план обмена СТСД</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<CodeLength>9</CodeLength>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<DescriptionLength>25</DescriptionLength>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>ExchangePlan.ххх_ПланОбменаСТСД.StandardAttribute.Description</xr:Field>
+				<xr:Field>ExchangePlan.ххх_ПланОбменаСТСД.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<DefaultObjectForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<Characteristics/>
+			<BasedOn/>
+			<DistributedInfoBase>false</DistributedInfoBase>
+			<IncludeConfigurationExtensions>false</IncludeConfigurationExtensions>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
 		</Properties>
 		<ChildObjects/>
 	</ExchangePlan>

@@ -1,24 +1,67 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.7">
-	<Enum uuid="a8390588-87b2-4455-8d42-056e3a7a48f9">
+	<Enum uuid="e87d3a17-4571-4d88-93eb-113dc568ec7c">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ххх_ТипыКасс" category="Ref">
-				<xr:TypeId>eff28cee-cb78-4467-b273-882966621d4f</xr:TypeId>
-				<xr:ValueId>c3962498-084f-4201-8d05-5799033a55cd</xr:ValueId>
+				<xr:TypeId>8483f027-00d2-48f1-a5ad-441b9933ec49</xr:TypeId>
+				<xr:ValueId>35b7946b-2d46-444d-982e-4e24901a3745</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ххх_ТипыКасс" category="Manager">
-				<xr:TypeId>112b6ad6-e097-46d2-8dcb-9279bd7e0860</xr:TypeId>
-				<xr:ValueId>461b3f10-749f-4965-b926-cb6ce7302546</xr:ValueId>
+				<xr:TypeId>c4c4762f-451e-4069-9770-79a7b004a76a</xr:TypeId>
+				<xr:ValueId>8e3eeca5-9838-4016-94d2-ac099b50565c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ххх_ТипыКасс" category="List">
-				<xr:TypeId>06275b5d-ecdb-40d1-82d1-cddce1436099</xr:TypeId>
-				<xr:ValueId>e818d6e0-5ff6-4a55-8de2-4bf39a918163</xr:ValueId>
+				<xr:TypeId>6e03afea-207a-4f8f-917a-6f8c04a4de36</xr:TypeId>
+				<xr:ValueId>ae4377d1-0280-410e-be4d-09c742028206</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ххх_ТипыКасс</Name>
-			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Типы касс</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<EnumValue uuid="4130c883-f387-4f43-af7c-47ee66701ba7">
+				<Properties>
+					<Name>КассаОнлайн</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Касса онлайн</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="9ff0b408-2152-4425-b3ee-ac8c39f5f394">
+				<Properties>
+					<Name>КассаОффлайн</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Касса оффлайн</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
 	</Enum>
 </MetaDataObject>
