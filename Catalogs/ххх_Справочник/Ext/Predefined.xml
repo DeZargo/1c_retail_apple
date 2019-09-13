@@ -330,6 +330,12 @@
 		<Description>Путь загрузки реализация с базы</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="c85be93a-8db6-4a24-92fb-c35e8f138e3b">
+		<Name>ПутьЗагрузкиФайла_БитыеЯчейкиВесов</Name>
+		<Code>000000069</Code>
+		<Description>Путь загрузки файла Битые ячейки весов</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="ce56621f-5c27-4f65-8ed9-6a4d9988a4aa">
 		<Name>ПутьЗагрузкиЧеков</Name>
 		<Code>000000031</Code>
